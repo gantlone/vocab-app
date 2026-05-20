@@ -46,7 +46,7 @@ function onMouseleave() {
   position: relative;
   padding: 0.6rem 0.9rem;
   background: var(--color-surface);
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.15s;
@@ -56,7 +56,7 @@ function onMouseleave() {
 }
 .word-card:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 2px 8px rgba(74,158,255,0.15);
+  box-shadow: 0 2px 8px rgba(74,158,255,0.2);
 }
 .word-text {
   font-size: 0.95rem;
@@ -67,8 +67,8 @@ function onMouseleave() {
   bottom: calc(100% + 6px);
   left: 50%;
   transform: translateX(-50%);
-  background: #2c3e50;
-  color: #fff;
+  background: var(--color-tooltip-bg);
+  color: var(--color-tooltip-text);
   border-radius: 6px;
   padding: 0.4rem 0.6rem;
   white-space: nowrap;
@@ -86,7 +86,7 @@ function onMouseleave() {
   left: 50%;
   transform: translateX(-50%);
   border: 5px solid transparent;
-  border-top-color: #2c3e50;
+  border-top-color: var(--color-tooltip-bg);
 }
 .tooltip-info {
   display: flex;
@@ -105,8 +105,9 @@ function onMouseleave() {
 .ts-btn {
   background: none;
   border: none;
+  color: inherit;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   padding: 0.05rem 0.15rem;
   line-height: 1;
   transition: transform 0.15s;

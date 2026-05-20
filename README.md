@@ -52,7 +52,7 @@ npm run dev
 
 開啟瀏覽器前往 `http://localhost:5173`。
 
-> **注意：** 僅在 `npm run dev` 模式下，學習進度才會自動寫回 `src/data/memory.json`（透過自製 Vite plugin）。  
+> **注意：** 僅在 `npm run dev` 模式下，學習進度才會自動寫回 `src/data/memory.json`（透過自製 Vite plugin）。
 > GitHub Pages 線上版使用 localStorage，不寫檔案。
 
 ---
@@ -138,11 +138,8 @@ echo {} > src/data/memory.json
 
 ## 著作權與免責聲明
 
-本專案為**個人非商業學習用途**，不做任何商業利用、不對外販售、不收取任何費用。
+本專案為個人非商業學習用途，不做任何商業利用、不對外販售、不收取任何費用。
 
-- 單字資料來源為教育部大考中心公布之公開詞彙表，供教學與學習參考使用。
-- 本程式碼為個人自製，不隸屬於任何商業機構或補習班。
-- 若有侵權疑慮，請來信聯繫，將立即下架並刪除。
+**單字資料來源**：大學入學考試中心「高中英文參考詞彙表」（參考桃園市立中壢高中整理版本）
 
-**This project is for personal, non-commercial educational use only.**
-No part of this repository may be used for commercial purposes.
+本程式碼為個人自製，與任何商業機構或補習班無關。若有侵權疑慮，歡迎透過 Issue 告知，將儘速處理。

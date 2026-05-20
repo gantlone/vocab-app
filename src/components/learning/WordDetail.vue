@@ -245,10 +245,11 @@ function onDocMousedown() {
 .ex-speak-btn {
   background: none;
   border: none;
+  color: inherit;
   cursor: pointer;
   font-size: 0.9rem;
   padding: 0.15rem 0.2rem;
-  opacity: 0.55;
+  opacity: 0.8;
   transition: transform 0.15s, opacity 0.15s;
   line-height: 1;
 }
@@ -264,11 +265,11 @@ function onDocMousedown() {
 .translation-text {
   display: block;
   font-size: 0.85rem;
-  color: #888;
+  color: var(--color-translation);
   padding: 0 0.75rem 0.5rem 1.85rem;
   line-height: 1.5;
 }
-.translation-text.muted { color: #bbb; }
+.translation-text.muted { opacity: 0.6; }
 
 .examples-loading,
 .no-examples {
@@ -277,29 +278,30 @@ function onDocMousedown() {
 }
 </style>
 
-<!-- tooltip 用 Teleport，不受 scoped 限制 -->
+<!-- tooltip 用 Teleport，不受 scoped 限制，但 CSS variables 全域有效 -->
 <style>
 .selection-tooltip {
   position: fixed;
-  background: #2c3e50;
-  color: #fff;
+  background: var(--color-tooltip-bg);
+  color: var(--color-tooltip-text);
   font-size: 0.82rem;
   padding: 0.3rem 0.45rem 0.3rem 0.7rem;
   border-radius: 6px;
   white-space: nowrap;
   z-index: 9999;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 8px var(--color-shadow-strong);
   display: flex;
   align-items: center;
   gap: 0.3rem;
   user-select: none;
 }
 .tooltip-label {
-  color: #fff;
+  color: var(--color-tooltip-text);
 }
 .tooltip-speak-btn {
   background: none;
   border: none;
+  color: inherit;
   cursor: pointer;
   font-size: 1rem;
   padding: 0.1rem 0.15rem;

@@ -5,6 +5,11 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>高中 7000 單字</title>
+    <script>
+      // 在 Vue 掛載前先套用主題，防止深色模式閃白
+      const t = localStorage.getItem('vocab-theme') || 'light'
+      document.documentElement.setAttribute('data-theme', t)
+    </script>
   </head>
   <body>
     <div id="app"></div>

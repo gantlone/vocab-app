@@ -1,12 +1,49 @@
+/* ── 淺色主題（預設） ───────────────────────── */
 :root {
-  --color-primary: #4a9eff;
-  --color-bg: #f5f7fa;
-  --color-surface: #ffffff;
-  --color-text: #2c3e50;
-  --color-muted: #666;
+  --color-primary:        #4a9eff;
+  --color-bg:             #f5f7fa;
+  --color-surface:        #ffffff;
+  --color-text:           #2c3e50;
+  --color-muted:          #666666;
+  --color-border:         #e0e0e0;
+  --color-border-light:   #dddddd;
+  --color-tooltip-bg:     #2c3e50;
+  --color-tooltip-text:   #ffffff;
+  --color-correct-bg:     #d3f9d8;
+  --color-correct-border: #51cf66;
+  --color-correct-text:   #2b8a3e;
+  --color-wrong-bg:       #ffe3e3;
+  --color-wrong-border:   #ff6b6b;
+  --color-wrong-text:     #c92a2a;
+  --color-translation:    #777777;
+  --color-shadow:         rgba(0, 0, 0, 0.08);
+  --color-shadow-strong:  rgba(0, 0, 0, 0.15);
 }
 
-* {
+/* ── 深色主題 ────────────────────────────────── */
+[data-theme="dark"] {
+  --color-primary:        #5aadff;
+  --color-bg:             #1a1a2e;
+  --color-surface:        #252538;
+  --color-text:           #e2e2f0;
+  --color-muted:          #9a9ab0;
+  --color-border:         #3a3a58;
+  --color-border-light:   #2e2e4a;
+  --color-tooltip-bg:     #3d3d60;
+  --color-tooltip-text:   #ffffff;
+  --color-correct-bg:     rgba(46, 160, 67, 0.2);
+  --color-correct-border: #40c057;
+  --color-correct-text:   #69db7c;
+  --color-wrong-bg:       rgba(220, 53, 69, 0.15);
+  --color-wrong-border:   #e03131;
+  --color-wrong-text:     #ff8787;
+  --color-translation:    #aaaacc;
+  --color-shadow:         rgba(0, 0, 0, 0.35);
+  --color-shadow-strong:  rgba(0, 0, 0, 0.5);
+}
+
+/* ── 全域重置 ────────────────────────────────── */
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -21,4 +58,10 @@ body {
 
 #app {
   min-height: 100vh;
+}
+
+/* 原生 select 深色模式補色 */
+select {
+  color: var(--color-text);
+  background: var(--color-surface);
 }

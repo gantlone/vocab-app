@@ -141,9 +141,10 @@ function optClass(opt) {
 }
 .opt-btn {
   padding: 0.85rem 1rem;
-  border: 2px solid #ddd;
+  border: 2px solid var(--color-border-light);
   border-radius: 10px;
   background: var(--color-surface);
+  color: var(--color-text);
   cursor: pointer;
   font-size: 0.95rem;
   transition: all 0.15s;
@@ -153,8 +154,16 @@ function optClass(opt) {
   border-color: var(--color-primary);
   color: var(--color-primary);
 }
-.opt-btn.correct { background: #d3f9d8; border-color: #51cf66; color: #2b8a3e; }
-.opt-btn.wrong   { background: #ffe3e3; border-color: #ff6b6b; color: #c92a2a; }
+.opt-btn.correct {
+  background: var(--color-correct-bg);
+  border-color: var(--color-correct-border);
+  color: var(--color-correct-text);
+}
+.opt-btn.wrong {
+  background: var(--color-wrong-bg);
+  border-color: var(--color-wrong-border);
+  color: var(--color-wrong-text);
+}
 .next-btn {
   margin-top: 1.5rem;
   padding: 0.65rem 2rem;

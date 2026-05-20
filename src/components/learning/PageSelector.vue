@@ -1,8 +1,8 @@
 <script setup>
 import { useVocabularyStore } from '@/stores/useVocabularyStore'
 
-defineProps({ modelValue: Number })
-defineEmits(['update:modelValue'])
+const props = defineProps({ modelValue: Number })
+const emit = defineEmits(['update:modelValue'])
 
 const vocabStore = useVocabularyStore()
 </script>
@@ -10,18 +10,35 @@ const vocabStore = useVocabularyStore()
 <template>
   <div class="page-selector">
     <h2 class="selector-title">選擇頁碼</h2>
+
+    <!-- 桌機：格狀按鈕 -->
     <div class="page-grid">
       <button
         v-for="page in vocabStore.pageNumbers"
         :key="page"
         class="page-btn"
         :class="{ active: page === modelValue }"
-        @click="$emit('update:modelValue', page)"
+        @click="emit('update:modelValue', page)"
       >
         <span class="page-num">P{{ page }}</span>
         <span class="page-level">Lv{{ vocabStore.getPageLevel(page) }}</span>
       </button>
     </div>
+
+    <!-- 手機：下拉選單 -->
+    <select
+      class="page-select-mobile"
+      :value="modelValue"
+      @change="emit('update:modelValue', +$event.target.value)"
+    >
+      <option
+        v-for="page in vocabStore.pageNumbers"
+        :key="page"
+        :value="page"
+      >
+        P{{ page }} — Level {{ vocabStore.getPageLevel(page) }}
+      </option>
+    </select>
   </div>
 </template>
 
@@ -34,6 +51,8 @@ const vocabStore = useVocabularyStore()
   color: var(--color-muted);
   margin-bottom: 0.75rem;
 }
+
+/* ── 桌機格狀按鈕 ── */
 .page-grid {
   display: flex;
   flex-wrap: wrap;
@@ -44,9 +63,10 @@ const vocabStore = useVocabularyStore()
   flex-direction: column;
   align-items: center;
   padding: 0.4rem 0.75rem;
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-border-light);
   border-radius: 6px;
   background: var(--color-surface);
+  color: var(--color-text);
   cursor: pointer;
   font-size: 0.85rem;
   transition: all 0.15s;
@@ -60,11 +80,24 @@ const vocabStore = useVocabularyStore()
   border-color: var(--color-primary);
   color: #fff;
 }
-.page-num {
-  font-weight: 600;
+.page-num { font-weight: 600; }
+.page-level { font-size: 0.7rem; opacity: 0.8; }
+
+/* ── 手機下拉選單 ── */
+.page-select-mobile {
+  display: none;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--color-border-light);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
 }
-.page-level {
-  font-size: 0.7rem;
-  opacity: 0.8;
+
+@media (max-width: 640px) {
+  .page-grid { display: none; }
+  .page-select-mobile { display: block; }
 }
 </style>

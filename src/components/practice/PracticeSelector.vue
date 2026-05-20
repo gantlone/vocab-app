@@ -74,10 +74,11 @@ const selectedMode = ref('flashcard')
 .page-select {
   flex: 1;
   padding: 0.4rem 0.75rem;
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-border-light);
   border-radius: 6px;
   font-size: 0.95rem;
   background: var(--color-bg);
+  color: var(--color-text);
 }
 .mode-btns {
   display: flex;
@@ -85,9 +86,10 @@ const selectedMode = ref('flashcard')
 }
 .mode-btns button {
   padding: 0.4rem 1rem;
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-border-light);
   border-radius: 6px;
   background: none;
+  color: var(--color-text);
   cursor: pointer;
   font-size: 0.9rem;
   transition: all 0.15s;

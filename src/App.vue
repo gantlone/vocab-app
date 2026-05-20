@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onErrorCaptured } from 'vue'
+import { ref, watch, onMounted, onErrorCaptured } from 'vue'
 import { useMemoryStore } from '@/stores/useMemoryStore'
 import { logError } from '@/utils/logError'
 import LearningTab from '@/components/learning/LearningTab.vue'
@@ -7,6 +7,18 @@ import PracticeTab from '@/components/practice/PracticeTab.vue'
 
 const activeTab = ref('learning')
 const memoryStore = useMemoryStore()
+
+// 主題管理，初始值從 localStorage 讀（index.html 已預先套用防閃白）
+const theme = ref(localStorage.getItem('vocab-theme') || 'light')
+
+watch(theme, (t) => {
+  document.documentElement.setAttribute('data-theme', t)
+  localStorage.setItem('vocab-theme', t)
+})
+
+function toggleTheme() {
+  theme.value = theme.value === 'light' ? 'dark' : 'light'
+}
 
 async function resetMemory() {
   if (!confirm('確定要清空所有學習進度？')) return
@@ -33,7 +45,12 @@ onErrorCaptured((err, _instance, info) => {
           單字練習
         </button>
       </nav>
-      <button class="reset-btn" @click="resetMemory">重置進度</button>
+      <div class="header-actions">
+        <button class="theme-btn" :title="theme === 'dark' ? '切換淺色模式' : '切換深色模式'" @click="toggleTheme">
+          {{ theme === 'dark' ? '☀️' : '🌙' }}
+        </button>
+        <button class="reset-btn" @click="resetMemory">重置進度</button>
+      </div>
     </header>
     <main>
       <LearningTab v-show="activeTab === 'learning'" />
@@ -45,7 +62,7 @@ onErrorCaptured((err, _instance, info) => {
 <style scoped>
 .app-header {
   padding: 0.75rem 2rem;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid var(--color-border);
   background: var(--color-surface);
   display: flex;
   align-items: center;
@@ -79,9 +96,29 @@ onErrorCaptured((err, _instance, info) => {
   color: var(--color-primary);
   font-weight: 600;
 }
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+.theme-btn {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--color-border-light);
+  border-radius: 6px;
+  background: none;
+  color: var(--color-text);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  transition: border-color 0.15s;
+}
+.theme-btn:hover {
+  border-color: var(--color-primary);
+}
 .reset-btn {
   padding: 0.35rem 0.85rem;
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-border-light);
   border-radius: 6px;
   background: none;
   cursor: pointer;
