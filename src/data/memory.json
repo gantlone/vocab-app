@@ -1,0 +1,119 @@
+{
+  "p1_w84": {
+    "word": "bear",
+    "level": 4,
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastReview": 1779237714817,
+    "nextReview": 1780447314817,
+    "isFamiliar": true
+  },
+  "p1_w42": {
+    "word": "ant",
+    "level": 4,
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastReview": 1779237721713,
+    "nextReview": 1780447321713,
+    "isFamiliar": true
+  },
+  "p1_w63": {
+    "word": "back",
+    "level": 1,
+    "correctCount": 1,
+    "wrongCount": 0,
+    "lastReview": 1779238961007,
+    "nextReview": 1779325361007,
+    "isFamiliar": false
+  },
+  "p1_w83": {
+    "word": "beach",
+    "level": 4,
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastReview": 1779239842575,
+    "nextReview": 1780449442575,
+    "isFamiliar": true
+  },
+  "p8_w728": {
+    "word": "scene",
+    "level": 1,
+    "correctCount": 1,
+    "wrongCount": 0,
+    "lastReview": 1779239867480,
+    "nextReview": 1779326267480,
+    "isFamiliar": false
+  },
+  "p1_w55": {
+    "word": "as",
+    "level": 1,
+    "correctCount": 1,
+    "wrongCount": 0,
+    "lastReview": 1779240170198,
+    "nextReview": 1779326570198,
+    "isFamiliar": false
+  },
+  "p7_w670": {
+    "word": "queen",
+    "level": 1,
+    "correctCount": 1,
+    "wrongCount": 0,
+    "lastReview": 1779239907096,
+    "nextReview": 1779326307096,
+    "isFamiliar": false
+  },
+  "p14_w1252": {
+    "word": "degree",
+    "level": 4,
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastReview": 1779239931486,
+    "nextReview": 1780449531486,
+    "isFamiliar": true
+  },
+  "p6_w540": {
+    "word": "money",
+    "level": 1,
+    "correctCount": 1,
+    "wrongCount": 0,
+    "lastReview": 1779240161887,
+    "nextReview": 1779326561887,
+    "isFamiliar": false
+  },
+  "p6_w521": {
+    "word": "match",
+    "level": 1,
+    "correctCount": 1,
+    "wrongCount": 0,
+    "lastReview": 1779240165845,
+    "nextReview": 1779326565845,
+    "isFamiliar": false
+  },
+  "p1_w65": {
+    "word": "bag",
+    "level": 0,
+    "correctCount": 0,
+    "wrongCount": 1,
+    "lastReview": 1779241378637,
+    "nextReview": 1779241378637,
+    "isFamiliar": false
+  },
+  "p1_w86": {
+    "word": "beautiful",
+    "level": 1,
+    "correctCount": 1,
+    "wrongCount": 0,
+    "lastReview": 1779241381581,
+    "nextReview": 1779327781581,
+    "isFamiliar": false
+  },
+  "p1_w48": {
+    "word": "April/Apr.",
+    "level": 0,
+    "correctCount": 0,
+    "wrongCount": 1,
+    "lastReview": 1779241383964,
+    "nextReview": 1779241383964,
+    "isFamiliar": false
+  }
+}
