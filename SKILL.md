@@ -312,22 +312,43 @@ export const useVocabularyStore = defineStore('vocabulary', () => {
     return shuffled.slice(0, count)
   }
   
+  // 依文字尋找單字（支援 a/an 這類斜線多形式）
+  function findWordByText(text) {
+    if (!text) return null
+    const lower = text.toLowerCase().trim()
+    for (const page of Object.values(data.value.pages)) {
+      for (const w of page.words) {
+        const variants = w.word.split('/').map(v => v.trim().toLowerCase())
+        if (variants.some(v => v === lower)) return w
+      }
+    }
+    return null
+  }
+
   return { 
     data, pageNumbers, 
-    getPageWords, getPageLevel, getWordById, getRandomWordsFromLevel 
+    getPageWords, getPageLevel, getWordById, getRandomWordsFromLevel, findWordByText
   }
 })
 ```
 
-需要在 `vite.config.js` 加 alias 才能用 `@/`:
+完整的 `vite.config.js`（含 GitHub Pages base、alias、HMR 排除設定）:
 
 ```js
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
 import path from 'path'
+import { memorySaverPlugin } from './vite-plugins/memory-saver.js'
 
 export default defineConfig({
+  base: '/vocab-app/',  // GitHub Pages 子路徑（repo 名稱），本地 dev 也能正常運作
   resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src')
+    alias: { '@': path.resolve(__dirname, './src') }
+  },
+  server: {
+    watch: {
+      // plugin 寫入這兩個檔案不應觸發 Vite HMR 重載（否則答題後會閃退）
+      ignored: ['**/src/data/memory.json', '**/src/error.log']
     }
   },
   plugins: [vue(), memorySaverPlugin()]
@@ -505,187 +526,232 @@ export function shuffle(arr) {
 
 ## 8. Speech Composable
 
+兩個函式：`speak(word, audioUrlOrAccent)` 發音單字，`speakText(text, accent)` 朗讀整句。
+
 ```js
 // src/composables/useSpeech.js
 import { ref } from 'vue'
 
-const audioCache = new Map()
+const audioCache = {}         // module-level，整個 session 共用
+const isPlaying = ref(false)  // module-level，避免多個元件各自持有
 
 export function useSpeech() {
-  const isPlaying = ref(false)
-  
-  async function fetchDictionaryAudio(word) {
-    if (audioCache.has(word)) return audioCache.get(word)
-    try {
-      const res = await fetch(
-        `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`
-      )
-      if (!res.ok) throw new Error('Not found')
-      const data = await res.json()
-      const phonetics = data[0]?.phonetics ?? []
-      const result = {
-        us: phonetics.find(p => p.audio?.includes('-us.mp3'))?.audio || 
-            phonetics.find(p => p.audio)?.audio,
-        uk: phonetics.find(p => p.audio?.includes('-uk.mp3'))?.audio
-      }
-      audioCache.set(word, result)
-      return result
-    } catch {
-      audioCache.set(word, 'failed')
-      return 'failed'
-    }
-  }
-  
-  async function speak(word, accent = 'us') {
-    isPlaying.value = true
-    const audio = await fetchDictionaryAudio(word)
-    
-    if (audio !== 'failed' && audio[accent]) {
-      const a = new Audio(audio[accent])
-      a.onended = () => { isPlaying.value = false }
-      a.onerror = () => fallbackSpeak(word, accent)
-      try { 
-        await a.play() 
-      } catch {
-        fallbackSpeak(word, accent)
-      }
-    } else {
-      fallbackSpeak(word, accent)
-    }
-  }
-  
-  function fallbackSpeak(word, accent) {
-    if (!window.speechSynthesis) {
-      isPlaying.value = false
-      return
-    }
-    const utter = new SpeechSynthesisUtterance(word)
-    utter.lang = accent === 'us' ? 'en-US' : 'en-GB'
-    utter.rate = 0.9
-    utter.onend = () => { isPlaying.value = false }
-    utter.onerror = () => { isPlaying.value = false }
+  // 直接用 Web Speech API 朗讀文字（例句整句用，rate 0.85 較自然）
+  function speakText(text, accent) {
+    if (!window.speechSynthesis) return
+    speechSynthesis.cancel()
+    const utter = new SpeechSynthesisUtterance(text)
+    utter.lang = accent === 'uk' ? 'en-GB' : 'en-US'
+    utter.rate = 0.85
     speechSynthesis.speak(utter)
   }
-  
-  return { speak, isPlaying }
+
+  // 發音單字：
+  //   audioUrlOrAccent = mp3 URL → 播放 Audio，失敗 fallback Web Speech
+  //   audioUrlOrAccent = 'us'/'uk' → 直接 Web Speech
+  async function speak(word, audioUrlOrAccent) {
+    if (typeof audioUrlOrAccent === 'string' && audioUrlOrAccent.startsWith('http')) {
+      const cacheKey = audioUrlOrAccent
+      let audio = audioCache[cacheKey]
+      if (!audio) {
+        audio = new Audio(audioUrlOrAccent)
+        audioCache[cacheKey] = audio
+      }
+      isPlaying.value = true
+      audio.onended = () => { isPlaying.value = false }
+      audio.onerror = () => { speakText(word, 'us'); isPlaying.value = false }
+      try { await audio.play() } catch { speakText(word, 'us'); isPlaying.value = false }
+    } else {
+      speakText(word, audioUrlOrAccent || 'us')
+    }
+  }
+
+  return { speak, speakText, isPlaying }
 }
 ```
 
-## 9. Dictionary Composable(查例句)
+**呼叫方式：**
+```js
+// 用 mp3 URL（從 useDictionary 拿到的 apiData.phonetics.us）
+speak(word.word, apiData?.phonetics?.us)
+
+// 直接 Web Speech
+speak(word.word, 'us')
+speak(word.word, 'uk')
+
+// 整句朗讀
+speakText(exampleSentence, 'us')
+speakText(exampleSentence, 'uk')
+```
+
+## 9. Dictionary Composable(查例句 + 音標 + mp3)
+
+函式名稱是 `fetchWord`（不是 `lookup`）。回傳 `{ phonetics: { text, us, uk }, examples: string[] }`。
 
 ```js
 // src/composables/useDictionary.js
-const dictCache = new Map()
+import { ref } from 'vue'
+
+const sessionCache = {}  // module-level，整個 session 共用（避免重複打 API）
 
 export function useDictionary() {
-  async function lookup(word) {
-    if (dictCache.has(word)) return dictCache.get(word)
+  const loading = ref(false)
+  const error = ref(false)
+
+  async function fetchWord(word) {
+    if (sessionCache[word]) return sessionCache[word]
+    loading.value = true
+    error.value = false
     try {
       const res = await fetch(
         `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`
       )
       if (!res.ok) throw new Error()
       const data = await res.json()
-      const result = {
-        phonetic: data[0]?.phonetic ?? '',
-        examples: extractExamples(data[0])
-      }
-      dictCache.set(word, result)
+      const result = extractData(data[0])
+      sessionCache[word] = result
       return result
     } catch {
-      const empty = { phonetic: '', examples: [] }
-      dictCache.set(word, empty)
-      return empty
+      error.value = true
+      return null
+    } finally {
+      loading.value = false
     }
   }
-  
-  function extractExamples(entry) {
-    const examples = []
-    for (const m of entry?.meanings ?? []) {
+
+  function extractData(entry) {
+    if (!entry) return null
+
+    const phonetics = {
+      text: entry.phonetic ?? '',
+      us: entry.phonetics?.find(p => p.audio?.includes('-us'))?.audio ?? '',
+      uk: entry.phonetics?.find(p => p.audio?.includes('-uk'))?.audio ?? '',
+    }
+
+    // 收集所有例句字串，優先選短句(< 15 字)，最多 3 句
+    const all = []
+    for (const m of entry.meanings ?? []) {
       for (const d of m.definitions ?? []) {
-        if (d.example) {
-          examples.push({
-            pos: m.partOfSpeech,
-            definition: d.definition,
-            example: d.example
-          })
-        }
-        if (examples.length >= 5) break
+        if (d.example) all.push(d.example)
       }
-      if (examples.length >= 5) break
     }
-    return examples
+    const short = all.filter(s => s.split(' ').length < 15)
+    const long  = all.filter(s => s.split(' ').length >= 15)
+    const examples = [...short, ...long].slice(0, 3)
+
+    return { phonetics, examples }
   }
-  
-  return { lookup }
+
+  return { fetchWord, loading, error }
 }
 ```
 
+**在 WordDetail 中使用：**
+```js
+const { fetchWord, loading, error } = useDictionary()
+const apiData = ref(null)
+
+onMounted(async () => {
+  apiData.value = await fetchWord(props.word.word)
+})
+```
+
+存取方式：`apiData.value?.phonetics?.us`、`apiData.value?.examples`（string[]）。
+
 ## 10. Vue 元件範例
 
-### WordCard (含 hover tooltip)
+### WordCard (含 hover tooltip + 發音按鈕)
+
+Tooltip 用 Vue 響應式控制顯示（不是 CSS `:hover`），200ms 延遲防止移向按鈕時閃消。
 
 ```vue
 <script setup>
-defineProps({
-  word: { type: Object, required: true }
-})
-defineEmits(['select'])
+import { ref } from 'vue'
+import { useSpeech } from '@/composables/useSpeech'
+
+const props = defineProps({ word: Object })
+defineEmits(['click'])
+
+const { speak } = useSpeech()
+const showTooltip = ref(false)
+let hideTimer = null
+
+function onMouseenter() {
+  clearTimeout(hideTimer)
+  showTooltip.value = true
+}
+function onMouseleave() {
+  hideTimer = setTimeout(() => { showTooltip.value = false }, 200)
+}
 </script>
 
 <template>
-  <button class="word-card" @click="$emit('select', word)">
+  <div class="word-card" @click="$emit('click', word)" @mouseenter="onMouseenter" @mouseleave="onMouseleave">
     <span class="word-text">{{ word.word }}</span>
-    <span class="tooltip">
-      <strong>{{ word.pos }}</strong> {{ word.meaning }}
-    </span>
-  </button>
+    <div v-show="showTooltip" class="tooltip">
+      <div class="tooltip-info">
+        <span class="pos">{{ word.pos }}</span>
+        <span class="meaning">{{ word.meaning }}</span>
+      </div>
+      <div class="tooltip-speak">
+        <!-- @mousedown.stop 防止 tooltip 消失，@click.stop 防止觸發卡片點擊 -->
+        <button class="ts-btn" @mousedown.stop @click.stop="speak(word.word, 'us')">🇺🇸</button>
+        <button class="ts-btn" @mousedown.stop @click.stop="speak(word.word, 'uk')">🇬🇧</button>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>
 .word-card {
   position: relative;
-  padding: 0.75rem 1rem;
-  border: 1px solid #ddd;
+  padding: 0.6rem 0.9rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
   border-radius: 8px;
-  background: white;
   cursor: pointer;
-  font-size: 1rem;
-  transition: transform 0.15s, box-shadow 0.15s;
-  font-family: inherit;
+  transition: all 0.15s;
 }
-.word-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
+.word-card:hover { border-color: var(--color-primary); }
+.word-text { font-size: 0.95rem; font-weight: 500; }
 .tooltip {
   position: absolute;
   bottom: calc(100% + 6px);
   left: 50%;
   transform: translateX(-50%);
-  white-space: nowrap;
-  padding: 0.4rem 0.7rem;
-  background: #333;
-  color: white;
+  background: var(--color-tooltip-bg);
+  color: var(--color-tooltip-text);
   border-radius: 6px;
-  font-size: 0.85rem;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.15s;
+  padding: 0.4rem 0.6rem;
+  white-space: nowrap;
+  font-size: 0.82rem;
   z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
 }
-.word-card:hover .tooltip {
-  opacity: 1;
+.ts-btn {
+  background: none;
+  border: none;
+  color: inherit;  /* 重要：button 不繼承 color，要明確設定 */
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 0.05rem 0.15rem;
+  line-height: 1;
+  transition: transform 0.15s;
 }
+.ts-btn:hover { transform: scale(1.2); }
 </style>
 ```
 
 ### Tab 切換(App.vue)
 
+Tab 切換用 `v-show` 不用 `v-if`（保留各 tab 狀態）。**不用 TabNav 元件**，直接在 App.vue 內寫。
+
 ```vue
 <script setup>
 import { ref } from 'vue'
-import TabNav from './components/TabNav.vue'
 import LearningTab from './components/learning/LearningTab.vue'
 import PracticeTab from './components/practice/PracticeTab.vue'
 
@@ -694,16 +760,109 @@ const activeTab = ref('learning')
 
 <template>
   <div class="app">
-    <TabNav v-model="activeTab" />
+    <header>
+      <nav>
+        <button :class="{ active: activeTab === 'learning' }" @click="activeTab = 'learning'">單字學習</button>
+        <button :class="{ active: activeTab === 'practice' }" @click="activeTab = 'practice'">單字練習</button>
+      </nav>
+    </header>
     <LearningTab v-show="activeTab === 'learning'" />
     <PracticeTab v-show="activeTab === 'practice'" />
   </div>
 </template>
 ```
 
-**關鍵點:用 `v-show` 不是 `v-if`**,切 tab 保留各自狀態。
+**關鍵點：用 `v-show` 不是 `v-if`**，切 tab 保留各自狀態。
 
-## 11. 開發流程建議順序
+## 11. 深色模式 CSS Variables
+
+所有顏色都用 CSS variables，不寫死值。`[data-theme="dark"]` 覆蓋 `:root` 定義。
+
+```css
+/* src/style.css */
+:root {
+  --color-primary: #4a9eff;
+  --color-bg: #f5f7fa;
+  --color-surface: #ffffff;
+  --color-text: #2c3e50;
+  --color-muted: #666666;
+  --color-border: #e0e0e0;
+  --color-border-light: #dddddd;
+  --color-tooltip-bg: #2c3e50;
+  --color-tooltip-text: #ffffff;
+  --color-correct-bg: #d3f9d8;
+  --color-correct-border: #51cf66;
+  --color-correct-text: #2b8a3e;
+  --color-wrong-bg: #ffe3e3;
+  --color-wrong-border: #ff6b6b;
+  --color-wrong-text: #c92a2a;
+  --color-translation: #777777;
+  --color-shadow: rgba(0,0,0,0.08);
+  --color-shadow-strong: rgba(0,0,0,0.15);
+}
+[data-theme="dark"] {
+  --color-primary: #5aadff;
+  --color-bg: #1a1a2e;
+  --color-surface: #252538;
+  --color-text: #e2e2f0;
+  --color-muted: #9a9ab0;
+  --color-border: #3a3a58;
+  --color-border-light: #2e2e4a;
+  --color-tooltip-bg: #3d3d60;
+  --color-tooltip-text: #ffffff;
+  --color-correct-bg: rgba(46,160,67,0.2);
+  --color-correct-border: #40c057;
+  --color-correct-text: #69db7c;
+  --color-wrong-bg: rgba(220,53,69,0.15);
+  --color-wrong-border: #e03131;
+  --color-wrong-text: #ff8787;
+  --color-translation: #aaaacc;
+  --color-shadow: rgba(0,0,0,0.35);
+  --color-shadow-strong: rgba(0,0,0,0.5);
+}
+
+/* 全域修正：button/select 在深色模式下顏色不繼承的問題 */
+select { color: var(--color-text); background: var(--color-surface); }
+```
+
+防閃白 inline script（放 `index.html` `<head>` 最前面，在 Vue mount 之前執行）：
+
+```html
+<script>
+  const t = localStorage.getItem('vocab-theme') || 'light'
+  document.documentElement.setAttribute('data-theme', t)
+</script>
+```
+
+## 12. Error Logging
+
+```js
+// src/utils/logError.js
+export async function logError(message, stack = '') {
+  console.error('[vocab-app]', message, stack)
+  try {
+    await fetch('/api/log-error', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: String(message), stack: String(stack), timestamp: new Date().toISOString() })
+    })
+  } catch {}
+  // 只在 dev 有效，prod 只寫 console
+}
+```
+
+在 `onErrorCaptured` 或 catch 區塊中呼叫：
+
+```js
+import { logError } from '@/utils/logError'
+
+onErrorCaptured((err, _instance, info) => {
+  logError(`[ComponentName] uncaught in ${info}: ${err.message}`, err.stack)
+  return true
+})
+```
+
+## 13. 開發流程建議順序
 
 依序做完每一步再進下一步:
 
@@ -722,6 +881,6 @@ const activeTab = ref('learning')
 - 每步做完先 `npm run dev` 確認沒 console error
 - 改 store 後手動測一次:答題 → 看 src/data/memory.json 是否 1 秒後變動
 
-## 12. 不要在沒看 CLAUDE.md 的情況下動手
+## 14. 不要在沒看 CLAUDE.md 的情況下動手
 
 每次 session 開始,先 `view CLAUDE.md` 一次。專案規範可能會調整,不要憑記憶寫。

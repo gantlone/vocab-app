@@ -4,12 +4,13 @@
 
 ## 專案概述
 
-**個人使用**的高中 7000 單字背誦網頁。純本地端開發,只在 `npm run dev` 環境下使用,**不部署到外網**。資料來源:`docs/高中7000單.pdf`,內容按 Level 1-6 與頁碼分組。
+**個人使用**的高中 7000 單字背誦網頁。主要在 `npm run dev` 本地開發，也部署到 GitHub Pages（https://gantlone.github.io/vocab-app/）方便手機瀏覽。資料來源:`docs/高中7000單.pdf`，內容按 Level 1-6 與頁碼分組。
 
 **核心定位:**
-- 自己學英文用,不上架、不公開
-- 用 VSCode 開發,`npm run dev` 在本地跑
+- 自己學英文用，純個人非商業使用
+- 用 VSCode 開發，`npm run dev` 在本地跑
 - 進度可透過 Git 在多台電腦間同步
+- 線上版本部署於 GitHub Pages（手機瀏覽用，不對外推廣）
 
 ## 技術棧
 
@@ -35,7 +36,7 @@ Vite dev server 收到請求
 Node.js 用 fs.writeFile() 寫 src/data/memory.json ✅
 ```
 
-**重要:** 這個方案**只在 `npm run dev` 下有效**。production build 不會有這個端點。本專案不部署,所以沒問題。
+**重要:** 這個方案**只在 `npm run dev` 下有效**。production build（GitHub Pages）沒有這個端點，學習進度只寫 localStorage，不寫 memory.json 檔案。
 
 ## 資料夾結構
 
@@ -58,7 +59,6 @@ vocab-app/
 │   │   ├── useSpeech.js
 │   │   └── useDictionary.js
 │   ├── components/
-│   │   ├── TabNav.vue
 │   │   ├── learning/
 │   │   │   ├── LearningTab.vue
 │   │   │   ├── PageSelector.vue
@@ -71,9 +71,13 @@ vocab-app/
 │   │       ├── FlashCard.vue
 │   │       └── QuizCard.vue
 │   └── utils/
-│       └── srs.js              # 艾賓浩斯演算法
+│       ├── srs.js              # 艾賓浩斯演算法
+│       └── logError.js         # 錯誤記錄(console + /api/log-error)
 ├── vite-plugins/
-│   └── memory-saver.js         # 自製 plugin,提供 /api/save-memory
+│   └── memory-saver.js         # 自製 plugin,提供 /api/save-memory 和 /api/log-error
+├── .github/
+│   └── workflows/
+│       └── deploy.yml          # GitHub Actions → GitHub Pages 自動部署
 ├── public/
 ├── index.html
 ├── package.json
@@ -139,15 +143,18 @@ vocab-app/
 
 2. **單字網格(WordGrid + WordCard):**
    - 顯示該頁所有單字方塊
-   - **hover tooltip** 顯示中文意思 + 詞性(原生 CSS `:hover`)
+   - **hover tooltip** 顯示中文意思 + 詞性 + 🇺🇸 🇬🇧 發音按鈕（Vue mouseenter/mouseleave + 200ms 延遲防抖）
    - 點擊單字 → 顯示 `WordDetail`
 
 3. **單字詳細頁(WordDetail):**
-   - 大字顯示英文 + KK 音標(從 vocabulary.json)
+   - 大字顯示英文 + KK 音標（從 vocabulary.json）
    - 中文意思 + 詞性
-   - 美式/英式發音按鈕(useSpeech)
-   - 3-5 個例句(useDictionary 從 Dictionary API 抓)
-   - API 失敗時顯示「無例句資料,但可以聽發音」
+   - 美式/英式發音按鈕（useSpeech）
+   - 最多 3 句例句（優先選 15 字以下短句，useDictionary 從 Dictionary API 抓）
+   - 每句旁有 🇺🇸 🇬🇧 按鈕朗讀整句（speakText）
+   - 每句可點 ▶ 展開中文翻譯（MyMemory API，lazy load + module-level cache）
+   - 例句反白單字可查詞性與中文意思並直接發音（selection tooltip，限 vocabulary.json 內有的單字）
+   - API 失敗時顯示「無例句資料，但可以聽發音」
    - 「返回」按鈕回到 WordGrid
 
 ### 頁籤 2:單字練習
@@ -280,10 +287,53 @@ async function resetMemory() {
 
 ## 已知坑
 
-1. **Dictionary API 限流:** 偶爾 429,要在 useDictionary 內做 session cache
-2. **Web Speech 在 Safari:** 首次 `speak()` 可能無聲,需 user gesture 觸發
-3. **PDF 解析格式不一致:** `good-bye/goodbye/bye-bye`、`account1`、`bear (2)` 等特殊格式,parse script 要容錯
-4. **Vite plugin 只在 dev 有效:** production build 沒有 `/api/save-memory`,但本專案不會部署所以無所謂
+1. **Dictionary API 限流:** 偶爾 429，要在 useDictionary 內做 session cache（module-level `sessionCache = {}`）
+2. **Web Speech 在 Safari:** 首次 `speak()` 可能無聲，需 user gesture 觸發
+3. **PDF 解析格式不一致:** `good-bye/goodbye/bye-bye`、`account1`、`bear (2)` 等特殊格式，parse script 要容錯
+4. **Vite plugin 只在 dev 有效:** production build（GitHub Pages）沒有 `/api/save-memory` 和 `/api/log-error`，學習進度只寫 localStorage，error 只寫 console
+5. **Vite HMR 監聽 memory.json:** plugin 寫入 memory.json 會觸發 Vite HMR 重載造成閃退，已在 `vite.config.js` 的 `server.watch.ignored` 忽略 memory.json 和 error.log
+6. **button 不繼承 color:** 瀏覽器預設 `<button>` 不繼承父層 color，深色模式下會變黑。任何 `background: none` 的按鈕都要明確設定 `color: inherit` 或 `color: var(--color-xxx)`
+
+## 深色模式
+
+主題切換透過 `<html data-theme="dark/light">` + CSS variables 實作：
+
+- `src/style.css` 定義 `:root {}` 和 `[data-theme="dark"] {}` 兩套變數
+- `App.vue` 用 `theme = ref(localStorage.getItem('vocab-theme') || 'light')` 管理狀態，`watch` 時同步寫 localStorage 和 setAttribute
+- `index.html` `<head>` 最前面放防閃白 inline script：
+  ```html
+  <script>
+    const t = localStorage.getItem('vocab-theme') || 'light'
+    document.documentElement.setAttribute('data-theme', t)
+  </script>
+  ```
+- 所有顏色只用 CSS variables（`var(--color-primary)` 等），不寫死顏色值
+- **重要：** `<select>` 和 `<button>` 要明確設定 `color: var(--color-text)` 或 `color: inherit`，否則深色模式下文字變黑
+
+## GitHub Pages 部署
+
+```yaml
+# .github/workflows/deploy.yml
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm ci
+      - run: npm run build
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+```
+
+`vite.config.js` 必須設定 `base: '/vocab-app/'`（repo 名稱）。
 
 ## 開發順序建議
 
