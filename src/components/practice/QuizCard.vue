@@ -3,6 +3,7 @@ import { ref, computed, onMounted } from 'vue'
 import { useVocabularyStore } from '@/stores/useVocabularyStore'
 import { useMemoryStore } from '@/stores/useMemoryStore'
 import { buildPracticeQueue, shuffle } from '@/utils/srs'
+import { useSpeech } from '@/composables/useSpeech'
 import { logError } from '@/utils/logError'
 
 const props = defineProps({ page: Number })
@@ -10,6 +11,7 @@ defineEmits(['back'])
 
 const vocabStore = useVocabularyStore()
 const memoryStore = useMemoryStore()
+const { speakText } = useSpeech()
 
 const queue = ref([])
 const index = ref(0)
@@ -20,8 +22,10 @@ const mountError = ref(null)
 
 onMounted(async () => {
   try {
-    const pageWords = vocabStore.getPageWords(props.page)
-    if (!pageWords?.length) throw new Error(`getPageWords(${props.page}) returned empty`)
+    const allPageWords = vocabStore.getPageWords(props.page)
+    if (!allPageWords?.length) throw new Error(`getPageWords(${props.page}) returned empty`)
+
+    const pageWords = allPageWords.filter(w => !memoryStore.getRecord(w.id)?.isFamiliar)
 
     const dueWords = memoryStore.getDueWords()
       .map(r => vocabStore.getWordById(r.id))
@@ -55,6 +59,7 @@ async function answer(opt) {
     const isCorrect = opt.id === current.value.id
     memoryStore.recordAnswer(current.value.id, current.value.word, isCorrect)
     if (isCorrect) score.value++
+    speakText(current.value.word, 'us')
   } catch (e) {
     await logError('QuizCard.answer failed: ' + e.message, e.stack)
   }
@@ -91,7 +96,13 @@ function optClass(opt) {
     <template v-else-if="current">
       <div class="progress">{{ index + 1 }} / {{ queue.length }} ｜ 得分 {{ score }}</div>
 
-      <div class="quiz-word">{{ current.word }}</div>
+      <div class="quiz-word-row">
+        <span class="quiz-word">{{ current.word }}</span>
+        <template v-if="selected">
+          <button class="speak-btn" title="美式發音" @click="speakText(current.word, 'us')">🇺🇸</button>
+          <button class="speak-btn" title="英式發音" @click="speakText(current.word, 'uk')">🇬🇧</button>
+        </template>
+      </div>
       <p class="quiz-prompt">選出正確的中文意思</p>
 
       <div class="quiz-options">
@@ -129,7 +140,25 @@ function optClass(opt) {
   margin-bottom: 1.5rem;
 }
 .progress { color: var(--color-muted); font-size: 0.9rem; margin-bottom: 1.25rem; }
-.quiz-word { font-size: clamp(1.8rem, 6vw, 2.4rem); font-weight: 700; margin-bottom: 0.5rem; }
+.quiz-word-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.quiz-word { font-size: clamp(1.8rem, 6vw, 2.4rem); font-weight: 700; }
+.speak-btn {
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--color-border-light);
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: inherit;
+  transition: border-color 0.15s;
+  flex-shrink: 0;
+}
+.speak-btn:hover { border-color: var(--color-primary); }
 .quiz-prompt { color: var(--color-muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
 .loading, .mount-error { color: var(--color-muted); margin-top: 2rem; }
 .mount-error { color: #c92a2a; }

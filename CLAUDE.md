@@ -116,6 +116,21 @@ vocab-app/
 }
 ```
 
+**欄位說明：**
+
+| 欄位 | 型別 | 說明 |
+|---|---|---|
+| `metadata.totalPages` | number | 總頁數（75） |
+| `metadata.totalWords` | number | 總單字數（6480） |
+| `metadata.levels[n].pages` | [number, number] | 該 Level 的起訖頁碼（含頭含尾） |
+| `metadata.levels[n].wordCount` | number | 該 Level 的單字數 |
+| `pages[n].level` | number 1–6 | 該頁所屬的 Level |
+| `words[].id` | string | 格式 `p{頁碼}_w{序號}`，全域唯一，作為 memory.json 的 key |
+| `words[].word` | string | 英文單字（含斜線變體，如 `good-bye/goodbye`） |
+| `words[].phonetic` | string | KK 音標，格式 `[...]`；部分單字可能為空字串 |
+| `words[].pos` | string | 詞性縮寫，如 `n.` `v.` `adj.` `adv.` `art.` `prep.` `conj.` `pron.` 等 |
+| `words[].meaning` | string | 中文意思 |
+
 ### memory.json
 ```json
 {
@@ -132,6 +147,19 @@ vocab-app/
 ```
 
 初始狀態為 `{}`(空物件)。
+
+**欄位說明：**
+
+| 欄位 | 型別 | 說明 |
+|---|---|---|
+| key（物件的 key） | string | 對應 vocabulary.json 的 `word.id`，格式 `p{頁}_w{序}` |
+| `word` | string | 英文單字（冗餘儲存，方便在不查 vocabulary.json 的情況下快速顯示） |
+| `level` | number 0–5 | SRS 等級：0=立刻到期, 1=1天後, 2=3天後, 3=7天後, 4=14天後（熟悉）, 5=30天後 |
+| `lastReview` | number | 上次複習的 Unix 毫秒時間戳（`Date.now()`） |
+| `nextReview` | number | 下次應複習的時間戳（`lastReview + INTERVALS[level]`）；`<= Date.now()` 即為到期 |
+| `correctCount` | number | 累積答對次數（僅統計用，不影響 SRS 計算） |
+| `wrongCount` | number | 累積答錯次數（僅統計用，不影響 SRS 計算） |
+| `isFamiliar` | boolean | `level >= 4` 時為 `true`；`true` 的字不進入 due words 池，不主動排進練習 |
 
 ## 兩大頁籤功能
 

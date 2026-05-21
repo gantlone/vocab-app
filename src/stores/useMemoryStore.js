@@ -11,23 +11,9 @@ export const useMemoryStore = defineStore('memory', () => {
   function loadInitial() {
     try {
       const local = localStorage.getItem(STORAGE_KEY)
-      if (local) {
-        const parsed = JSON.parse(local)
-        return mergeRecords(memoryData, parsed)
-      }
+      if (local) return JSON.parse(local)
     } catch {}
     return { ...memoryData }
-  }
-
-  function mergeRecords(fileRecords, localRecords) {
-    const merged = { ...fileRecords }
-    for (const [id, local] of Object.entries(localRecords)) {
-      const file = merged[id]
-      if (!file || (local.lastReview ?? 0) > (file.lastReview ?? 0)) {
-        merged[id] = local
-      }
-    }
-    return merged
   }
 
   let fileSyncTimer = null
@@ -101,13 +87,29 @@ export const useMemoryStore = defineStore('memory', () => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: '{}'
-      })
+      }).catch(err => console.warn('File sync failed', err))
+    }
+  }
+
+  function exportRecords() {
+    return JSON.stringify(records.value, null, 2)
+  }
+
+  async function importRecords(data) {
+    records.value = data
+    if (import.meta.env.DEV) {
+      await fetch('/api/save-memory', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data, null, 2)
+      }).catch(err => console.warn('File sync failed', err))
     }
   }
 
   return {
     records,
     recordAnswer, markFamiliarity,
-    getDueWords, getRecord, resetAll
+    getDueWords, getRecord,
+    resetAll, exportRecords, importRecords
   }
 })

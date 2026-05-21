@@ -1,8 +1,9 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, watch, onMounted } from 'vue'
 import { useVocabularyStore } from '@/stores/useVocabularyStore'
 import { useMemoryStore } from '@/stores/useMemoryStore'
 import { buildPracticeQueue } from '@/utils/srs'
+import { useSpeech } from '@/composables/useSpeech'
 import { logError } from '@/utils/logError'
 
 const props = defineProps({ page: Number })
@@ -10,6 +11,7 @@ defineEmits(['back'])
 
 const vocabStore = useVocabularyStore()
 const memoryStore = useMemoryStore()
+const { speakText } = useSpeech()
 
 const queue = ref([])
 const index = ref(0)
@@ -17,10 +19,16 @@ const flipped = ref(false)
 const done = ref(false)
 const mountError = ref(null)
 
+watch(flipped, (val) => {
+  if (val && current.value) speakText(current.value.word, 'us')
+})
+
 onMounted(async () => {
   try {
-    const pageWords = vocabStore.getPageWords(props.page)
-    if (!pageWords?.length) throw new Error(`getPageWords(${props.page}) returned empty`)
+    const allPageWords = vocabStore.getPageWords(props.page)
+    if (!allPageWords?.length) throw new Error(`getPageWords(${props.page}) returned empty`)
+
+    const pageWords = allPageWords.filter(w => !memoryStore.getRecord(w.id)?.isFamiliar)
 
     const dueWords = memoryStore.getDueWords()
       .map(r => vocabStore.getWordById(r.id))
@@ -76,6 +84,11 @@ async function mark(level) {
             <span class="card-phonetic">{{ current.phonetic }}</span>
           </div>
         </Transition>
+      </div>
+
+      <div v-if="flipped" class="speak-row">
+        <button class="speak-btn" title="美式發音" @click.stop="speakText(current.word, 'us')">🇺🇸</button>
+        <button class="speak-btn" title="英式發音" @click.stop="speakText(current.word, 'uk')">🇬🇧</button>
       </div>
 
       <div v-if="flipped" class="mark-btns">
@@ -149,10 +162,26 @@ async function mark(level) {
 .card-pos { font-style: italic; color: var(--color-muted); font-size: 0.85rem; }
 .card-meaning { font-size: 1.5rem; font-weight: 600; }
 .card-phonetic { font-size: 0.85rem; color: var(--color-muted); font-family: monospace; }
+.speak-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+.speak-btn {
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--color-border-light);
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: inherit;
+  transition: border-color 0.15s;
+}
+.speak-btn:hover { border-color: var(--color-primary); }
 .mark-btns {
   display: flex;
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 .mark-btns button {
   padding: 0.6rem 1.5rem;

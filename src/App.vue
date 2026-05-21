@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, onMounted, onErrorCaptured } from 'vue'
+import { ref, watch, onErrorCaptured } from 'vue'
 import { useMemoryStore } from '@/stores/useMemoryStore'
 import { logError } from '@/utils/logError'
 import LearningTab from '@/components/learning/LearningTab.vue'
@@ -7,8 +7,8 @@ import PracticeTab from '@/components/practice/PracticeTab.vue'
 
 const activeTab = ref('learning')
 const memoryStore = useMemoryStore()
+const importInput = ref(null)
 
-// 主題管理，初始值從 localStorage 讀（index.html 已預先套用防閃白）
 const theme = ref(localStorage.getItem('vocab-theme') || 'light')
 
 watch(theme, (t) => {
@@ -26,9 +26,41 @@ async function resetMemory() {
   location.reload()
 }
 
+function exportMemory() {
+  const json = memoryStore.exportRecords()
+  const date = new Date().toISOString().slice(0, 10)
+  const blob = new Blob([json], { type: 'application/json' })
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = `memory-backup-${date}.json`
+  a.click()
+  URL.revokeObjectURL(url)
+}
+
+async function handleImport(e) {
+  const file = e.target.files[0]
+  if (!file) return
+  try {
+    const text = await file.text()
+    const data = JSON.parse(text)
+    if (
+      data === null || typeof data !== 'object' || Array.isArray(data) ||
+      !Object.keys(data).every(k => /^p\d+_w\d+$/.test(k))
+    ) {
+      alert('格式錯誤：不是有效的進度備份檔')
+      return
+    }
+    await memoryStore.importRecords(data)
+    location.reload()
+  } catch {
+    alert('檔案解析失敗，請確認是正確的 JSON 格式')
+  }
+  e.target.value = ''
+}
+
 onErrorCaptured((err, _instance, info) => {
   logError(`[App root] uncaught in ${info}: ${err.message}`, err.stack)
-  // 不攔截，讓 Vue 繼續顯示錯誤
   return true
 })
 </script>
@@ -49,7 +81,10 @@ onErrorCaptured((err, _instance, info) => {
         <button class="theme-btn" :title="theme === 'dark' ? '切換淺色模式' : '切換深色模式'" @click="toggleTheme">
           {{ theme === 'dark' ? '☀️' : '🌙' }}
         </button>
-        <button class="reset-btn" @click="resetMemory">重置進度</button>
+        <button class="action-btn" title="匯出學習進度備份" @click="exportMemory">匯出</button>
+        <button class="action-btn" title="從備份檔載入學習進度" @click="importInput.click()">匯入</button>
+        <input ref="importInput" type="file" accept=".json" style="display:none" @change="handleImport">
+        <button class="reset-btn" @click="resetMemory">重置</button>
       </div>
     </header>
     <main>
@@ -115,6 +150,21 @@ onErrorCaptured((err, _instance, info) => {
 }
 .theme-btn:hover {
   border-color: var(--color-primary);
+}
+.action-btn {
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--color-border-light);
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.action-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 .reset-btn {
   padding: 0.35rem 0.85rem;

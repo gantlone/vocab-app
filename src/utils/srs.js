@@ -15,11 +15,12 @@ export function calculateNextReview(level) {
 }
 
 export function buildPracticeQueue(pageWords, dueWords, totalSize = 10) {
-  const dueCount = Math.min(Math.floor(totalSize * 0.3), dueWords.length)
-  const pageCount = totalSize - dueCount
+  const dueCount = Math.min(Math.ceil(totalSize * 0.6), dueWords.length)
+  const dueIds = new Set(dueWords.map(w => w.id))
+  const otherPageWords = pageWords.filter(w => !dueIds.has(w.id))
 
   const dueShuffled = shuffle(dueWords).slice(0, dueCount)
-  const pageShuffled = shuffle(pageWords).slice(0, pageCount)
+  const pageShuffled = shuffle(otherPageWords).slice(0, totalSize - dueCount)
 
   return shuffle([...dueShuffled, ...pageShuffled])
 }
