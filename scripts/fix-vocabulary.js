@@ -21,6 +21,16 @@ const LEADING_POS_NODOT_RE = /^(?:adv|vi|vt|adj|prep|conj|pron|art|aux|int|phr|a
 // Replace (1)(2)(3)... numbered definition markers with ；separator
 const NUM_MARKER_RE = /\(\d+\)\s*/g
 
+// Strip synonym annotations: 同：word / (同word[phonetic])
+const SYNONYM_RE = /[（(]?同[：:][^)；）]*/g
+const PAREN_SYNONYM_RE = /[（(]同[^)）]*[)）]/g
+
+// Strip trailing IPA phonetic (e.g. 侮辱，羞辱[ˋɪnsʌlt])
+const TRAILING_PHONETIC_RE = /\[[ˋˊ][^\]]+\]\s*$/
+
+// Strip leaked next-word: Chinese then bare English letters at end (e.g. 野心angel)
+const LEAKED_WORD_RE = /([一-鿿])([a-zA-Z]{2,})\s*$/
+
 // Embedded POS: appears after the first character (not at start of meaning)
 // Replace each match with ；to preserve readability
 const EMBEDDED_POS_RE = /；?\s*(?:adv|vi|vt|adj|prep|conj|pron|art|aux|int|phr|n|v|a)\.\s*/g
@@ -104,6 +114,8 @@ const MANUAL_FIXES = {
   'p66_w5523':{ pos: 'n.',       meaning: '國會議員' },                    // congressman
   // typo pos in meaning
   'p11_w989': { pos: 'prep.',    meaning: '與…一起；用；有' },             // with — prpe. typo
+  // truncated meaning (PDF grammar note, Chinese meaning lost)
+  'p23_w2080':{ pos: 'vt.',      meaning: '負擔得起；買得起' },             // afford
 }
 
 function fixMeaning(meaning) {
@@ -121,6 +133,14 @@ function fixMeaning(meaning) {
     m = m.replace(LEADING_GRAMMAR_RE, '').trim()
     m = m.replace(LEADING_PHONETIC_RE, '').trim()
   } while (m !== prev)
+  // Strip synonym annotations (同：tap, (同stain[sten]))
+  m = m.replace(PAREN_SYNONYM_RE, '').replace(SYNONYM_RE, '').trim()
+  // Strip trailing IPA phonetic
+  m = m.replace(TRAILING_PHONETIC_RE, '').trim()
+  // Strip leaked next-word English at end (e.g. 野心angel → 野心)
+  m = m.replace(LEAKED_WORD_RE, '$1').trim()
+  // Strip [U]/[C] grammar notations anywhere in meaning
+  m = m.replace(/\[(?:U|C|U\/C|C\/U)\]/g, '').trim()
   // Strip trailing dangling separators (PDF line-split artifacts)
   m = m.replace(/[；;，,、]\s*$/, '').trim()
   return m
