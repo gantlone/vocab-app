@@ -5,8 +5,8 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const VOCAB_PATH = path.resolve(__dirname, '../src/data/vocabulary.json')
 
-// Strip leading POS markers like "adv.", "vi./n.", etc.
-const LEADING_POS_RE = /^(?:\/\s*)?(?:\[[^\]]*\]\s*)?(?:(?:adv|vi|vt|adj|prep|conj|pron|art|aux|int|phr|v|n)\.\s*)+/i
+// Strip leading POS markers like "adv.", "vi./n.", "a.", "ad." etc.
+const LEADING_POS_RE = /^(?:\/\s*)?(?:\[[^\]]*\]\s*)?(?:(?:adv|ad|vi|vt|adj|prep|conj|pron|art|aux|int|phr|v|n|a)\.\s*)+/i
 
 // Strip leading grammar annotations like [U], [C], [複], [單]
 const LEADING_GRAMMAR_RE = /^\[(?:U|C|U\/C|C\/U|複|單|可數|不可數)\]\s*/
@@ -14,12 +14,25 @@ const LEADING_GRAMMAR_RE = /^\[(?:U|C|U\/C|C\/U|複|單|可數|不可數)\]\s*/
 // Strip leading phonetic notation like [ˋkɑnflɪkt] (contains IPA stress marks)
 const LEADING_PHONETIC_RE = /^\[[^\]]*[ˋˊ̀-ͯ][^\]]*\]\s*/
 
+// Strip leading POS without dot, e.g. "n星期三", "vi,擴大", "n,關係"
+const LEADING_POS_NODOT_RE = /^(?:adv|vi|vt|adj|prep|conj|pron|art|aux|int|phr|ad|v|n|a)[,，\s]+/i
+
 // IDs to delete entirely (garbled PDF parse fragments)
 const DELETE_IDS = new Set([
   'p40_w3500',  // fragment of "drill" meaning split across lines
   'p40_w3501',  // fragment of "drill" meaning
   'p46_w3947',  // fragment of "philosophy" meaning ("主義")
   'p48_w4074',  // fragment of "revenge" meaning ("n.報仇；報復")
+  'p23_w2144',  // garbled — PDF synonym note "(同：stomach" leaked as word
+  'p30_w2794',  // garbled — fragment of "property" meaning ("特性；道具")
+  'p35_w3175',  // garbled — fragment of "admission" meaning
+  'p35_w3206',  // garbled — fragment of "appointment" meaning ("會；任命，委派")
+  'p36_w3224',  // garbled — word "作", meaning only ";"
+  'p39_w3476',  // garbled — word "餒", meaning only "；"
+  'p42_w3650',  // garbled — word "寬限", meaning only "；"
+  'p44_w3822',  // garbled — "小姐(ma'am)" leaked from PDF
+  'p48_w4052',  // garbled — fragment of "representation" meaning ("權；表示，表現")
+  'p50_w4241',  // garbled — fragment of "wreck" meaning ("事故")
 ])
 
 // Manual fixes: override word / pos / meaning for specific entries
@@ -32,7 +45,12 @@ const MANUAL_FIXES = {
   'p40_w3499':{ meaning: '鑽(孔)；在…上鑽孔；n.鑽，鑽頭；操練；訓練' }, // drill — merge split lines
   'p46_w3946':{ meaning: '哲學；人生觀；主義' },                       // philosophy — merge split line
   'p48_w4073':{ meaning: '替…報仇；n.報仇；報復' },                    // revenge — merge split line
-  'p75_w6362':{ pos: 'adv./adj.',meaning: '任何的；無論如何' },        // whatsoever
+  'p30_w2793':{ meaning: '財產，資產；特性；道具' },                    // property — merge split line
+  'p35_w3174':{ meaning: '進入許可；入場費；入場券' },                   // admission — merge split line
+  'p35_w3205':{ meaning: '約會；任命，委派' },                           // appointment — merge split line
+  'p48_w4051':{ meaning: '代表；代表權；表示，表現' },                   // representation — merge split line
+  'p50_w4240':{ meaning: '失事，遇難；船難；事故' },                     // wreck — merge split line
+  'p75_w6362':{ pos: 'adv./adj.',meaning: '任何的；無論如何' },          // whatsoever
 }
 
 function fixMeaning(meaning) {
@@ -41,9 +59,12 @@ function fixMeaning(meaning) {
   do {
     prev = m
     m = m.replace(LEADING_POS_RE, '').trim()
+    m = m.replace(LEADING_POS_NODOT_RE, '').trim()
     m = m.replace(LEADING_GRAMMAR_RE, '').trim()
     m = m.replace(LEADING_PHONETIC_RE, '').trim()
   } while (m !== prev)
+  // Strip trailing dangling separators (PDF line-split artifacts)
+  m = m.replace(/[；;，,、]\s*$/, '').trim()
   return m
 }
 
