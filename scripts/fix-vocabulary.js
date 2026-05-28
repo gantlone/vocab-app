@@ -14,8 +14,12 @@ const LEADING_GRAMMAR_RE = /^\[(?:U|C|U\/C|C\/U|複|單|可數|不可數)\]\s*/
 // Strip leading phonetic notation like [ˋkɑnflɪkt] (contains IPA stress marks)
 const LEADING_PHONETIC_RE = /^\[[^\]]*[ˋˊ̀-ͯ][^\]]*\]\s*/
 
-// Strip leading POS without dot, e.g. "n星期三", "vi,擴大", "n,關係"
-const LEADING_POS_NODOT_RE = /^(?:adv|vi|vt|adj|prep|conj|pron|art|aux|int|phr|ad|v|n|a)[,，\s]+/i
+// Strip leading POS without dot followed by comma/space/Chinese char
+// e.g. "n孫女", "vi,擴大", "n,關係"
+const LEADING_POS_NODOT_RE = /^(?:adv|vi|vt|adj|prep|conj|pron|art|aux|int|phr|ad|v|n|a)(?=[,，\s]|[^\x00-\x7F])/i
+
+// Replace (1)(2)(3)... numbered definition markers with ；separator
+const NUM_MARKER_RE = /\(\d+\)\s*/g
 
 // IDs to delete entirely (garbled PDF parse fragments)
 const DELETE_IDS = new Set([
@@ -51,10 +55,24 @@ const MANUAL_FIXES = {
   'p48_w4051':{ meaning: '代表；代表權；表示，表現' },                   // representation — merge split line
   'p50_w4240':{ meaning: '失事，遇難；船難；事故' },                     // wreck — merge split line
   'p75_w6362':{ pos: 'adv./adj.',meaning: '任何的；無論如何' },          // whatsoever
+  // slash-phonetic patterns (second phonetic leaked into meaning, Chinese lost)
+  'p12_w1038':{ pos: 'pron.',    meaning: '任何人；無論誰' },             // anybody/anyone
+  'p16_w1466':{ pos: 'n.',       meaning: '主人；主持人' },               // host / hostess
+  'p17_w1519':{ pos: 'n.',       meaning: '瓢蟲' },                       // ladybug / ladybird
+  // slash-only meanings (meaning lost in PDF parse)
+  'p21_w1963':{ pos: 'n.',       meaning: '豆腐' },                       // tofu
+  'p66_w5523':{ pos: 'n.',       meaning: '國會議員' },                    // congressman
+  // typo pos in meaning
+  'p11_w989': { pos: 'prep.',    meaning: '與…一起；用；有' },             // with — prpe. typo
 }
 
 function fixMeaning(meaning) {
   let m = meaning
+  // Replace (1)(2)... numbered markers with ；, then tidy up
+  if (NUM_MARKER_RE.test(m)) {
+    NUM_MARKER_RE.lastIndex = 0
+    m = m.replace(NUM_MARKER_RE, '；').replace(/^；/, '').replace(/；{2,}/g, '；').trim()
+  }
   let prev
   do {
     prev = m
