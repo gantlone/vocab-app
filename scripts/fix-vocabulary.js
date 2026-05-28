@@ -21,6 +21,34 @@ const LEADING_POS_NODOT_RE = /^(?:adv|vi|vt|adj|prep|conj|pron|art|aux|int|phr|a
 // Replace (1)(2)(3)... numbered definition markers with ；separator
 const NUM_MARKER_RE = /\(\d+\)\s*/g
 
+// Embedded POS: appears after the first character (not at start of meaning)
+// Replace each match with ；to preserve readability
+const EMBEDDED_POS_RE = /；?\s*(?:adv|vi|vt|adj|prep|conj|pron|art|aux|int|phr|n|v|a)\.\s*/g
+
+const POS_NORM = {
+  a:'adj.', ad:'adv.', adv:'adv.', n:'n.', v:'v.', vt:'vt.', vi:'vi.',
+  adj:'adj.', prep:'prep.', conj:'conj.', pron:'pron.', art:'art.',
+  aux:'aux.', int:'int.', phr:'phr.'
+}
+
+function extractEmbeddedPos(pos, meaning) {
+  const allPos = new Set(pos ? [pos] : [])
+  const FIND = /(?:adv|vi|vt|adj|prep|conj|pron|art|aux|int|phr|n|v|a)\./gi
+  let m, hasEmbedded = false
+  while ((m = FIND.exec(meaning)) !== null) {
+    if (m.index > 0) {
+      allPos.add(POS_NORM[m[0].replace('.','').toLowerCase()] || m[0])
+      hasEmbedded = true
+    }
+  }
+  if (!hasEmbedded) return null
+  EMBEDDED_POS_RE.lastIndex = 0
+  const cleaned = meaning
+    .replace(EMBEDDED_POS_RE, '；')
+    .replace(/；{2,}/g, '；').replace(/^；|；$/g, '').trim()
+  return { newPos: [...allPos].filter(Boolean).join('/'), cleaned }
+}
+
 // IDs to delete entirely (garbled PDF parse fragments)
 const DELETE_IDS = new Set([
   'p40_w3500',  // fragment of "drill" meaning split across lines
@@ -106,6 +134,7 @@ async function run() {
   let deleted = 0
   let manualFixed = 0
   let emptied = 0
+  let embeddedFixed = 0
 
   for (const [pageKey, page] of Object.entries(vocab.pages)) {
     // Filter out deleted entries
@@ -140,6 +169,14 @@ async function run() {
           fixed++
         }
       }
+
+      // Extract embedded POS (e.g. "書；vt.預定" → pos "n./vt.", meaning "書；預定")
+      const embedded = extractEmbeddedPos(word.pos, word.meaning)
+      if (embedded) {
+        word.pos = embedded.newPos
+        word.meaning = embedded.cleaned
+        embeddedFixed++
+      }
     }
   }
 
@@ -153,6 +190,7 @@ async function run() {
   console.log(`  Manual fixes applied: ${manualFixed}`)
   console.log(`  Deleted (garbled fragments): ${deleted}`)
   console.log(`  Skipped (would become empty): ${emptied}`)
+  console.log(`  Embedded POS extracted to pos field: ${embeddedFixed}`)
 }
 
 run().catch(err => {

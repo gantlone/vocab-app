@@ -103,7 +103,8 @@ function optClass(opt) {
           <button class="speak-btn" title="英式發音" @click="speakText(current.word, 'uk')">🇬🇧</button>
         </template>
       </div>
-      <p class="quiz-prompt">選出正確的中文意思</p>
+      <p v-if="selected && current.pos" class="quiz-pos">{{ current.pos }}</p>
+      <p v-else class="quiz-prompt">選出正確的中文意思</p>
 
       <div class="quiz-options">
         <button
@@ -160,6 +161,7 @@ function optClass(opt) {
 }
 .speak-btn:hover { border-color: var(--color-primary); }
 .quiz-prompt { color: var(--color-muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+.quiz-pos { font-style: italic; color: var(--color-muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
 .loading, .mount-error { color: var(--color-muted); margin-top: 2rem; }
 .mount-error { color: #c92a2a; }
 .quiz-options {

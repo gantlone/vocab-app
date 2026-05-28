@@ -865,8 +865,8 @@
           "id": "p2_w116",
           "word": "book",
           "phonetic": "[bʊk]",
-          "pos": "n.",
-          "meaning": "書；vt.預定"
+          "pos": "n./vt.",
+          "meaning": "書；預定"
         },
         {
           "id": "p2_w117",
@@ -1089,8 +1089,8 @@
           "id": "p2_w148",
           "word": "can",
           "phonetic": "[kæn]",
-          "pos": "aux.",
-          "meaning": "可以；n.罐頭"
+          "pos": "aux./n.",
+          "meaning": "可以；罐頭"
         },
         {
           "id": "p2_w149",
@@ -1313,8 +1313,8 @@
           "id": "p2_w180",
           "word": "close",
           "phonetic": "[klos]",
-          "pos": "adj.",
-          "meaning": "接近的；vt.關"
+          "pos": "adj./vt.",
+          "meaning": "接近的；關"
         },
         {
           "id": "p2_w181",
@@ -1934,8 +1934,8 @@
           "id": "p3_w268",
           "word": "either",
           "phonetic": "[ˋiðɚ]",
-          "pos": "adj.",
-          "meaning": "任一的；adv.也"
+          "pos": "adj./adv.",
+          "meaning": "任一的；也"
         },
         {
           "id": "p3_w269",
@@ -1997,8 +1997,8 @@
           "id": "p3_w277",
           "word": "even",
           "phonetic": "[ˋivən]",
-          "pos": "adv.",
-          "meaning": "甚至；adj.偶數的"
+          "pos": "adv./adj.",
+          "meaning": "甚至；偶數的"
         },
         {
           "id": "p3_w278",
@@ -2261,8 +2261,8 @@
           "id": "p4_w314",
           "word": "fire",
           "phonetic": "[faɪr]",
-          "pos": "n.",
-          "meaning": "火vt. vi.開火；vt.開除"
+          "pos": "n./vt./vi.",
+          "meaning": "火；開火；開除"
         },
         {
           "id": "p4_w315",
@@ -2303,8 +2303,8 @@
           "id": "p4_w320",
           "word": "fly",
           "phonetic": "[flaɪ]",
-          "pos": "n.",
-          "meaning": "蒼蠅；vi.飛"
+          "pos": "n./vi.",
+          "meaning": "蒼蠅；飛"
         },
         {
           "id": "p4_w321",
@@ -2758,8 +2758,8 @@
           "id": "p4_w385",
           "word": "hard",
           "phonetic": "[hɑrd]",
-          "pos": "adj.",
-          "meaning": "堅硬的adv.努力地"
+          "pos": "adj./adv.",
+          "meaning": "堅硬的；努力地"
         },
         {
           "id": "p4_w386",
@@ -3197,8 +3197,8 @@
           "id": "p5_w447",
           "word": "just",
           "phonetic": "[dʒʌst]",
-          "pos": "adj.",
-          "meaning": "正直的；adv.只是"
+          "pos": "adj./adv.",
+          "meaning": "正直的；只是"
         },
         {
           "id": "p5_w448",
@@ -3218,8 +3218,8 @@
           "id": "p5_w450",
           "word": "key",
           "phonetic": "[ki]",
-          "pos": "n.",
-          "meaning": "鑰匙vt.鍵入；adv.關鍵的"
+          "pos": "n./vt./adv.",
+          "meaning": "鑰匙；鍵入；關鍵的"
         },
         {
           "id": "p5_w451",
@@ -3246,8 +3246,8 @@
           "id": "p5_w454",
           "word": "kind",
           "phonetic": "[kaɪnd]",
-          "pos": "adj.",
-          "meaning": "善良；n.種類"
+          "pos": "adj./n.",
+          "meaning": "善良；種類"
         },
         {
           "id": "p5_w455",
@@ -3344,8 +3344,8 @@
           "id": "p5_w468",
           "word": "land",
           "phonetic": "[lænd]",
-          "pos": "n.",
-          "meaning": "陸地；vt. vi. (使)降落"
+          "pos": "n./vt./vi.",
+          "meaning": "陸地；(使)降落"
         },
         {
           "id": "p5_w469",
@@ -3358,8 +3358,8 @@
           "id": "p5_w470",
           "word": "last",
           "phonetic": "[læst]",
-          "pos": "adj.",
-          "meaning": "最後的；vi.持續"
+          "pos": "adj./vi.",
+          "meaning": "最後的；持續"
         },
         {
           "id": "p5_w471",
@@ -3512,15 +3512,15 @@
           "id": "p5_w492",
           "word": "light",
           "phonetic": "[laɪt]",
-          "pos": "n.",
-          "meaning": "光vt. vi.照亮adj.明亮的"
+          "pos": "n./vt./vi./adj.",
+          "meaning": "光；照亮；明亮的"
         },
         {
           "id": "p5_w493",
           "word": "like",
           "phonetic": "[laɪk]",
-          "pos": "prep.",
-          "meaning": "像；vt.喜歡"
+          "pos": "prep./vt.",
+          "meaning": "像；喜歡"
         },
         {
           "id": "p5_w494",
@@ -3580,22 +3580,22 @@
           "id": "p6_w501",
           "word": "little",
           "phonetic": "[ˋlɪt!]",
-          "pos": "adj.",
-          "meaning": "小的adv.少"
+          "pos": "adj./adv.",
+          "meaning": "小的；少"
         },
         {
           "id": "p6_w502",
           "word": "live",
           "phonetic": "[laɪv]",
-          "pos": "adj.",
-          "meaning": "活的；[lɪv] vi.活著"
+          "pos": "adj./vi.",
+          "meaning": "活的；[lɪv]；活著"
         },
         {
           "id": "p6_w503",
           "word": "long",
           "phonetic": "[lɔŋ]",
-          "pos": "adj.",
-          "meaning": "長的；vi.渴望"
+          "pos": "adj./vi.",
+          "meaning": "長的；渴望"
         },
         {
           "id": "p6_w504",
@@ -3713,8 +3713,8 @@
           "id": "p6_w520",
           "word": "master",
           "phonetic": "[ˋmæstɚ]",
-          "pos": "n.",
-          "meaning": "主人；vt.精通"
+          "pos": "n./vt.",
+          "meaning": "主人；精通"
         },
         {
           "id": "p6_w521",
@@ -3727,8 +3727,8 @@
           "id": "p6_w522",
           "word": "matter",
           "phonetic": "[ˋmætɚ]",
-          "pos": "n.",
-          "meaning": "事件；vi.重要"
+          "pos": "n./vi.",
+          "meaning": "事件；重要"
         },
         {
           "id": "p6_w523",
@@ -3762,8 +3762,8 @@
           "id": "p6_w527",
           "word": "mean",
           "phonetic": "[min]",
-          "pos": "vt.",
-          "meaning": "表…意思；adj.吝嗇"
+          "pos": "vt./adj.",
+          "meaning": "表…意思；吝嗇"
         },
         {
           "id": "p6_w528",
@@ -4383,15 +4383,15 @@
           "id": "p7_w615",
           "word": "over",
           "phonetic": "[ˋovɚ]",
-          "pos": "prep.",
-          "meaning": "在…之上adv.在上方"
+          "pos": "prep./adv.",
+          "meaning": "在…之上；在上方"
         },
         {
           "id": "p7_w616",
           "word": "own",
           "phonetic": "[on]",
-          "pos": "adj.",
-          "meaning": "自己的vt.擁有"
+          "pos": "adj./vt.",
+          "meaning": "自己的；擁有"
         },
         {
           "id": "p7_w617",
@@ -4432,15 +4432,15 @@
           "id": "p7_w622",
           "word": "park",
           "phonetic": "[pɑrk]",
-          "pos": "n.",
-          "meaning": "公園；vt. vi.停車"
+          "pos": "n./vt./vi.",
+          "meaning": "公園；停車"
         },
         {
           "id": "p7_w623",
           "word": "part",
           "phonetic": "[pɑrt]",
-          "pos": "n.",
-          "meaning": "一部分；vt.使分開"
+          "pos": "n./vt.",
+          "meaning": "一部分；使分開"
         },
         {
           "id": "p7_w624",
@@ -4460,8 +4460,8 @@
           "id": "p7_w626",
           "word": "past",
           "phonetic": "[pæst]",
-          "pos": "prep.",
-          "meaning": "經過；n.往昔adj.過去的"
+          "pos": "prep./n./adj.",
+          "meaning": "經過；往昔；過去的"
         },
         {
           "id": "p7_w627",
@@ -4565,8 +4565,8 @@
           "id": "p7_w641",
           "word": "plant",
           "phonetic": "[plænt]",
-          "pos": "n.",
-          "meaning": "植物；vt.栽種n.工廠"
+          "pos": "n./vt.",
+          "meaning": "植物；栽種；工廠"
         },
         {
           "id": "p7_w642",
@@ -4614,8 +4614,8 @@
           "id": "p7_w648",
           "word": "point",
           "phonetic": "[pɔɪnt]",
-          "pos": "vi.",
-          "meaning": "指向；n.尖端"
+          "pos": "vi./n.",
+          "meaning": "指向；尖端"
         },
         {
           "id": "p7_w649",
@@ -4691,8 +4691,8 @@
           "id": "p7_w659",
           "word": "pretty",
           "phonetic": "[ˋprɪtɪ]",
-          "pos": "adj.",
-          "meaning": "漂亮的；adv.非常"
+          "pos": "adj./adv.",
+          "meaning": "漂亮的；非常"
         },
         {
           "id": "p7_w660",
@@ -4803,8 +4803,8 @@
           "id": "p7_w675",
           "word": "race",
           "phonetic": "[res]",
-          "pos": "vt.",
-          "meaning": "競賽；n.種族"
+          "pos": "vt./n.",
+          "meaning": "競賽；種族"
         },
         {
           "id": "p7_w676",
@@ -4956,7 +4956,7 @@
           "word": "right",
           "phonetic": "[raɪt]",
           "pos": "n.",
-          "meaning": "右邊(的)；n.正確"
+          "meaning": "右邊(的)；正確"
         },
         {
           "id": "p8_w697",
@@ -5060,8 +5060,8 @@
           "id": "p8_w711",
           "word": "row",
           "phonetic": "[ro]",
-          "pos": "n.",
-          "meaning": "列；排；vt.划船"
+          "pos": "n./vt.",
+          "meaning": "列；排；划船"
         },
         {
           "id": "p8_w712",
@@ -5102,8 +5102,8 @@
           "id": "p8_w717",
           "word": "safe",
           "phonetic": "[sef]",
-          "pos": "adj.",
-          "meaning": "安全的；n.保險櫃"
+          "pos": "adj./n.",
+          "meaning": "安全的；保險櫃"
         },
         {
           "id": "p8_w718",
@@ -5305,8 +5305,8 @@
           "id": "p8_w746",
           "word": "set",
           "phonetic": "[sɛt]",
-          "pos": "vt.",
-          "meaning": "設立；n.一套"
+          "pos": "vt./n.",
+          "meaning": "設立；一套"
         },
         {
           "id": "p8_w747",
@@ -5396,8 +5396,8 @@
           "id": "p8_w759",
           "word": "shine",
           "phonetic": "[ʃaɪn]",
-          "pos": "vi.",
-          "meaning": "發光vt.擦亮n.光亮"
+          "pos": "vi./vt./n.",
+          "meaning": "發光；擦亮；光亮"
         },
         {
           "id": "p8_w760",
@@ -5431,8 +5431,8 @@
           "id": "p8_w764",
           "word": "shop",
           "phonetic": "[ʃɑp]",
-          "pos": "n.",
-          "meaning": "商店；vi.購物"
+          "pos": "n./vi.",
+          "meaning": "商店；購物"
         },
         {
           "id": "p8_w765",
@@ -5674,8 +5674,8 @@
           "id": "p9_w798",
           "word": "smoke",
           "phonetic": "[smok]",
-          "pos": "n.",
-          "meaning": "煙vt.抽(菸) vi.冒煙"
+          "pos": "n./vt./vi.",
+          "meaning": "煙；抽(菸)；冒煙"
         },
         {
           "id": "p9_w799",
@@ -5695,8 +5695,8 @@
           "id": "p9_w801",
           "word": "so",
           "phonetic": "[so]",
-          "pos": "conj.",
-          "meaning": "所以；adv.非常"
+          "pos": "conj./adv.",
+          "meaning": "所以；非常"
         },
         {
           "id": "p9_w802",
@@ -5786,8 +5786,8 @@
           "id": "p9_w814",
           "word": "sorry",
           "phonetic": "[ˋsɑrɪ]",
-          "pos": "adj.",
-          "meaning": "感到難過的int.抱歉"
+          "pos": "adj./int.",
+          "meaning": "感到難過的；抱歉"
         },
         {
           "id": "p9_w815",
@@ -5926,8 +5926,8 @@
           "id": "p9_w834",
           "word": "state(ment)",
           "phonetic": "[ˋstet(mənt)]",
-          "pos": "vt.",
-          "meaning": "(n.)陳述"
+          "pos": "vt./n.",
+          "meaning": "(；)陳述"
         },
         {
           "id": "p9_w835",
@@ -5954,8 +5954,8 @@
           "id": "p9_w838",
           "word": "still",
           "phonetic": "[stɪl]",
-          "pos": "adj.",
-          "meaning": "靜止的；adv.仍舊"
+          "pos": "adj./adv.",
+          "meaning": "靜止的；仍舊"
         },
         {
           "id": "p9_w839",
@@ -6017,8 +6017,8 @@
           "id": "p9_w847",
           "word": "study",
           "phonetic": "[ˋstʌdɪ]",
-          "pos": "n.",
-          "meaning": "學習；vt. vi.研究"
+          "pos": "n./vt./vi.",
+          "meaning": "學習；研究"
         },
         {
           "id": "p9_w848",
@@ -6080,8 +6080,8 @@
           "id": "p9_w856",
           "word": "sure",
           "phonetic": "[ʃʊr]",
-          "pos": "adj.",
-          "meaning": "確信的adv.當然"
+          "pos": "adj./adv.",
+          "meaning": "確信的；當然"
         },
         {
           "id": "p9_w857",
@@ -6192,8 +6192,8 @@
           "id": "p9_w872",
           "word": "than",
           "phonetic": "[ðæn]",
-          "pos": "conj.",
-          "meaning": "比prep.超過"
+          "pos": "conj./prep.",
+          "meaning": "比；超過"
         },
         {
           "id": "p9_w873",
@@ -6241,8 +6241,8 @@
           "id": "p9_w879",
           "word": "there",
           "phonetic": "[ðɛr]",
-          "pos": "adv.",
-          "meaning": "(在)那裡int.好啦!"
+          "pos": "adv./int.",
+          "meaning": "(在)那裡；好啦!"
         },
         {
           "id": "p9_w880",
@@ -6316,8 +6316,8 @@
           "id": "p10_w889",
           "word": "though",
           "phonetic": "[ðo]",
-          "pos": "conj.",
-          "meaning": "雖然adv.不過"
+          "pos": "conj./adv.",
+          "meaning": "雖然；不過"
         },
         {
           "id": "p10_w890",
@@ -6365,8 +6365,8 @@
           "id": "p10_w896",
           "word": "tie",
           "phonetic": "[taɪ]",
-          "pos": "vt.",
-          "meaning": "栓；繫；n.領帶"
+          "pos": "vt./n.",
+          "meaning": "栓；繫；領帶"
         },
         {
           "id": "p10_w897",
@@ -6393,8 +6393,8 @@
           "id": "p10_w900",
           "word": "tire",
           "phonetic": "[taɪr]",
-          "pos": "n.",
-          "meaning": "輪胎；vt.使疲倦"
+          "pos": "n./vt.",
+          "meaning": "輪胎；使疲倦"
         },
         {
           "id": "p10_w901",
@@ -6498,8 +6498,8 @@
           "id": "p10_w915",
           "word": "train",
           "phonetic": "[tren]",
-          "pos": "n.",
-          "meaning": "火車；vt.訓練"
+          "pos": "n./vt.",
+          "meaning": "火車；訓練"
         },
         {
           "id": "p10_w916",
@@ -6855,8 +6855,8 @@
           "id": "p10_w966",
           "word": "well",
           "phonetic": "[wɛl]",
-          "pos": "adv.",
-          "meaning": "很好地；n.井adj.健康的"
+          "pos": "adv./n./adj.",
+          "meaning": "很好地；井；健康的"
         },
         {
           "id": "p10_w967",
@@ -6967,8 +6967,8 @@
           "id": "p10_w982",
           "word": "will",
           "phonetic": "[wɪl]",
-          "pos": "n.",
-          "meaning": "意志；遺囑；aux.將"
+          "pos": "n./aux.",
+          "meaning": "意志；遺囑；將"
         }
       ]
     },
@@ -7432,8 +7432,8 @@
           "id": "p12_w1047",
           "word": "argue(ment)",
           "phonetic": "[ˋɑrgjə(mənt)]",
-          "pos": "vi.",
-          "meaning": "(n.)爭吵"
+          "pos": "vi./n.",
+          "meaning": "(；)爭吵"
         },
         {
           "id": "p12_w1048",
@@ -7453,8 +7453,8 @@
           "id": "p12_w1050",
           "word": "arrange(ment)",
           "phonetic": "[əˋrendʒ(mənt)]",
-          "pos": "vt.",
-          "meaning": "(n.)安排"
+          "pos": "vt./n.",
+          "meaning": "(；)安排"
         },
         {
           "id": "p12_w1051",
@@ -7608,7 +7608,7 @@
           "word": "bark",
           "phonetic": "[bɑrk]",
           "pos": "n.",
-          "meaning": "吠叫；n.樹皮"
+          "meaning": "吠叫；樹皮"
         },
         {
           "id": "p12_w1073",
@@ -7892,8 +7892,8 @@
           "id": "p13_w1112",
           "word": "bow",
           "phonetic": "[bo]",
-          "pos": "n.",
-          "meaning": "弓；蝴蝶結；[baʊ]vi.vt.鞠躬"
+          "pos": "n./vi./vt.",
+          "meaning": "弓；蝴蝶結；[baʊ]；鞠躬"
         },
         {
           "id": "p13_w1113",
@@ -8046,8 +8046,8 @@
           "id": "p13_w1134",
           "word": "calm",
           "phonetic": "[kɑm]",
-          "pos": "adj.",
-          "meaning": "沉著(的) vi. vt. (使)鎮定"
+          "pos": "adj./vi./vt.",
+          "meaning": "沉著(的)；(使)鎮定"
         },
         {
           "id": "p13_w1135",
@@ -8179,8 +8179,8 @@
           "id": "p13_w1153",
           "word": "change",
           "phonetic": "[tʃendʒ]",
-          "pos": "vt.",
-          "meaning": "改變；n.零錢"
+          "pos": "vt./n.",
+          "meaning": "改變；零錢"
         },
         {
           "id": "p13_w1154",
@@ -8737,8 +8737,8 @@
           "id": "p14_w1232",
           "word": "cross",
           "phonetic": "[krɔs]",
-          "pos": "n.",
-          "meaning": "十字形vt. vi橫越adj.發怒的"
+          "pos": "n./vt./adj.",
+          "meaning": "十字形；vi橫越；發怒的"
         },
         {
           "id": "p14_w1233",
@@ -8772,8 +8772,8 @@
           "id": "p14_w1237",
           "word": "cure",
           "phonetic": "[kjʊr]",
-          "pos": "vt.",
-          "meaning": "治癒n.療法"
+          "pos": "vt./n.",
+          "meaning": "治癒；療法"
         },
         {
           "id": "p14_w1238",
@@ -8947,8 +8947,8 @@
           "id": "p14_w1262",
           "word": "desert",
           "phonetic": "[d'ɛzɚt]",
-          "pos": "n.",
-          "meaning": "沙漠；[dɪˋzɝt]vt.拋棄"
+          "pos": "n./vt.",
+          "meaning": "沙漠；[dɪˋzɝt]；拋棄"
         },
         {
           "id": "p14_w1263",
@@ -8996,8 +8996,8 @@
           "id": "p14_w1269",
           "word": "dial",
           "phonetic": "[ˋdaɪəl]",
-          "pos": "n.",
-          "meaning": "刻度盤vt. vi.調頻；撥號"
+          "pos": "n./vt./vi.",
+          "meaning": "刻度盤；調頻；撥號"
         },
         {
           "id": "p14_w1270",
@@ -9150,8 +9150,8 @@
           "id": "p14_w1291",
           "word": "double",
           "phonetic": "[ˋdʌb!]",
-          "pos": "adj.",
-          "meaning": "兩倍(的) vt. vi.加倍"
+          "pos": "adj./vt./vi.",
+          "meaning": "兩倍(的)；加倍"
         },
         {
           "id": "p14_w1292",
@@ -9227,22 +9227,22 @@
           "id": "p14_w1302",
           "word": "dress",
           "phonetic": "[drɛs]",
-          "pos": "vt.",
-          "meaning": "打扮n.女裝"
+          "pos": "vt./n.",
+          "meaning": "打扮；女裝"
         },
         {
           "id": "p14_w1303",
           "word": "drop",
           "phonetic": "[drɑp]",
-          "pos": "n.",
-          "meaning": "滴vt. vi. (使)滴下"
+          "pos": "n./vt./vi.",
+          "meaning": "滴；(使)滴下"
         },
         {
           "id": "p14_w1304",
           "word": "drug",
           "phonetic": "[drʌg]",
-          "pos": "n.",
-          "meaning": "藥品vt. vi. (使)服麻醉藥"
+          "pos": "n./vt./vi.",
+          "meaning": "藥品；(使)服麻醉藥"
         },
         {
           "id": "p14_w1305",
@@ -9407,8 +9407,8 @@
           "id": "p15_w1327",
           "word": "enjoy(ment)",
           "phonetic": "[ɪnˋdʒɔɪ(mənt)]",
-          "pos": "vt.",
-          "meaning": "(n.)樂趣"
+          "pos": "vt./n.",
+          "meaning": "(；)樂趣"
         },
         {
           "id": "p15_w1328",
@@ -9484,8 +9484,8 @@
           "id": "p15_w1338",
           "word": "excite(ment)",
           "phonetic": "[ɪkˋsaɪt(mənt)]",
-          "pos": "vt.",
-          "meaning": "(n.)興奮"
+          "pos": "vt./n.",
+          "meaning": "(；)興奮"
         },
         {
           "id": "p15_w1339",
@@ -9764,8 +9764,8 @@
           "id": "p15_w1378",
           "word": "flood",
           "phonetic": "[flʌd]",
-          "pos": "n.",
-          "meaning": "水災vt. vi.淹沒"
+          "pos": "n./vt./vi.",
+          "meaning": "水災；淹沒"
         },
         {
           "id": "p15_w1379",
@@ -9799,8 +9799,8 @@
           "id": "p15_w1383",
           "word": "focus",
           "phonetic": "[ˋfokəs]",
-          "pos": "n.",
-          "meaning": "焦點vt. vi.聚焦"
+          "pos": "n./vt./vi.",
+          "meaning": "焦點；聚焦"
         },
         {
           "id": "p15_w1384",
@@ -9820,8 +9820,8 @@
           "id": "p15_w1386",
           "word": "fool",
           "phonetic": "[ful]",
-          "pos": "n.",
-          "meaning": "傻瓜vt. ；欺騙"
+          "pos": "n./vt.",
+          "meaning": "傻瓜；欺騙"
         },
         {
           "id": "p15_w1387",
@@ -9855,8 +9855,8 @@
           "id": "p15_w1391",
           "word": "form",
           "phonetic": "[fɔrm]",
-          "pos": "n.",
-          "meaning": "形狀vt.形成"
+          "pos": "n./vt.",
+          "meaning": "形狀；形成"
         },
         {
           "id": "p15_w1392",
@@ -9876,8 +9876,8 @@
           "id": "p15_w1394",
           "word": "forward",
           "phonetic": "[ˋfɔrwɚd]",
-          "pos": "adv.",
-          "meaning": "向前vt.轉交"
+          "pos": "adv./vt.",
+          "meaning": "向前；轉交"
         },
         {
           "id": "p15_w1395",
@@ -10035,8 +10035,8 @@
           "id": "p16_w1416",
           "word": "giant",
           "phonetic": "[ˋdʒaɪənt]",
-          "pos": "n.",
-          "meaning": "巨人adj.巨大的"
+          "pos": "n./adj.",
+          "meaning": "巨人；巨大的"
         },
         {
           "id": "p16_w1417",
@@ -10210,8 +10210,8 @@
           "id": "p16_w1441",
           "word": "handle",
           "phonetic": "[ˋhænd!]",
-          "pos": "n.",
-          "meaning": "把手；vt.處理"
+          "pos": "n./vt.",
+          "meaning": "把手；處理"
         },
         {
           "id": "p16_w1442",
@@ -10658,8 +10658,8 @@
           "id": "p16_w1505",
           "word": "jam",
           "phonetic": "[dʒæm]",
-          "pos": "vt.",
-          "meaning": "(使)塞滿n.堵塞；果醬"
+          "pos": "vt./n.",
+          "meaning": "(使)塞滿；堵塞；果醬"
         },
         {
           "id": "p16_w1506",
@@ -10705,8 +10705,8 @@
           "id": "p17_w1511",
           "word": "judge",
           "phonetic": "[dʒʌdʒ]",
-          "pos": "n.",
-          "meaning": "法官；vt. vi.判決"
+          "pos": "n./vt./vi.",
+          "meaning": "法官；判決"
         },
         {
           "id": "p17_w1512",
@@ -10894,8 +10894,8 @@
           "id": "p17_w1538",
           "word": "limit",
           "phonetic": "[ˋlɪmɪt]",
-          "pos": "n.",
-          "meaning": "界限vt.限制"
+          "pos": "n./vt.",
+          "meaning": "界限；限制"
         },
         {
           "id": "p17_w1539",
@@ -11104,8 +11104,8 @@
           "id": "p17_w1568",
           "word": "mass",
           "phonetic": "[mæs]",
-          "pos": "n.",
-          "meaning": "眾多adj.大眾的"
+          "pos": "n./adj.",
+          "meaning": "眾多；大眾的"
         },
         {
           "id": "p17_w1569",
@@ -11258,15 +11258,15 @@
           "id": "p17_w1590",
           "word": "mine",
           "phonetic": "[maɪn]",
-          "pos": "n.",
-          "meaning": "礦山vt. vi.開礦"
+          "pos": "n./vt./vi.",
+          "meaning": "礦山；開礦"
         },
         {
           "id": "p17_w1591",
           "word": "minus",
           "phonetic": "[ˋmaɪnəs]",
-          "pos": "prep.",
-          "meaning": "減去；負的n.負號"
+          "pos": "prep./n.",
+          "meaning": "減去；負的；負號"
         },
         {
           "id": "p17_w1592",
@@ -11321,8 +11321,8 @@
           "id": "p17_w1599",
           "word": "motion",
           "phonetic": "[ˋmoʃən]",
-          "pos": "n.",
-          "meaning": "姿態;提議vt. vi.示意"
+          "pos": "n./vt./vi.",
+          "meaning": "姿態;提議；示意"
         },
         {
           "id": "p17_w1600",
@@ -11382,8 +11382,8 @@
           "id": "p18_w1607",
           "word": "nail",
           "phonetic": "[nel]",
-          "pos": "n.",
-          "meaning": "釘子；vt.釘；揭穿n.指甲"
+          "pos": "n./vt.",
+          "meaning": "釘子；釘；揭穿；指甲"
         },
         {
           "id": "p18_w1608",
@@ -11431,8 +11431,8 @@
           "id": "p18_w1614",
           "word": "nearby",
           "phonetic": "[ˋnɪr͵baɪ]",
-          "pos": "adj.",
-          "meaning": "附近的adv.在附近"
+          "pos": "adj./adv.",
+          "meaning": "附近的；在附近"
         },
         {
           "id": "p18_w1615",
@@ -11564,8 +11564,8 @@
           "id": "p18_w1633",
           "word": "novel",
           "phonetic": "[ˋnɑv!]",
-          "pos": "adj.",
-          "meaning": "新奇的；n.小說"
+          "pos": "adj./n.",
+          "meaning": "新奇的；小說"
         },
         {
           "id": "p18_w1634",
@@ -11823,8 +11823,8 @@
           "id": "p18_w1670",
           "word": "paste",
           "phonetic": "[pest]",
-          "pos": "vt.",
-          "meaning": "用漿糊黏貼n.糊狀物"
+          "pos": "vt./n.",
+          "meaning": "用漿糊黏貼；糊狀物"
         },
         {
           "id": "p18_w1671",
@@ -11844,8 +11844,8 @@
           "id": "p18_w1673",
           "word": "patient",
           "phonetic": "[ˋpeʃənt]",
-          "pos": "adj.",
-          "meaning": "有耐心的(2 ) n.病人"
+          "pos": "adj./n.",
+          "meaning": "有耐心的(2 )；病人"
         },
         {
           "id": "p18_w1674",
@@ -11991,8 +11991,8 @@
           "id": "p18_w1694",
           "word": "pin",
           "phonetic": "[pɪn]",
-          "pos": "n.",
-          "meaning": "大頭針vt.釘住"
+          "pos": "n./vt.",
+          "meaning": "大頭針；釘住"
         },
         {
           "id": "p18_w1695",
@@ -12019,8 +12019,8 @@
           "id": "p18_w1698",
           "word": "pitch",
           "phonetic": "[pɪtʃ]",
-          "pos": "n.",
-          "meaning": "音高vt. vi.扔"
+          "pos": "n./vt./vi.",
+          "meaning": "音高；扔"
         },
         {
           "id": "p18_w1699",
@@ -12033,8 +12033,8 @@
           "id": "p18_w1700",
           "word": "plain",
           "phonetic": "[plen]",
-          "pos": "adj.",
-          "meaning": "樸素的；n.平原"
+          "pos": "adj./n.",
+          "meaning": "樸素的；平原"
         },
         {
           "id": "p18_w1701",
@@ -12178,8 +12178,8 @@
           "id": "p19_w1720",
           "word": "post",
           "phonetic": "[post]",
-          "pos": "n.",
-          "meaning": "崗位vt.布置(崗哨等)"
+          "pos": "n./vt.",
+          "meaning": "崗位；布置(崗哨等)"
         },
         {
           "id": "p19_w1721",
@@ -12206,8 +12206,8 @@
           "id": "p19_w1724",
           "word": "pound",
           "phonetic": "[paʊnd]",
-          "pos": "n.",
-          "meaning": "磅；vt. vi.猛擊"
+          "pos": "n./vt./vi.",
+          "meaning": "磅；猛擊"
         },
         {
           "id": "p19_w1725",
@@ -12248,8 +12248,8 @@
           "id": "p19_w1730",
           "word": "present",
           "phonetic": "[ˋprɛznt]",
-          "pos": "adj.",
-          "meaning": "出席的n.禮物"
+          "pos": "adj./n.",
+          "meaning": "出席的；禮物"
         },
         {
           "id": "p19_w1731",
@@ -12269,8 +12269,8 @@
           "id": "p19_w1733",
           "word": "press",
           "phonetic": "[prɛs]",
-          "pos": "n.",
-          "meaning": "新聞界；n. vt. vi.壓"
+          "pos": "n./vt./vi.",
+          "meaning": "新聞界；壓"
         },
         {
           "id": "p19_w1734",
@@ -12297,8 +12297,8 @@
           "id": "p19_w1737",
           "word": "principal",
           "phonetic": "[ˋprɪnsəp!]",
-          "pos": "adj.",
-          "meaning": "主要的；n.校長"
+          "pos": "adj./n.",
+          "meaning": "主要的；校長"
         },
         {
           "id": "p19_w1738",
@@ -12479,8 +12479,8 @@
           "id": "p19_w1763",
           "word": "puzzle",
           "phonetic": "[ˋpʌz!]",
-          "pos": "vt.",
-          "meaning": "感到迷惑n.難題"
+          "pos": "vt./n.",
+          "meaning": "感到迷惑；難題"
         },
         {
           "id": "p19_w1764",
@@ -12535,8 +12535,8 @@
           "id": "p19_w1771",
           "word": "range",
           "phonetic": "[rendʒ]",
-          "pos": "n.",
-          "meaning": "山脈vt. vi.排列；變動"
+          "pos": "n./vt./vi.",
+          "meaning": "山脈；排列；變動"
         },
         {
           "id": "p19_w1772",
@@ -12605,8 +12605,8 @@
           "id": "p19_w1781",
           "word": "regard",
           "phonetic": "[rɪˋgɑrd]",
-          "pos": "n.",
-          "meaning": "關心vt. vi.注重"
+          "pos": "n./vt./vi.",
+          "meaning": "關心；注重"
         },
         {
           "id": "p19_w1782",
@@ -12668,8 +12668,8 @@
           "id": "p19_w1790",
           "word": "require(ment)",
           "phonetic": "[rɪˋkwaɪrmənt]",
-          "pos": "vt.",
-          "meaning": "(n.)必需(品)"
+          "pos": "vt./n.",
+          "meaning": "(；)必需(品)"
         },
         {
           "id": "p19_w1791",
@@ -12703,8 +12703,8 @@
           "id": "p19_w1795",
           "word": "result",
           "phonetic": "[rɪˋzʌlt]",
-          "pos": "vi.",
-          "meaning": "發生n.結果"
+          "pos": "vi./n.",
+          "meaning": "發生；結果"
         },
         {
           "id": "p19_w1796",
@@ -12925,8 +12925,8 @@
           "id": "p20_w1826",
           "word": "separate",
           "phonetic": "[ˋsɛpə͵ret]",
-          "pos": "vt.",
-          "meaning": "區分adj.個別的"
+          "pos": "vt./adj.",
+          "meaning": "區分；個別的"
         },
         {
           "id": "p20_w1827",
@@ -13065,8 +13065,8 @@
           "id": "p20_w1846",
           "word": "sink",
           "phonetic": "[sɪŋk]",
-          "pos": "vi.",
-          "meaning": "下沉；n.水槽"
+          "pos": "vi./n.",
+          "meaning": "下沉；水槽"
         },
         {
           "id": "p20_w1847",
@@ -13205,8 +13205,8 @@
           "id": "p20_w1866",
           "word": "somebody",
           "phonetic": "[ˋsʌm͵bɑdɪ]",
-          "pos": "pron.",
-          "meaning": "有人n.要人"
+          "pos": "pron./n.",
+          "meaning": "有人；要人"
         },
         {
           "id": "p20_w1867",
@@ -13219,8 +13219,8 @@
           "id": "p20_w1868",
           "word": "sort",
           "phonetic": "[sɔrt]",
-          "pos": "n.",
-          "meaning": "種類vt.把……分類"
+          "pos": "n./vt.",
+          "meaning": "種類；把……分類"
         },
         {
           "id": "p20_w1869",
@@ -13254,8 +13254,8 @@
           "id": "p20_w1873",
           "word": "speed",
           "phonetic": "[spid]",
-          "pos": "n.",
-          "meaning": "速度vi. vt.加速"
+          "pos": "n./vi./vt.",
+          "meaning": "速度；加速"
         },
         {
           "id": "p20_w1874",
@@ -13303,8 +13303,8 @@
           "id": "p20_w1880",
           "word": "spring",
           "phonetic": "[sprɪŋ]",
-          "pos": "n.",
-          "meaning": "彈簧vi. vt.彈起"
+          "pos": "n./vi./vt.",
+          "meaning": "彈簧；彈起"
         },
         {
           "id": "p20_w1881",
@@ -13373,8 +13373,8 @@
           "id": "p20_w1890",
           "word": "stick",
           "phonetic": "[stɪk]",
-          "pos": "n.",
-          "meaning": "棒狀物；vt.刺vi.黏住"
+          "pos": "n./vt./vi.",
+          "meaning": "棒狀物；刺；黏住"
         },
         {
           "id": "p20_w1891",
@@ -13436,15 +13436,15 @@
           "id": "p20_w1899",
           "word": "stress",
           "phonetic": "[strɛs]",
-          "pos": "n.",
-          "meaning": "壓力vt.強調"
+          "pos": "n./vt.",
+          "meaning": "壓力；強調"
         },
         {
           "id": "p20_w1900",
           "word": "stretch",
           "phonetic": "[strɛtʃ]",
-          "pos": "vt.",
-          "meaning": "伸縮n.伸展"
+          "pos": "vt./n.",
+          "meaning": "伸縮；伸展"
         },
         {
           "id": "p20_w1901",
@@ -13483,8 +13483,8 @@
           "id": "p21_w1905",
           "word": "subject",
           "phonetic": "[ˋsʌbdʒɪkt]",
-          "pos": "n.",
-          "meaning": "主題adj.易受…的"
+          "pos": "n./adj.",
+          "meaning": "主題；易受…的"
         },
         {
           "id": "p21_w1906",
@@ -13504,8 +13504,8 @@
           "id": "p21_w1908",
           "word": "succeed",
           "phonetic": "[səkˋsid]",
-          "pos": "vi.",
-          "meaning": "成功vt.繼承"
+          "pos": "vi./vt.",
+          "meaning": "成功；繼承"
         },
         {
           "id": "p21_w1909",
@@ -13532,8 +13532,8 @@
           "id": "p21_w1912",
           "word": "suit",
           "phonetic": "[sut]",
-          "pos": "n.",
-          "meaning": "套；vt. vi.合適"
+          "pos": "n./vt./vi.",
+          "meaning": "套；合適"
         },
         {
           "id": "p21_w1913",
@@ -13581,8 +13581,8 @@
           "id": "p21_w1919",
           "word": "swallow",
           "phonetic": "[ˋswɑlo]",
-          "pos": "n.",
-          "meaning": "燕子；n. vt. vi.嚥下"
+          "pos": "n./vt./vi.",
+          "meaning": "燕子；嚥下"
         },
         {
           "id": "p21_w1920",
@@ -13686,8 +13686,8 @@
           "id": "p21_w1934",
           "word": "tear",
           "phonetic": "[tɪr]",
-          "pos": "n.",
-          "meaning": "眼淚；[tɛr] n. vt. vi.撕開"
+          "pos": "n./vt./vi.",
+          "meaning": "眼淚；[tɛr]；撕開"
         },
         {
           "id": "p21_w1935",
@@ -13861,8 +13861,8 @@
           "id": "p21_w1959",
           "word": "tip",
           "phonetic": "[tɪp]",
-          "pos": "n.",
-          "meaning": "小費vi. vt.踮著腳走；給小費"
+          "pos": "n./vi./vt.",
+          "meaning": "小費；踮著腳走；給小費"
         },
         {
           "id": "p21_w1960",
@@ -13959,8 +13959,8 @@
           "id": "p21_w1973",
           "word": "track",
           "phonetic": "[træk]",
-          "pos": "n.",
-          "meaning": "足跡vt. vi.追蹤"
+          "pos": "n./vt./vi.",
+          "meaning": "足跡；追蹤"
         },
         {
           "id": "p21_w1974",
@@ -14008,15 +14008,15 @@
           "id": "p21_w1980",
           "word": "treasure",
           "phonetic": "[ˋtrɛʒɚ]",
-          "pos": "n.",
-          "meaning": "財寶vt.珍愛"
+          "pos": "n./vt.",
+          "meaning": "財寶；珍愛"
         },
         {
           "id": "p21_w1981",
           "word": "treat",
           "phonetic": "[trit(mənt)]",
-          "pos": "vt.",
-          "meaning": "(n. )"
+          "pos": "vt./n.",
+          "meaning": "(；)"
         },
         {
           "id": "p21_w1982",
@@ -14036,8 +14036,8 @@
           "id": "p21_w1984",
           "word": "trick",
           "phonetic": "[trɪk]",
-          "pos": "n.",
-          "meaning": "詭計vt. vi.哄騙"
+          "pos": "n./vt./vi.",
+          "meaning": "詭計；哄騙"
         },
         {
           "id": "p21_w1985",
@@ -14106,8 +14106,8 @@
           "id": "p21_w1994",
           "word": "type",
           "phonetic": "[taɪp]",
-          "pos": "n.",
-          "meaning": "類型；vt. vi.打字"
+          "pos": "n./vt./vi.",
+          "meaning": "類型；打字"
         },
         {
           "id": "p21_w1995",
@@ -14202,8 +14202,8 @@
           "id": "p22_w2007",
           "word": "value",
           "phonetic": "[ˋvælju]",
-          "pos": "n.",
-          "meaning": "價值vt.重視"
+          "pos": "n./vt.",
+          "meaning": "價值；重視"
         },
         {
           "id": "p22_w2008",
@@ -14286,8 +14286,8 @@
           "id": "p22_w2019",
           "word": "wake",
           "phonetic": "[wek]",
-          "pos": "vi.",
-          "meaning": "醒來n.守靈"
+          "pos": "vi./n.",
+          "meaning": "醒來；守靈"
         },
         {
           "id": "p22_w2020",
@@ -14314,8 +14314,8 @@
           "id": "p22_w2023",
           "word": "wave",
           "phonetic": "[wev]",
-          "pos": "n.",
-          "meaning": "波浪vt. vi.揮手；起伏"
+          "pos": "n./vt./vi.",
+          "meaning": "波浪；揮手；起伏"
         },
         {
           "id": "p22_w2024",
@@ -14447,8 +14447,8 @@
           "id": "p22_w2042",
           "word": "wire",
           "phonetic": "[waɪr]",
-          "pos": "n.",
-          "meaning": "電線vt. vi.拍電報"
+          "pos": "n./vt./vi.",
+          "meaning": "電線；拍電報"
         },
         {
           "id": "p22_w2043",
@@ -14482,8 +14482,8 @@
           "id": "p22_w2047",
           "word": "wonder",
           "phonetic": "[ˋwʌndɚ]",
-          "pos": "vi.",
-          "meaning": "想知道n.奇蹟"
+          "pos": "vi./n.",
+          "meaning": "想知道；奇蹟"
         },
         {
           "id": "p22_w2048",
@@ -14830,8 +14830,8 @@
           "id": "p23_w2096",
           "word": "approach",
           "phonetic": "[əˋprotʃ]",
-          "pos": "v.",
-          "meaning": "接近，靠近n.方法"
+          "pos": "v./n.",
+          "meaning": "接近，靠近；方法"
         },
         {
           "id": "p23_w2097",
@@ -14970,22 +14970,22 @@
           "id": "p23_w2116",
           "word": "awake",
           "phonetic": "[əˋwek]",
-          "pos": "vt.",
-          "meaning": "喚醒… vi.醒來a.醒著的"
+          "pos": "vt./vi./adj.",
+          "meaning": "喚醒…；醒來；醒著的"
         },
         {
           "id": "p23_w2117",
           "word": "awaken",
           "phonetic": "[əˋwekən]",
-          "pos": "vi.",
-          "meaning": "醒；覺醒vt.喚醒"
+          "pos": "vi./vt.",
+          "meaning": "醒；覺醒；喚醒"
         },
         {
           "id": "p23_w2118",
           "word": "award",
           "phonetic": "[əˋwɔrd]",
-          "pos": "vt.",
-          "meaning": "授予，給予n.獎；獎品"
+          "pos": "vt./n.",
+          "meaning": "授予，給予；獎；獎品"
         },
         {
           "id": "p23_w2119",
@@ -15068,22 +15068,22 @@
           "id": "p23_w2130",
           "word": "balance",
           "phonetic": "[ˋbæləns]",
-          "pos": "n.",
-          "meaning": "平衡；均衡vt.平衡"
+          "pos": "n./vt.",
+          "meaning": "平衡；均衡；平衡"
         },
         {
           "id": "p23_w2131",
           "word": "bandage",
           "phonetic": "[ˋbændɪdʒ]",
-          "pos": "n.",
-          "meaning": "繃帶vt.用繃帶包紮"
+          "pos": "n./vt.",
+          "meaning": "繃帶；用繃帶包紮"
         },
         {
           "id": "p23_w2132",
           "word": "bang",
           "phonetic": "[bæŋ]",
-          "pos": "vi.",
-          "meaning": "發出砰的一聲vt.猛擊"
+          "pos": "vi./vt.",
+          "meaning": "發出砰的一聲；猛擊"
         },
         {
           "id": "p23_w2133",
@@ -15290,8 +15290,8 @@
           "id": "p24_w2162",
           "word": "brake",
           "phonetic": "[brek]",
-          "pos": "vt.",
-          "meaning": "煞車n.煞車"
+          "pos": "vt./n.",
+          "meaning": "煞車；煞車"
         },
         {
           "id": "p24_w2163",
@@ -15325,8 +15325,8 @@
           "id": "p24_w2167",
           "word": "breathe",
           "phonetic": "[brið]",
-          "pos": "vi.",
-          "meaning": "呼吸vt.呼出；吸入"
+          "pos": "vi./vt.",
+          "meaning": "呼吸；呼出；吸入"
         },
         {
           "id": "p24_w2168",
@@ -15605,8 +15605,8 @@
           "id": "p24_w2207",
           "word": "ceramic",
           "phonetic": "[səˋræmɪk]",
-          "pos": "n.",
-          "meaning": "陶器a.陶器的"
+          "pos": "n./adj.",
+          "meaning": "陶器；陶器的"
         },
         {
           "id": "p24_w2208",
@@ -15619,8 +15619,8 @@
           "id": "p24_w2209",
           "word": "challenge",
           "phonetic": "[ˋtʃælɪndʒ]",
-          "pos": "n.",
-          "meaning": "挑戰vt.向…挑戰"
+          "pos": "n./vt.",
+          "meaning": "挑戰；向…挑戰"
         },
         {
           "id": "p24_w2210",
@@ -15794,8 +15794,8 @@
           "id": "p24_w2234",
           "word": "click",
           "phonetic": "[klɪk]",
-          "pos": "n.",
-          "meaning": "卡嗒聲vt.vi.發出卡嗒聲"
+          "pos": "n./vt./vi.",
+          "meaning": "卡嗒聲；發出卡嗒聲"
         },
         {
           "id": "p24_w2235",
@@ -15815,8 +15815,8 @@
           "id": "p24_w2237",
           "word": "clip",
           "phonetic": "[klɪp]",
-          "pos": "vt.",
-          "meaning": "剪；修剪n.剪；修剪；短片"
+          "pos": "vt./n.",
+          "meaning": "剪；修剪；剪；修剪；短片"
         },
         {
           "id": "p24_w2238",
@@ -15885,8 +15885,8 @@
           "id": "p24_w2247",
           "word": "comfort",
           "phonetic": "[ˋkʌmfɚt]",
-          "pos": "n.",
-          "meaning": "舒適；安慰vt.安慰"
+          "pos": "n./vt.",
+          "meaning": "舒適；安慰；安慰"
         },
         {
           "id": "p24_w2248",
@@ -15911,8 +15911,8 @@
           "id": "p25_w2250",
           "word": "commercial",
           "phonetic": "[kəˋmɝʃəl]",
-          "pos": "n.",
-          "meaning": "電視廣告a.商業的"
+          "pos": "n./adj.",
+          "meaning": "電視廣告；商業的"
         },
         {
           "id": "p25_w2251",
@@ -15960,8 +15960,8 @@
           "id": "p25_w2257",
           "word": "concern",
           "phonetic": "[kənˋsɝn]",
-          "pos": "vt.",
-          "meaning": "關於；關心n.關心"
+          "pos": "vt./n.",
+          "meaning": "關於；關心；關心"
         },
         {
           "id": "p25_w2258",
@@ -16156,8 +16156,8 @@
           "id": "p25_w2285",
           "word": "criminal",
           "phonetic": "[ˋkrɪmən!]",
-          "pos": "n.",
-          "meaning": "罪犯a.犯罪的"
+          "pos": "n./adj.",
+          "meaning": "罪犯；犯罪的"
         },
         {
           "id": "p25_w2286",
@@ -16233,8 +16233,8 @@
           "id": "p25_w2296",
           "word": "dare",
           "phonetic": "[dɛr]",
-          "pos": "aux.",
-          "meaning": "敢vt.敢"
+          "pos": "aux./vt.",
+          "meaning": "敢；敢"
         },
         {
           "id": "p25_w2297",
@@ -16247,8 +16247,8 @@
           "id": "p25_w2298",
           "word": "dash",
           "phonetic": "[dæʃ]",
-          "pos": "vt.",
-          "meaning": "猛撞；猛衝n.破折號"
+          "pos": "vt./n.",
+          "meaning": "猛撞；猛衝；破折號"
         },
         {
           "id": "p25_w2299",
@@ -16464,8 +16464,8 @@
           "id": "p25_w2329",
           "word": "discount",
           "phonetic": "[ˋdɪskaʊnt]",
-          "pos": "n.",
-          "meaning": "折扣vt.將…打折"
+          "pos": "n./vt.",
+          "meaning": "折扣；將…打折"
         },
         {
           "id": "p25_w2330",
@@ -16569,8 +16569,8 @@
           "id": "p25_w2344",
           "word": "drown",
           "phonetic": "[draʊn]",
-          "pos": "vt.",
-          "meaning": "把…淹死vi.溺死"
+          "pos": "vt./vi.",
+          "meaning": "把…淹死；溺死"
         },
         {
           "id": "p25_w2345",
@@ -16602,8 +16602,8 @@
           "id": "p26_w2348",
           "word": "dump",
           "phonetic": "[dʌmp]",
-          "pos": "vt.",
-          "meaning": "傾倒；拋棄n.垃圾場"
+          "pos": "vt./n.",
+          "meaning": "傾倒；拋棄；垃圾場"
         },
         {
           "id": "p26_w2349",
@@ -16630,8 +16630,8 @@
           "id": "p26_w2352",
           "word": "echo",
           "phonetic": "[ˋɛko]",
-          "pos": "n.",
-          "meaning": "回聲；回響v.發出回音"
+          "pos": "n./v.",
+          "meaning": "回聲；回響；發出回音"
         },
         {
           "id": "p26_w2353",
@@ -16679,8 +16679,8 @@
           "id": "p26_w2359",
           "word": "elbow",
           "phonetic": "[ˋɛlbo]",
-          "pos": "n.",
-          "meaning": "手肘vt.架拐子"
+          "pos": "n./vt.",
+          "meaning": "手肘；架拐子"
         },
         {
           "id": "p26_w2360",
@@ -16889,8 +16889,8 @@
           "id": "p26_w2389",
           "word": "exit",
           "phonetic": "[ˋɛksɪt]",
-          "pos": "n.",
-          "meaning": "出口vi.出去"
+          "pos": "n./vi.",
+          "meaning": "出口；出去"
         },
         {
           "id": "p26_w2390",
@@ -16917,8 +16917,8 @@
           "id": "p26_w2393",
           "word": "explode",
           "phonetic": "[ɪkˋsplod]",
-          "pos": "vt.",
-          "meaning": "使爆炸vi.爆炸"
+          "pos": "vt./vi.",
+          "meaning": "使爆炸；爆炸"
         },
         {
           "id": "p26_w2394",
@@ -16945,8 +16945,8 @@
           "id": "p26_w2397",
           "word": "extreme",
           "phonetic": "[ɪkˋstrim]",
-          "pos": "n.",
-          "meaning": "極端，末端a.極端的"
+          "pos": "n./adj.",
+          "meaning": "極端，末端；極端的"
         },
         {
           "id": "p26_w2398",
@@ -17001,8 +17001,8 @@
           "id": "p26_w2405",
           "word": "fake",
           "phonetic": "[fek]",
-          "pos": "vt.",
-          "meaning": "偽造；捏造vi.假裝；做假動作"
+          "pos": "vt./vi.",
+          "meaning": "偽造；捏造；假裝；做假動作"
         },
         {
           "id": "p26_w2406",
@@ -17078,8 +17078,8 @@
           "id": "p26_w2416",
           "word": "fax",
           "phonetic": "[fæks]",
-          "pos": "n.",
-          "meaning": "傳真機vt.傳真"
+          "pos": "n./vt.",
+          "meaning": "傳真機；傳真"
         },
         {
           "id": "p26_w2417",
@@ -17155,8 +17155,8 @@
           "id": "p26_w2427",
           "word": "flock",
           "phonetic": "[flɑk]",
-          "pos": "n.",
-          "meaning": "(飛禽，牲畜等的)群vi.聚集"
+          "pos": "n./vi.",
+          "meaning": "(飛禽，牲畜等的)群；聚集"
         },
         {
           "id": "p26_w2428",
@@ -17265,8 +17265,8 @@
           "id": "p27_w2442",
           "word": "fry",
           "phonetic": "[fraɪ]",
-          "pos": "vt.",
-          "meaning": "油炸，油炒n.炒菜；炸薯條"
+          "pos": "vt./n.",
+          "meaning": "油炸，油炒；炒菜；炸薯條"
         },
         {
           "id": "p27_w2443",
@@ -17335,8 +17335,8 @@
           "id": "p27_w2452",
           "word": "gesture",
           "phonetic": "[ˋdʒɛstʃɚ]",
-          "pos": "n.",
-          "meaning": "姿勢；手勢vi.做手勢"
+          "pos": "n./vi.",
+          "meaning": "姿勢；手勢；做手勢"
         },
         {
           "id": "p27_w2453",
@@ -17573,8 +17573,8 @@
           "id": "p27_w2486",
           "word": "heal",
           "phonetic": "[hil]",
-          "pos": "vt.",
-          "meaning": "治癒vi.痊癒"
+          "pos": "vt./vi.",
+          "meaning": "治癒；痊癒"
         },
         {
           "id": "p27_w2487",
@@ -17748,8 +17748,8 @@
           "id": "p27_w2511",
           "word": "hush",
           "phonetic": "[hʌʃ]",
-          "pos": "n.",
-          "meaning": "靜寂，沉默vt.vi.使…沉默"
+          "pos": "n./vt./vi.",
+          "meaning": "靜寂，沉默；使…沉默"
         },
         {
           "id": "p27_w2512",
@@ -17811,8 +17811,8 @@
           "id": "p27_w2520",
           "word": "import",
           "phonetic": "[ˋɪmport]",
-          "pos": "n.",
-          "meaning": "進口，輸入[ɪmˋport] vt."
+          "pos": "n./vt.",
+          "meaning": "進口，輸入[ɪmˋport]"
         },
         {
           "id": "p27_w2521",
@@ -17839,8 +17839,8 @@
           "id": "p27_w2524",
           "word": "individual",
           "phonetic": "[͵ɪndəˋvɪdʒʊəl]",
-          "pos": "n.",
-          "meaning": "個人a.個人的"
+          "pos": "n./adj.",
+          "meaning": "個人；個人的"
         },
         {
           "id": "p27_w2525",
@@ -17991,8 +17991,8 @@
           "id": "p28_w2545",
           "word": "jail",
           "phonetic": "[dʒel]",
-          "pos": "n.",
-          "meaning": "監獄；拘留所vt.監禁"
+          "pos": "n./vt.",
+          "meaning": "監獄；拘留所；監禁"
         },
         {
           "id": "p28_w2546",
@@ -18054,8 +18054,8 @@
           "id": "p28_w2554",
           "word": "journey",
           "phonetic": "[ˋdʒɝnɪ]",
-          "pos": "n.",
-          "meaning": "旅行vi.旅行"
+          "pos": "n./vi.",
+          "meaning": "旅行；旅行"
         },
         {
           "id": "p28_w2555",
@@ -18222,8 +18222,8 @@
           "id": "p28_w2578",
           "word": "leak",
           "phonetic": "[lik]",
-          "pos": "n.",
-          "meaning": "漏洞，裂縫vi.vt.洩漏"
+          "pos": "n./vi./vt.",
+          "meaning": "漏洞，裂縫；洩漏"
         },
         {
           "id": "p28_w2579",
@@ -18236,15 +18236,15 @@
           "id": "p28_w2580",
           "word": "leather",
           "phonetic": "[ˋlɛðɚ]",
-          "pos": "n.",
-          "meaning": "皮革[U]a.皮的"
+          "pos": "n./adj.",
+          "meaning": "皮革[U]；皮的"
         },
         {
           "id": "p28_w2581",
           "word": "leisure",
           "phonetic": "[ˋliʒɚ]",
-          "pos": "n.",
-          "meaning": "閒暇，空暇時間a.空閒的"
+          "pos": "n./adj.",
+          "meaning": "閒暇，空暇時間；空閒的"
         },
         {
           "id": "p28_w2582",
@@ -18341,8 +18341,8 @@
           "id": "p28_w2595",
           "word": "litter",
           "phonetic": "[ˋlɪtɚ]",
-          "pos": "n.",
-          "meaning": "廢棄物vt.vi.亂丟"
+          "pos": "n./vt./vi.",
+          "meaning": "廢棄物；亂丟"
         },
         {
           "id": "p28_w2596",
@@ -18362,8 +18362,8 @@
           "id": "p28_w2598",
           "word": "load",
           "phonetic": "[lod]",
-          "pos": "n.",
-          "meaning": "裝載；裝載量；負擔vt.裝載"
+          "pos": "n./vt.",
+          "meaning": "裝載；裝載量；負擔；裝載"
         },
         {
           "id": "p28_w2599",
@@ -18675,8 +18675,8 @@
           "id": "p29_w2642",
           "word": "mess",
           "phonetic": "[mɛs]",
-          "pos": "n.",
-          "meaning": "混亂vt.弄亂"
+          "pos": "n./vt.",
+          "meaning": "混亂；弄亂"
         },
         {
           "id": "p29_w2643",
@@ -18829,8 +18829,8 @@
           "id": "p29_w2664",
           "word": "mop",
           "phonetic": "[mɑp]",
-          "pos": "n.",
-          "meaning": "拖把vt.vi.用拖把拖洗"
+          "pos": "n./vt./vi.",
+          "meaning": "拖把；用拖把拖洗"
         },
         {
           "id": "p29_w2665",
@@ -18857,8 +18857,8 @@
           "id": "p29_w2668",
           "word": "murder",
           "phonetic": "[ˋmɝdɚ]",
-          "pos": "n.",
-          "meaning": "謀殺；謀殺罪vt.vi.謀殺"
+          "pos": "n./vt./vi.",
+          "meaning": "謀殺；謀殺罪；謀殺"
         },
         {
           "id": "p29_w2669",
@@ -18962,8 +18962,8 @@
           "id": "p29_w2683",
           "word": "nickname",
           "phonetic": "[ˋnɪk͵nem]",
-          "pos": "n.",
-          "meaning": "綽號vt.給…起綽號"
+          "pos": "n./vt.",
+          "meaning": "綽號；給…起綽號"
         },
         {
           "id": "p29_w2684",
@@ -19053,8 +19053,8 @@
           "id": "p29_w2696",
           "word": "opposite",
           "phonetic": "[ˋɑpəzɪt]",
-          "pos": "n.",
-          "meaning": "對立(相反)物a.相反的"
+          "pos": "n./adj.",
+          "meaning": "對立(相反)物；相反的"
         },
         {
           "id": "p29_w2697",
@@ -19387,8 +19387,8 @@
           "id": "p30_w2743",
           "word": "pickle",
           "phonetic": "[ˋpɪk!]",
-          "pos": "vt.",
-          "meaning": "醃製n.(醃魚，蔬菜等的)鹽滷"
+          "pos": "vt./n.",
+          "meaning": "醃製；(醃魚，蔬菜等的)鹽滷"
         },
         {
           "id": "p30_w2744",
@@ -19450,8 +19450,8 @@
           "id": "p30_w2752",
           "word": "plug",
           "phonetic": "[plʌg]",
-          "pos": "n.",
-          "meaning": "插頭，插塞vt.把...塞住，堵塞"
+          "pos": "n./vt.",
+          "meaning": "插頭，插塞；把...塞住，堵塞"
         },
         {
           "id": "p30_w2753",
@@ -19520,8 +19520,8 @@
           "id": "p30_w2762",
           "word": "pop",
           "phonetic": "[pɑp]",
-          "pos": "vt.",
-          "meaning": "爆裂vi.發出砰(或啪)的響聲"
+          "pos": "vt./vi.",
+          "meaning": "爆裂；發出砰(或啪)的響聲"
         },
         {
           "id": "p30_w2763",
@@ -19688,8 +19688,8 @@
           "id": "p30_w2786",
           "word": "process",
           "phonetic": "[ˋprɑsɛs]",
-          "pos": "n.",
-          "meaning": "過程，進程vt.加工"
+          "pos": "n./vt.",
+          "meaning": "過程，進程；加工"
         },
         {
           "id": "p30_w2787",
@@ -19702,8 +19702,8 @@
           "id": "p30_w2788",
           "word": "profit",
           "phonetic": "[ˋprɑfɪt]",
-          "pos": "n.",
-          "meaning": "利潤，盈利vi.vt.有益(於…)"
+          "pos": "n./vi./vt.",
+          "meaning": "利潤，盈利；有益(於…)"
         },
         {
           "id": "p30_w2789",
@@ -19772,8 +19772,8 @@
           "id": "p30_w2799",
           "word": "punch",
           "phonetic": "[pʌntʃ]",
-          "pos": "n.",
-          "meaning": "拳打vi.vt.用拳猛擊"
+          "pos": "n./vi./vt.",
+          "meaning": "拳打；用拳猛擊"
         },
         {
           "id": "p30_w2800",
@@ -19812,8 +19812,8 @@
           "id": "p31_w2804",
           "word": "quote",
           "phonetic": "[kwot]",
-          "pos": "vt.",
-          "meaning": "引用；引述n.引語，引文"
+          "pos": "vt./n.",
+          "meaning": "引用；引述；引語，引文"
         },
         {
           "id": "p31_w2805",
@@ -19847,8 +19847,8 @@
           "id": "p31_w2809",
           "word": "rank",
           "phonetic": "[ræŋk]",
-          "pos": "n.",
-          "meaning": "等級；地位vi.vt.把…評級"
+          "pos": "n./vi./vt.",
+          "meaning": "等級；地位；把…評級"
         },
         {
           "id": "p31_w2810",
@@ -19931,8 +19931,8 @@
           "id": "p31_w2821",
           "word": "recover",
           "phonetic": "[rɪˋkʌvɚ]",
-          "pos": "vt.",
-          "meaning": "重新獲得；恢復vi.恢復"
+          "pos": "vt./vi.",
+          "meaning": "重新獲得；恢復；恢復"
         },
         {
           "id": "p31_w2822",
@@ -20050,8 +20050,8 @@
           "id": "p31_w2838",
           "word": "rent",
           "phonetic": "[rɛnt]",
-          "pos": "n.",
-          "meaning": "租金vt.vi.出租"
+          "pos": "n./vt./vi.",
+          "meaning": "租金；出租"
         },
         {
           "id": "p31_w2839",
@@ -20190,8 +20190,8 @@
           "id": "p31_w2858",
           "word": "risk",
           "phonetic": "[rɪsk]",
-          "pos": "n.",
-          "meaning": "危險，風險vt.冒…的風險[+V-ing]"
+          "pos": "n./vt.",
+          "meaning": "危險，風險；冒…的風險[+V-ing]"
         },
         {
           "id": "p31_w2859",
@@ -20295,8 +20295,8 @@
           "id": "p31_w2873",
           "word": "rust",
           "phonetic": "[rʌst]",
-          "pos": "n.",
-          "meaning": "鏽，鐵鏽vt.vi.生鏽"
+          "pos": "n./vt./vi.",
+          "meaning": "鏽，鐵鏽；生鏽"
         },
         {
           "id": "p31_w2874",
@@ -20442,8 +20442,8 @@
           "id": "p31_w2894",
           "word": "screw",
           "phonetic": "[skru]",
-          "pos": "n.",
-          "meaning": "螺釘vt.vi.旋，擰"
+          "pos": "n./vt./vi.",
+          "meaning": "螺釘；旋，擰"
         },
         {
           "id": "p31_w2895",
@@ -20463,8 +20463,8 @@
           "id": "p31_w2897",
           "word": "seal",
           "phonetic": "[sil]",
-          "pos": "n.",
-          "meaning": "印章；封(印) vt.封，密封；蓋章"
+          "pos": "n./vt.",
+          "meaning": "印章；封(印)；封，密封；蓋章"
         },
         {
           "id": "p31_w2898",
@@ -20706,15 +20706,15 @@
           "id": "p32_w2931",
           "word": "skate",
           "phonetic": "[sket]",
-          "pos": "n.",
-          "meaning": "冰鞋vi.溜冰"
+          "pos": "n./vi.",
+          "meaning": "冰鞋；溜冰"
         },
         {
           "id": "p32_w2932",
           "word": "ski",
           "phonetic": "[ski]",
-          "pos": "n.",
-          "meaning": "滑雪屐；滑雪板vt.vi.滑雪"
+          "pos": "n./vt./vi.",
+          "meaning": "滑雪屐；滑雪板；滑雪"
         },
         {
           "id": "p32_w2933",
@@ -20748,8 +20748,8 @@
           "id": "p32_w2937",
           "word": "slice",
           "phonetic": "[slaɪs]",
-          "pos": "n.",
-          "meaning": "薄片，切片vt.把…切成薄片"
+          "pos": "n./vt.",
+          "meaning": "薄片，切片；把…切成薄片"
         },
         {
           "id": "p32_w2938",
@@ -20874,8 +20874,8 @@
           "id": "p32_w2955",
           "word": "spit",
           "phonetic": "[spɪt]",
-          "pos": "vi.",
-          "meaning": "吐口水；吐痰n.唾液，口水"
+          "pos": "vi./n.",
+          "meaning": "吐口水；吐痰；唾液，口水"
         },
         {
           "id": "p32_w2956",
@@ -20909,8 +20909,8 @@
           "id": "p32_w2960",
           "word": "spray",
           "phonetic": "[spre]",
-          "pos": "n.",
-          "meaning": "浪花，水花；噴霧vt.vi.噴灑"
+          "pos": "n./vt./vi.",
+          "meaning": "浪花，水花；噴霧；噴灑"
         },
         {
           "id": "p32_w2961",
@@ -20923,8 +20923,8 @@
           "id": "p32_w2962",
           "word": "spy",
           "phonetic": "[spaɪ]",
-          "pos": "n.",
-          "meaning": "間諜vi.vt.暗中監視"
+          "pos": "n./vi./vt.",
+          "meaning": "間諜；暗中監視"
         },
         {
           "id": "p32_w2963",
@@ -21028,8 +21028,8 @@
           "id": "p32_w2977",
           "word": "stereo",
           "phonetic": "[ˋstɛrɪo]",
-          "pos": "n.",
-          "meaning": "立體音響裝置a.立體聲的"
+          "pos": "n./adj.",
+          "meaning": "立體音響裝置；立體聲的"
         },
         {
           "id": "p32_w2978",
@@ -21152,8 +21152,8 @@
           "id": "p33_w2994",
           "word": "stuff",
           "phonetic": "[stʌf]",
-          "pos": "n.",
-          "meaning": "填充物vt.裝；填；塞"
+          "pos": "n./vt.",
+          "meaning": "填充物；裝；填；塞"
         },
         {
           "id": "p33_w2995",
@@ -21187,8 +21187,8 @@
           "id": "p33_w2999",
           "word": "suffer",
           "phonetic": "[ˋsʌfɚ]",
-          "pos": "vt.",
-          "meaning": "遭受vi.受苦；患病"
+          "pos": "vt./vi.",
+          "meaning": "遭受；受苦；患病"
         },
         {
           "id": "p33_w3000",
@@ -21222,8 +21222,8 @@
           "id": "p33_w3004",
           "word": "sum",
           "phonetic": "[sʌm]",
-          "pos": "n.",
-          "meaning": "總數，總和；概要vt.合計；總結"
+          "pos": "n./vt.",
+          "meaning": "總數，總和；概要；合計；總結"
         },
         {
           "id": "p33_w3005",
@@ -21306,8 +21306,8 @@
           "id": "p33_w3016",
           "word": "sweat",
           "phonetic": "[swɛt]",
-          "pos": "n.",
-          "meaning": "汗，汗水[U]vi.出汗"
+          "pos": "n./vi.",
+          "meaning": "汗，汗水[U]；出汗"
         },
         {
           "id": "p33_w3017",
@@ -21362,15 +21362,15 @@
           "id": "p33_w3024",
           "word": "tag",
           "phonetic": "[tæg]",
-          "pos": "n.",
-          "meaning": "標籤，貨籤vt.給…加標籤"
+          "pos": "n./vt.",
+          "meaning": "標籤，貨籤；給…加標籤"
         },
         {
           "id": "p33_w3025",
           "word": "tailor",
           "phonetic": "[ˋtelɚ]",
-          "pos": "n.",
-          "meaning": "裁縫師vt.裁製(衣服，衣料等)"
+          "pos": "n./vt.",
+          "meaning": "裁縫師；裁製(衣服，衣料等)"
         },
         {
           "id": "p33_w3026",
@@ -21397,8 +21397,8 @@
           "id": "p33_w3029",
           "word": "tax",
           "phonetic": "[tæks]",
-          "pos": "n.",
-          "meaning": "稅；稅金vt.向…課稅"
+          "pos": "n./vt.",
+          "meaning": "稅；稅金；向…課稅"
         },
         {
           "id": "p33_w3030",
@@ -21628,8 +21628,8 @@
           "id": "p33_w3062",
           "word": "trace",
           "phonetic": "[tres]",
-          "pos": "n.",
-          "meaning": "痕跡；遺跡vt.跟蹤；追溯"
+          "pos": "n./vt.",
+          "meaning": "痕跡；遺跡；跟蹤；追溯"
         },
         {
           "id": "p33_w3063",
@@ -21761,8 +21761,8 @@
           "id": "p33_w3081",
           "word": "tutor",
           "phonetic": "[ˋtjutɚ]",
-          "pos": "n.",
-          "meaning": "家庭教師vt.當…的家教"
+          "pos": "n./vt.",
+          "meaning": "家庭教師；當…的家教"
         },
         {
           "id": "p33_w3082",
@@ -22018,8 +22018,8 @@
           "id": "p34_w3117",
           "word": "waken",
           "phonetic": "[ˋwekn]",
-          "pos": "vi.",
-          "meaning": "醒來；睡醒vt.喚醒"
+          "pos": "vi./vt.",
+          "meaning": "醒來；睡醒；喚醒"
         },
         {
           "id": "p34_w3118",
@@ -22158,8 +22158,8 @@
           "id": "p34_w3137",
           "word": "wrap",
           "phonetic": "[ræp]",
-          "pos": "vt.",
-          "meaning": "包，裹n.包裹物，覆蓋物"
+          "pos": "vt./n.",
+          "meaning": "包，裹；包裹物，覆蓋物"
         },
         {
           "id": "p34_w3138",
@@ -22207,8 +22207,8 @@
           "id": "p34_w3144",
           "word": "zipper",
           "phonetic": "[ˋzɪpɚ]",
-          "pos": "n.",
-          "meaning": "拉鍊vi.vt.拉上拉鍊"
+          "pos": "n./vi./vt.",
+          "meaning": "拉鍊；拉上拉鍊"
         },
         {
           "id": "p34_w3145",
@@ -22387,8 +22387,8 @@
           "id": "p35_w3169",
           "word": "adjective",
           "phonetic": "[ˋædʒɪktɪv]",
-          "pos": "n.",
-          "meaning": "形容詞a.形容詞的"
+          "pos": "n./adj.",
+          "meaning": "形容詞；形容詞的"
         },
         {
           "id": "p35_w3170",
@@ -22429,8 +22429,8 @@
           "id": "p35_w3176",
           "word": "adverb",
           "phonetic": "[ˋædvɚb]",
-          "pos": "n.",
-          "meaning": "副詞a.副詞的"
+          "pos": "n./adj.",
+          "meaning": "副詞；副詞的"
         },
         {
           "id": "p35_w3177",
@@ -22910,8 +22910,8 @@
           "id": "p36_w3246",
           "word": "bankrupt",
           "phonetic": "[ˋbæŋkrʌpt]",
-          "pos": "vt.",
-          "meaning": "使破產n."
+          "pos": "vt./n.",
+          "meaning": "使破產"
         },
         {
           "id": "p36_w3247",
@@ -23851,8 +23851,8 @@
           "id": "p38_w3380",
           "word": "contrast",
           "phonetic": "[ˋkɑn͵træst]",
-          "pos": "n.",
-          "meaning": "對比，對照[U] vi."
+          "pos": "n./vi.",
+          "meaning": "對比，對照[U]"
         },
         {
           "id": "p38_w3381",
@@ -24026,8 +24026,8 @@
           "id": "p38_w3405",
           "word": "crack",
           "phonetic": "[kræk]",
-          "pos": "vi.",
-          "meaning": "(使)爆裂，(使)破裂n."
+          "pos": "vi./n.",
+          "meaning": "(使)爆裂，(使)破裂"
         },
         {
           "id": "p38_w3406",
@@ -24061,8 +24061,8 @@
           "id": "p38_w3410",
           "word": "cripple",
           "phonetic": "[ˋkrɪp!]",
-          "pos": "n.",
-          "meaning": "跛子；殘廢的人vt.使…殘"
+          "pos": "n./vt.",
+          "meaning": "跛子；殘廢的人；使…殘"
         }
       ]
     },
@@ -24109,7 +24109,7 @@
           "word": "crush",
           "phonetic": "[krʌʃ]",
           "pos": "n.",
-          "meaning": "壓碎，壓壞；碾碎n.迷"
+          "meaning": "壓碎，壓壞；碾碎；迷"
         },
         {
           "id": "p39_w3417",
@@ -24129,8 +24129,8 @@
           "id": "p39_w3419",
           "word": "cue",
           "phonetic": "[kju]",
-          "pos": "n.",
-          "meaning": "【戲】提示；信號vt.給…暗示"
+          "pos": "n./vt.",
+          "meaning": "【戲】提示；信號；給…暗示"
         },
         {
           "id": "p39_w3420",
@@ -24150,8 +24150,8 @@
           "id": "p39_w3422",
           "word": "curl",
           "phonetic": "[kɝl]",
-          "pos": "n.",
-          "meaning": "卷毛，卷髮[C] vt.vi.捲曲"
+          "pos": "n./vt./vi.",
+          "meaning": "卷毛，卷髮[C]；捲曲"
         },
         {
           "id": "p39_w3423",
@@ -24164,8 +24164,8 @@
           "id": "p39_w3424",
           "word": "curve",
           "phonetic": "[kɝv]",
-          "pos": "n.",
-          "meaning": "曲線，弧線；【棒】曲球vi."
+          "pos": "n./vi.",
+          "meaning": "曲線，弧線；【棒】曲球"
         },
         {
           "id": "p39_w3425",
@@ -24178,8 +24178,8 @@
           "id": "p39_w3426",
           "word": "damn",
           "phonetic": "[dæm]",
-          "pos": "vt.",
-          "meaning": "罵…該死，咒罵int.該死"
+          "pos": "vt./int.",
+          "meaning": "罵…該死，咒罵；該死"
         },
         {
           "id": "p39_w3427",
@@ -24269,8 +24269,8 @@
           "id": "p39_w3439",
           "word": "delight",
           "phonetic": "[dɪˋlaɪt]",
-          "pos": "n.",
-          "meaning": "欣喜[U]；樂事[C]vt."
+          "pos": "n./vt.",
+          "meaning": "欣喜[U]；樂事[C]"
         },
         {
           "id": "p39_w3440",
@@ -24381,8 +24381,8 @@
           "id": "p39_w3455",
           "word": "detective",
           "phonetic": "[dɪˋtɛktɪv]",
-          "pos": "n.",
-          "meaning": "偵探；私家偵探a.偵"
+          "pos": "n./adj.",
+          "meaning": "偵探；私家偵探；偵"
         },
         {
           "id": "p39_w3456",
@@ -24540,8 +24540,8 @@
           "id": "p40_w3478",
           "word": "disgust",
           "phonetic": "[dɪsˋgʌst]",
-          "pos": "n.",
-          "meaning": "作嘔；厭惡vt.使作嘔"
+          "pos": "n./vt.",
+          "meaning": "作嘔；厭惡；使作嘔"
         },
         {
           "id": "p40_w3479",
@@ -24708,8 +24708,8 @@
           "id": "p40_w3504",
           "word": "dye",
           "phonetic": "[daɪ]",
-          "pos": "n.",
-          "meaning": "染料，染色[C][U]vt.vi.染(色)"
+          "pos": "n./vt./vi.",
+          "meaning": "染料，染色[C][U]；染(色)"
         },
         {
           "id": "p40_w3505",
@@ -25266,8 +25266,8 @@
           "id": "p41_w3583",
           "word": "farewell",
           "phonetic": "[ˋfɛrˋwɛl]",
-          "pos": "int.",
-          "meaning": "再會！別了!n.告別"
+          "pos": "int./n.",
+          "meaning": "再會！別了!；告別"
         },
         {
           "id": "p41_w3584",
@@ -25399,8 +25399,8 @@
           "id": "p41_w3602",
           "word": "foam",
           "phonetic": "[fom]",
-          "pos": "n.",
-          "meaning": "泡沫；滅火泡沫[U]vi.起泡"
+          "pos": "n./vi.",
+          "meaning": "泡沫；滅火泡沫[U]；起泡"
         },
         {
           "id": "p41_w3603",
@@ -25516,8 +25516,8 @@
           "id": "p42_w3618",
           "word": "frost",
           "phonetic": "[frɑst]",
-          "pos": "n.",
-          "meaning": "霜vt.vi.結霜"
+          "pos": "n./vt./vi.",
+          "meaning": "霜；結霜"
         },
         {
           "id": "p42_w3619",
@@ -25537,8 +25537,8 @@
           "id": "p42_w3621",
           "word": "fuel",
           "phonetic": "[ˋfjʊəl]",
-          "pos": "n.",
-          "meaning": "燃料vt.vi.對…供給燃料；激"
+          "pos": "n./vt./vi.",
+          "meaning": "燃料；對…供給燃料；激"
         },
         {
           "id": "p42_w3622",
@@ -26130,8 +26130,8 @@
           "id": "p43_w3707",
           "word": "identify",
           "phonetic": "[aɪˋdɛntə͵faɪ]",
-          "pos": "vt.",
-          "meaning": "確認；識別vi.認"
+          "pos": "vt./vi.",
+          "meaning": "確認；識別；認"
         },
         {
           "id": "p43_w3708",
@@ -26417,8 +26417,8 @@
           "id": "p43_w3748",
           "word": "insult",
           "phonetic": "[ɪnˋsʌlt]",
-          "pos": "vt.",
-          "meaning": "侮辱，羞辱[ˋɪnsʌlt]n."
+          "pos": "vt./n.",
+          "meaning": "侮辱，羞辱[ˋɪnsʌlt]"
         },
         {
           "id": "p43_w3749",
@@ -26737,8 +26737,8 @@
           "id": "p44_w3793",
           "word": "lead",
           "phonetic": "[lid]",
-          "pos": "vt.",
-          "meaning": "引導；領(路)[lɛd] n.鉛"
+          "pos": "vt./n.",
+          "meaning": "引導；領(路)[lɛd]；鉛"
         },
         {
           "id": "p44_w3794",
@@ -26968,8 +26968,8 @@
           "id": "p44_w3827",
           "word": "manual",
           "phonetic": "[ˋmænjʊəl]",
-          "pos": "n.",
-          "meaning": "手冊，簡介a.手的；手"
+          "pos": "n./adj.",
+          "meaning": "手冊，簡介；手的；手"
         }
       ]
     },
@@ -27106,8 +27106,8 @@
           "id": "p45_w3846",
           "word": "mineral",
           "phonetic": "[ˋmɪnərəl]",
-          "pos": "n.",
-          "meaning": "礦物；礦泉水a.礦物的"
+          "pos": "n./adj.",
+          "meaning": "礦物；礦泉水；礦物的"
         },
         {
           "id": "p45_w3847",
@@ -27358,8 +27358,8 @@
           "id": "p45_w3882",
           "word": "nonsense",
           "phonetic": "[ˋnɑnsɛns]",
-          "pos": "n.",
-          "meaning": "胡說；胡鬧int.胡說!"
+          "pos": "n./int.",
+          "meaning": "胡說；胡鬧；胡說!"
         },
         {
           "id": "p45_w3883",
@@ -27580,8 +27580,8 @@
           "id": "p46_w3913",
           "word": "oval",
           "phonetic": "[ˋov!]",
-          "pos": "n.",
-          "meaning": "卵形(物)[C] a.橢圓形的"
+          "pos": "n./adj.",
+          "meaning": "卵形(物)[C]；橢圓形的"
         },
         {
           "id": "p46_w3914",
@@ -27629,8 +27629,8 @@
           "id": "p46_w3920",
           "word": "pace",
           "phonetic": "[pes]",
-          "pos": "n.",
-          "meaning": "一步；步速；速度vi.踱步"
+          "pos": "n./vi.",
+          "meaning": "一步；步速；速度；踱步"
         },
         {
           "id": "p46_w3921",
@@ -27895,8 +27895,8 @@
           "id": "p46_w3959",
           "word": "plural",
           "phonetic": "[ˋplʊrəl]",
-          "pos": "n.",
-          "meaning": "複數[U]a.【文】複數的"
+          "pos": "n./adj.",
+          "meaning": "複數[U]；【文】複數的"
         },
         {
           "id": "p46_w3960",
@@ -27909,8 +27909,8 @@
           "id": "p46_w3961",
           "word": "polish",
           "phonetic": "[ˋpɑlɪʃ]",
-          "pos": "vt.",
-          "meaning": "磨光，擦亮n.磨光粉"
+          "pos": "vt./n.",
+          "meaning": "磨光，擦亮；磨光粉"
         },
         {
           "id": "p46_w3962",
@@ -28201,8 +28201,8 @@
           "id": "p47_w4002",
           "word": "protest",
           "phonetic": "[prəˋtɛst]",
-          "pos": "vi.",
-          "meaning": "抗議，反對[ˋprotɛst] n."
+          "pos": "vi./n.",
+          "meaning": "抗議，反對[ˋprotɛst]"
         },
         {
           "id": "p47_w4003",
@@ -28292,8 +28292,8 @@
           "id": "p47_w4015",
           "word": "rage",
           "phonetic": "[redʒ]",
-          "pos": "n.",
-          "meaning": "(一陣)狂怒，盛怒vi.發怒"
+          "pos": "n./vi.",
+          "meaning": "(一陣)狂怒，盛怒；發怒"
         },
         {
           "id": "p47_w4016",
@@ -28738,8 +28738,8 @@
           "id": "p48_w4080",
           "word": "rhyme",
           "phonetic": "[raɪm]",
-          "pos": "n.",
-          "meaning": "韻，韻腳vi.押韻"
+          "pos": "n./vi.",
+          "meaning": "韻，韻腳；押韻"
         },
         {
           "id": "p48_w4081",
@@ -29002,15 +29002,15 @@
           "id": "p49_w4117",
           "word": "sledge",
           "phonetic": "[slɛdʒ]",
-          "pos": "n.",
-          "meaning": "雪橇vi.乘雪橇vt.用雪橇"
+          "pos": "n./vi./vt.",
+          "meaning": "雪橇；乘雪橇；用雪橇"
         },
         {
           "id": "p49_w4118",
           "word": "sleigh",
           "phonetic": "[sle]",
-          "pos": "n.",
-          "meaning": "雪橇vi.乘雪橇vt.用雪橇運送"
+          "pos": "n./vi./vt.",
+          "meaning": "雪橇；乘雪橇；用雪橇運送"
         },
         {
           "id": "p49_w4119",
@@ -29037,8 +29037,8 @@
           "id": "p49_w4122",
           "word": "sneeze",
           "phonetic": "[sniz]",
-          "pos": "vi.",
-          "meaning": "打噴嚏n.噴嚏(聲)[C]"
+          "pos": "vi./n.",
+          "meaning": "打噴嚏；噴嚏(聲)[C]"
         },
         {
           "id": "p49_w4123",
@@ -29100,8 +29100,8 @@
           "id": "p49_w4131",
           "word": "spark",
           "phonetic": "[spɑrk]",
-          "pos": "n.",
-          "meaning": "火花，火星vt.發動；點燃"
+          "pos": "n./vt.",
+          "meaning": "火花，火星；發動；點燃"
         },
         {
           "id": "p49_w4132",
@@ -29226,8 +29226,8 @@
           "id": "p49_w4149",
           "word": "submarine",
           "phonetic": "[ˋsʌbmə͵rin]",
-          "pos": "n.",
-          "meaning": "潛水艇a.海底的"
+          "pos": "n./adj.",
+          "meaning": "潛水艇；海底的"
         },
         {
           "id": "p49_w4150",
@@ -29700,8 +29700,8 @@
           "id": "p50_w4216",
           "word": "very",
           "phonetic": "[ˋvɛrɪ]",
-          "pos": "adv.",
-          "meaning": "非常，很a.正是；恰好是"
+          "pos": "adv./adj.",
+          "meaning": "非常，很；正是；恰好是"
         },
         {
           "id": "p50_w4217",
@@ -29735,8 +29735,8 @@
           "id": "p50_w4221",
           "word": "virgin",
           "phonetic": "[ˋvɝdʒɪn]",
-          "pos": "n.",
-          "meaning": "處女,未婚女子a.處女的"
+          "pos": "n./adj.",
+          "meaning": "處女,未婚女子；處女的"
         },
         {
           "id": "p50_w4222",
@@ -29861,8 +29861,8 @@
           "id": "p50_w4239",
           "word": "witness",
           "phonetic": "[ˋwɪtnɪs]",
-          "pos": "n.",
-          "meaning": "目擊者；見證人vt.目擊"
+          "pos": "n./vt.",
+          "meaning": "目擊者；見證人；目擊"
         },
         {
           "id": "p50_w4240",
@@ -29875,8 +29875,8 @@
           "id": "p50_w4242",
           "word": "wrinkle",
           "phonetic": "[ˋrɪŋk!]",
-          "pos": "n.",
-          "meaning": "皺紋vt.vi.(使)起皺紋"
+          "pos": "n./vt./vi.",
+          "meaning": "皺紋；(使)起皺紋"
         },
         {
           "id": "p50_w4243",
@@ -30242,8 +30242,8 @@
           "id": "p52_w4293",
           "word": "assault",
           "phonetic": "[ə`sɔlt]",
-          "pos": "vt.",
-          "meaning": "攻擊vi.動武"
+          "pos": "vt./vi.",
+          "meaning": "攻擊；動武"
         },
         {
           "id": "p52_w4294",
@@ -30319,8 +30319,8 @@
           "id": "p52_w4304",
           "word": "awe",
           "phonetic": "[ɔ]",
-          "pos": "n.",
-          "meaning": "敬畏vt.使...敬畏"
+          "pos": "n./vt.",
+          "meaning": "敬畏；使...敬畏"
         },
         {
           "id": "p52_w4305",
@@ -30389,8 +30389,8 @@
           "id": "p52_w4314",
           "word": "barbarian",
           "phonetic": "[bɑr`bɛrɪən]",
-          "pos": "n.",
-          "meaning": "野蠻人a.野蠻人"
+          "pos": "n./adj.",
+          "meaning": "野蠻人；野蠻人"
         },
         {
           "id": "p52_w4315",
@@ -30508,8 +30508,8 @@
           "id": "p52_w4331",
           "word": "blast",
           "phonetic": "[blæst]",
-          "pos": "n.",
-          "meaning": "強風；爆炸v.爆炸"
+          "pos": "n./v.",
+          "meaning": "強風；爆炸；爆炸"
         }
       ]
     },
@@ -30520,8 +30520,8 @@
           "id": "p53_w4332",
           "word": "blaze",
           "phonetic": "[blez]",
-          "pos": "n.",
-          "meaning": "火焰v.燃燒"
+          "pos": "n./v.",
+          "meaning": "火焰；燃燒"
         },
         {
           "id": "p53_w4333",
@@ -30541,8 +30541,8 @@
           "id": "p53_w4335",
           "word": "blond/blonde",
           "phonetic": "[blɑnd]",
-          "pos": "adj.",
-          "meaning": "金髮的n.金髮人"
+          "pos": "adj./n.",
+          "meaning": "金髮的；金髮人"
         },
         {
           "id": "p53_w4336",
@@ -30562,8 +30562,8 @@
           "id": "p53_w4338",
           "word": "blur",
           "phonetic": "[blɝ]",
-          "pos": "n.",
-          "meaning": "模糊v.使…模糊"
+          "pos": "n./v.",
+          "meaning": "模糊；使…模糊"
         },
         {
           "id": "p53_w4339",
@@ -30583,15 +30583,15 @@
           "id": "p53_w4341",
           "word": "bog",
           "phonetic": "[bɑg]",
-          "pos": "n.",
-          "meaning": "沼澤vt.vi.(使)陷入泥淖"
+          "pos": "n./vt./vi.",
+          "meaning": "沼澤；(使)陷入泥淖"
         },
         {
           "id": "p53_w4342",
           "word": "bolt",
           "phonetic": "[bolt]",
-          "pos": "n.",
-          "meaning": "門閂；閃電vt.vi.閂住"
+          "pos": "n./vt./vi.",
+          "meaning": "門閂；閃電；閂住"
         },
         {
           "id": "p53_w4343",
@@ -30744,8 +30744,8 @@
           "id": "p53_w4364",
           "word": "brood",
           "phonetic": "[brud]",
-          "pos": "n.",
-          "meaning": "一窩(卵、蟲、鳥) vt.vi.孵出"
+          "pos": "n./vt./vi.",
+          "meaning": "一窩(卵、蟲、鳥)；孵出"
         },
         {
           "id": "p53_w4365",
@@ -31169,8 +31169,8 @@
           "id": "p54_w4424",
           "word": "clutch",
           "phonetic": "[klʌtʃ]",
-          "pos": "vt.",
-          "meaning": "抓住n.離合器"
+          "pos": "vt./n.",
+          "meaning": "抓住；離合器"
         },
         {
           "id": "p54_w4425",
@@ -31190,8 +31190,8 @@
           "id": "p54_w4427",
           "word": "coil",
           "phonetic": "[kɔɪl]",
-          "pos": "n.",
-          "meaning": "線圈；捲vt.vi.捲；盤繞"
+          "pos": "n./vt./vi.",
+          "meaning": "線圈；捲；捲；盤繞"
         },
         {
           "id": "p54_w4428",
@@ -31246,8 +31246,8 @@
           "id": "p54_w4435",
           "word": "commission",
           "phonetic": "[kə`mɪʃən]",
-          "pos": "n.",
-          "meaning": "傭金vt.委任"
+          "pos": "n./vt.",
+          "meaning": "傭金；委任"
         },
         {
           "id": "p54_w4436",
@@ -31687,8 +31687,8 @@
           "id": "p54_w4498",
           "word": "curb",
           "phonetic": "[kɝb]",
-          "pos": "n.",
-          "meaning": "路邊；邊欄vt.抑制"
+          "pos": "n./vt.",
+          "meaning": "路邊；邊欄；抑制"
         },
         {
           "id": "p54_w4499",
@@ -31727,8 +31727,8 @@
           "id": "p55_w4503",
           "word": "dart",
           "phonetic": "[dɑrt]",
-          "pos": "n.",
-          "meaning": "鏢vt.投擲vi.急衝"
+          "pos": "n./vt./vi.",
+          "meaning": "鏢；投擲；急衝"
         },
         {
           "id": "p55_w4504",
@@ -31909,8 +31909,8 @@
           "id": "p55_w4529",
           "word": "distress",
           "phonetic": "[dɪ`strɛs]",
-          "pos": "n.",
-          "meaning": "痛苦vt.使痛苦"
+          "pos": "n./vt.",
+          "meaning": "痛苦；使痛苦"
         },
         {
           "id": "p55_w4530",
@@ -31958,8 +31958,8 @@
           "id": "p55_w4536",
           "word": "drape",
           "phonetic": "[drep]",
-          "pos": "n.",
-          "meaning": "簾vt.vi.覆蓋"
+          "pos": "n./vt./vi.",
+          "meaning": "簾；覆蓋"
         },
         {
           "id": "p55_w4537",
@@ -32007,8 +32007,8 @@
           "id": "p55_w4543",
           "word": "dwarf",
           "phonetic": "[dwɔrf]",
-          "pos": "n.",
-          "meaning": "矮子adj.矮小的"
+          "pos": "n./adj.",
+          "meaning": "矮子；矮小的"
         },
         {
           "id": "p55_w4544",
@@ -32049,8 +32049,8 @@
           "id": "p55_w4549",
           "word": "elaborate",
           "phonetic": "[ɪ`læbə͵ret]",
-          "pos": "adj.",
-          "meaning": "精巧的vi.vt.詳"
+          "pos": "adj./vi./vt.",
+          "meaning": "精巧的；詳"
         },
         {
           "id": "p55_w4550",
@@ -32140,8 +32140,8 @@
           "id": "p55_w4562",
           "word": "escort",
           "phonetic": "[`ɛskɔrt]",
-          "pos": "n.",
-          "meaning": "護送者vt.護送"
+          "pos": "n./vt.",
+          "meaning": "護送者；護送"
         },
         {
           "id": "p55_w4563",
@@ -32175,8 +32175,8 @@
           "id": "p55_w4567",
           "word": "evergreen",
           "phonetic": "[`ɛvɚ͵grin]",
-          "pos": "n.",
-          "meaning": "長青樹adj.常綠"
+          "pos": "n./adj.",
+          "meaning": "長青樹；常綠"
         },
         {
           "id": "p55_w4568",
@@ -32245,8 +32245,8 @@
           "id": "p55_w4577",
           "word": "exile",
           "phonetic": "[`ɛksaɪl]",
-          "pos": "n.",
-          "meaning": "放逐(者)vt.放逐"
+          "pos": "n./vt.",
+          "meaning": "放逐(者)；放逐"
         },
         {
           "id": "p55_w4578",
@@ -32266,8 +32266,8 @@
           "id": "p55_w4580",
           "word": "exterior",
           "phonetic": "[ɪk`stɪrɪɚ]",
-          "pos": "adj.",
-          "meaning": "外部的n.外部"
+          "pos": "adj./n.",
+          "meaning": "外部的；外部"
         },
         {
           "id": "p55_w4581",
@@ -32411,8 +32411,8 @@
           "id": "p56_w4600",
           "word": "filter",
           "phonetic": "[`fɪltɚ]",
-          "pos": "n.",
-          "meaning": "過濾器vt.vi.過濾"
+          "pos": "n./vt./vi.",
+          "meaning": "過濾器；過濾"
         },
         {
           "id": "p56_w4601",
@@ -32453,8 +32453,8 @@
           "id": "p56_w4606",
           "word": "flick",
           "phonetic": "[flɪk]",
-          "pos": "n.",
-          "meaning": "輕打聲vt.vi.輕彈"
+          "pos": "n./vt./vi.",
+          "meaning": "輕打聲；輕彈"
         },
         {
           "id": "p56_w4607",
@@ -32509,15 +32509,15 @@
           "id": "p56_w4614",
           "word": "format",
           "phonetic": "[`fɔrmæt]",
-          "pos": "n.",
-          "meaning": "格式vt.格式化"
+          "pos": "n./vt.",
+          "meaning": "格式；格式化"
         },
         {
           "id": "p56_w4615",
           "word": "foul",
           "phonetic": "[faʊl]",
-          "pos": "adj.",
-          "meaning": "惡臭的；邪惡的n.vi.犯規"
+          "pos": "adj./n./vi.",
+          "meaning": "惡臭的；邪惡的；犯規"
         },
         {
           "id": "p56_w4616",
@@ -32579,8 +32579,8 @@
           "id": "p56_w4624",
           "word": "fuse",
           "phonetic": "[fjuz]",
-          "pos": "vt.",
-          "meaning": "熔合n.保險絲"
+          "pos": "vt./n.",
+          "meaning": "熔合；保險絲"
         },
         {
           "id": "p56_w4625",
@@ -32621,8 +32621,8 @@
           "id": "p56_w4630",
           "word": "gay",
           "phonetic": "[ge]",
-          "pos": "adj.",
-          "meaning": "同性戀的n.男同性戀"
+          "pos": "adj./n.",
+          "meaning": "同性戀的；男同性戀"
         },
         {
           "id": "p56_w4631",
@@ -32705,8 +32705,8 @@
           "id": "p56_w4642",
           "word": "gorge",
           "phonetic": "[gɔrdʒ]",
-          "pos": "n.",
-          "meaning": "峽谷n.vt.vi.狼吞虎嚥"
+          "pos": "n./vt./vi.",
+          "meaning": "峽谷；狼吞虎嚥"
         },
         {
           "id": "p56_w4643",
@@ -32804,7 +32804,7 @@
           "word": "grumble",
           "phonetic": "[`grʌmb!]",
           "pos": "n.",
-          "meaning": "抱怨n.怨言"
+          "meaning": "抱怨；怨言"
         },
         {
           "id": "p56_w4657",
@@ -32845,8 +32845,8 @@
           "id": "p56_w4662",
           "word": "hail",
           "phonetic": "[hel]",
-          "pos": "n.",
-          "meaning": "冰雹n.vt.歡呼"
+          "pos": "n./vt.",
+          "meaning": "冰雹；歡呼"
         },
         {
           "id": "p56_w4663",
@@ -32859,8 +32859,8 @@
           "id": "p56_w4664",
           "word": "handicap",
           "phonetic": "[`hændɪ͵kæp]",
-          "pos": "n.",
-          "meaning": "障礙vt.妨礙"
+          "pos": "n./vt.",
+          "meaning": "障礙；妨礙"
         },
         {
           "id": "p56_w4665",
@@ -32880,8 +32880,8 @@
           "id": "p56_w4667",
           "word": "harness",
           "phonetic": "[`hɑrnɪs]",
-          "pos": "n.",
-          "meaning": "馬具v.套上馬具；利"
+          "pos": "n./v.",
+          "meaning": "馬具；套上馬具；利"
         },
         {
           "id": "p56_w4668",
@@ -32950,8 +32950,8 @@
           "id": "p56_w4677",
           "word": "herald",
           "phonetic": "[`hɛrəld]",
-          "pos": "n.",
-          "meaning": "使者vt.傳達"
+          "pos": "n./vt.",
+          "meaning": "使者；傳達"
         },
         {
           "id": "p56_w4678",
@@ -33004,8 +33004,8 @@
           "id": "p57_w4684",
           "word": "hiss",
           "phonetic": "[hɪs]",
-          "pos": "vt.",
-          "meaning": "發出嘶嘶(噓)聲n.嘶嘶(噓)"
+          "pos": "vt./n.",
+          "meaning": "發出嘶嘶(噓)聲；嘶嘶(噓)"
         },
         {
           "id": "p57_w4685",
@@ -33032,8 +33032,8 @@
           "id": "p57_w4688",
           "word": "honk",
           "phonetic": "[hɔŋk]",
-          "pos": "n.",
-          "meaning": "汽車喇叭v.發出汽車喇叭"
+          "pos": "n./v.",
+          "meaning": "汽車喇叭；發出汽車喇叭"
         },
         {
           "id": "p57_w4689",
@@ -33159,7 +33159,7 @@
           "word": "index",
           "phonetic": "[`ɪndɛks]",
           "pos": "n.",
-          "meaning": "索引n.指數"
+          "meaning": "索引；指數"
         },
         {
           "id": "p57_w4707",
@@ -33249,8 +33249,8 @@
           "id": "p57_w4719",
           "word": "institute",
           "phonetic": "[`ɪnstətjut]",
-          "pos": "vt.",
-          "meaning": "設立n.機構"
+          "pos": "vt./n.",
+          "meaning": "設立；機構"
         },
         {
           "id": "p57_w4720",
@@ -33263,8 +33263,8 @@
           "id": "p57_w4721",
           "word": "intent",
           "phonetic": "[ɪn`tɛnt]",
-          "pos": "n.",
-          "meaning": "意圖adj.熱切的"
+          "pos": "n./adj.",
+          "meaning": "意圖；熱切的"
         },
         {
           "id": "p57_w4722",
@@ -33326,8 +33326,8 @@
           "id": "p57_w4730",
           "word": "issue",
           "phonetic": "[`ɪʃjʊ]",
-          "pos": "n.",
-          "meaning": "議題；發行vt.vi.發行"
+          "pos": "n./vt./vi.",
+          "meaning": "議題；發行；發行"
         },
         {
           "id": "p57_w4731",
@@ -33382,8 +33382,8 @@
           "id": "p57_w4738",
           "word": "jingle",
           "phonetic": "[`dʒɪŋg!]",
-          "pos": "n.",
-          "meaning": "叮噹聲vi.發出叮噹聲"
+          "pos": "n./vi.",
+          "meaning": "叮噹聲；發出叮噹聲"
         },
         {
           "id": "p57_w4739",
@@ -33431,8 +33431,8 @@
           "id": "p57_w4745",
           "word": "juvenile",
           "phonetic": "[`dʒuvən!]",
-          "pos": "n.",
-          "meaning": "少年adj.少年的"
+          "pos": "n./adj.",
+          "meaning": "少年；少年的"
         },
         {
           "id": "p57_w4746",
@@ -33466,8 +33466,8 @@
           "id": "p57_w4750",
           "word": "lame",
           "phonetic": "[lem]",
-          "pos": "adj.",
-          "meaning": "跛腳vt.使…跛腳"
+          "pos": "adj./vt.",
+          "meaning": "跛腳；使…跛腳"
         },
         {
           "id": "p57_w4751",
@@ -33849,8 +33849,8 @@
           "id": "p58_w4804",
           "word": "mediate",
           "phonetic": "[`midɪ͵et]",
-          "pos": "vt.",
-          "meaning": "居中調停adj.居間的"
+          "pos": "vt./adj.",
+          "meaning": "居中調停；居間的"
         },
         {
           "id": "p58_w4805",
@@ -33877,8 +33877,8 @@
           "id": "p58_w4808",
           "word": "migrant",
           "phonetic": "[`maɪgrənt]",
-          "pos": "adj.",
-          "meaning": "移居的n.移民"
+          "pos": "adj./n.",
+          "meaning": "移居的；移民"
         },
         {
           "id": "p58_w4809",
@@ -34031,8 +34031,8 @@
           "id": "p58_w4830",
           "word": "mount",
           "phonetic": "[maʊnt]",
-          "pos": "vt.",
-          "meaning": "登上n.底座"
+          "pos": "vt./n.",
+          "meaning": "登上；底座"
         },
         {
           "id": "p58_w4831",
@@ -34449,8 +34449,8 @@
           "id": "p59_w4889",
           "word": "overall",
           "phonetic": "[`ovɚ͵ɔl]",
-          "pos": "adj.",
-          "meaning": "全部的adv.大體上來說"
+          "pos": "adj./adv.",
+          "meaning": "全部的；大體上來說"
         },
         {
           "id": "p59_w4890",
@@ -34701,8 +34701,8 @@
           "id": "p59_w4925",
           "word": "perch",
           "phonetic": "[pɝtʃ]",
-          "pos": "n.",
-          "meaning": "棲木vi.vt.(使)棲息"
+          "pos": "n./vi./vt.",
+          "meaning": "棲木；(使)棲息"
         },
         {
           "id": "p59_w4926",
@@ -35028,8 +35028,8 @@
           "id": "p60_w4971",
           "word": "prop",
           "phonetic": "[prɑp]",
-          "pos": "n.",
-          "meaning": "支柱vt.支撐"
+          "pos": "n./vt.",
+          "meaning": "支柱；支撐"
         },
         {
           "id": "p60_w4972",
@@ -35063,8 +35063,8 @@
           "id": "p60_w4976",
           "word": "prune",
           "phonetic": "[prun]",
-          "pos": "n.",
-          "meaning": "梅乾；vt.vi.修剪"
+          "pos": "n./vt./vi.",
+          "meaning": "梅乾；修剪"
         },
         {
           "id": "p60_w4977",
@@ -35112,8 +35112,8 @@
           "id": "p60_w4983",
           "word": "qualify",
           "phonetic": "[`kwɑlə͵faɪ]",
-          "pos": "vt.",
-          "meaning": "使合格vi.取得資格"
+          "pos": "vt./vi.",
+          "meaning": "使合格；取得資格"
         },
         {
           "id": "p60_w4984",
@@ -35140,8 +35140,8 @@
           "id": "p60_w4987",
           "word": "rack",
           "phonetic": "[ræk]",
-          "pos": "n.",
-          "meaning": "架子vt.把…放架子上"
+          "pos": "n./vt.",
+          "meaning": "架子；把…放架子上"
         },
         {
           "id": "p60_w4988",
@@ -35224,8 +35224,8 @@
           "id": "p60_w4999",
           "word": "rear",
           "phonetic": "[rɪr]",
-          "pos": "n.",
-          "meaning": "後方vt.撫養vi.高聳"
+          "pos": "n./vt./vi.",
+          "meaning": "後方；撫養；高聳"
         },
         {
           "id": "p60_w5000",
@@ -35385,8 +35385,8 @@
           "id": "p60_w5022",
           "word": "resort",
           "phonetic": "[rɪ`zɔrt]",
-          "pos": "vi.",
-          "meaning": "訴諸於…n.渡假勝地"
+          "pos": "vi./n.",
+          "meaning": "訴諸於…；渡假勝地"
         },
         {
           "id": "p60_w5023",
@@ -35427,8 +35427,8 @@
           "id": "p60_w5028",
           "word": "revolt",
           "phonetic": "[rɪ`volt]",
-          "pos": "vi.",
-          "meaning": "造反vt.使厭惡n.反"
+          "pos": "vi./vt./n.",
+          "meaning": "造反；使厭惡；反"
         },
         {
           "id": "p60_w5029",
@@ -35490,8 +35490,8 @@
           "id": "p60_w5037",
           "word": "rip",
           "phonetic": "[rɪp]",
-          "pos": "vt.",
-          "meaning": "撕扯；裂開n.裂縫"
+          "pos": "vt./n.",
+          "meaning": "撕扯；裂開；裂縫"
         },
         {
           "id": "p60_w5038",
@@ -35614,8 +35614,8 @@
           "id": "p61_w5054",
           "word": "savage",
           "phonetic": "[`sævɪdʒ]",
-          "pos": "adj.",
-          "meaning": "野蠻的n.野蠻人"
+          "pos": "adj./n.",
+          "meaning": "野蠻的；野蠻人"
         },
         {
           "id": "p61_w5055",
@@ -35663,15 +35663,15 @@
           "id": "p61_w5061",
           "word": "scramble",
           "phonetic": "[`skræmb!]",
-          "pos": "vi.",
-          "meaning": "爬行vt.倉促湊成"
+          "pos": "vi./vt.",
+          "meaning": "爬行；倉促湊成"
         },
         {
           "id": "p61_w5062",
           "word": "scrap",
           "phonetic": "[skræp]",
-          "pos": "n.",
-          "meaning": "碎片vt.當廢紙扔掉"
+          "pos": "n./vt.",
+          "meaning": "碎片；當廢紙扔掉"
         },
         {
           "id": "p61_w5063",
@@ -35698,8 +35698,8 @@
           "id": "p61_w5066",
           "word": "secure",
           "phonetic": "[sɪ`kjʊr]",
-          "pos": "adj.",
-          "meaning": "安全的vt.vi.(使)變安全"
+          "pos": "adj./vt./vi.",
+          "meaning": "安全的；(使)變安全"
         },
         {
           "id": "p61_w5067",
@@ -35831,8 +35831,8 @@
           "id": "p61_w5085",
           "word": "shred",
           "phonetic": "[ʃrɛd]",
-          "pos": "n.",
-          "meaning": "碎片vt.切成條狀"
+          "pos": "n./vt.",
+          "meaning": "碎片；切成條狀"
         },
         {
           "id": "p61_w5086",
@@ -36020,8 +36020,8 @@
           "id": "p61_w5112",
           "word": "sole",
           "phonetic": "[sol]",
-          "pos": "n.",
-          "meaning": "鞋底；adj.單獨的"
+          "pos": "n./adj.",
+          "meaning": "鞋底；單獨的"
         },
         {
           "id": "p61_w5113",
@@ -36041,8 +36041,8 @@
           "id": "p61_w5115",
           "word": "solo",
           "phonetic": "[`solo]",
-          "pos": "n.",
-          "meaning": "獨唱；單飛adj.單獨的"
+          "pos": "n./adj.",
+          "meaning": "獨唱；單飛；單獨的"
         },
         {
           "id": "p61_w5116",
@@ -36055,8 +36055,8 @@
           "id": "p61_w5117",
           "word": "sow",
           "phonetic": "[so]",
-          "pos": "vt.",
-          "meaning": "播種n.母豬"
+          "pos": "vt./n.",
+          "meaning": "播種；母豬"
         },
         {
           "id": "p61_w5118",
@@ -36139,15 +36139,15 @@
           "id": "p61_w5129",
           "word": "spur",
           "phonetic": "[spɝ]",
-          "pos": "n.",
-          "meaning": "靴刺vt.vi.激勵"
+          "pos": "n./vt./vi.",
+          "meaning": "靴刺；激勵"
         },
         {
           "id": "p61_w5130",
           "word": "squash",
           "phonetic": "[skwɑʃ]",
-          "pos": "n.",
-          "meaning": "南瓜；回力球vt.vi.n."
+          "pos": "n./vt./vi.",
+          "meaning": "南瓜；回力球"
         },
         {
           "id": "p61_w5131",
@@ -36200,8 +36200,8 @@
           "id": "p62_w5137",
           "word": "stalk",
           "phonetic": "[stɔk]",
-          "pos": "n.",
-          "meaning": "莖；葉柄v.n.悄悄追蹤"
+          "pos": "n./v.",
+          "meaning": "莖；葉柄；悄悄追蹤"
         },
         {
           "id": "p62_w5138",
@@ -36277,8 +36277,8 @@
           "id": "p62_w5148",
           "word": "stew",
           "phonetic": "[stju]",
-          "pos": "vt.",
-          "meaning": "燉n.燉肉"
+          "pos": "vt./n.",
+          "meaning": "燉；燉肉"
         },
         {
           "id": "p62_w5149",
@@ -36305,8 +36305,8 @@
           "id": "p62_w5152",
           "word": "stink",
           "phonetic": "[stɪŋk]",
-          "pos": "vi.",
-          "meaning": "發臭；爛透了n.惡臭"
+          "pos": "vi./n.",
+          "meaning": "發臭；爛透了；惡臭"
         },
         {
           "id": "p62_w5153",
@@ -36431,8 +36431,8 @@
           "id": "p62_w5170",
           "word": "stump",
           "phonetic": "[stʌmp]",
-          "pos": "n.",
-          "meaning": "殘幹；根株vi.笨重地走"
+          "pos": "n./vi.",
+          "meaning": "殘幹；根株；笨重地走"
         },
         {
           "id": "p62_w5171",
@@ -36480,8 +36480,8 @@
           "id": "p62_w5177",
           "word": "substitute",
           "phonetic": "[`sʌbstə͵tjut]",
-          "pos": "n.",
-          "meaning": "替代物vt.vi.代"
+          "pos": "n./vt./vi.",
+          "meaning": "替代物；代"
         },
         {
           "id": "p62_w5178",
@@ -36620,8 +36620,8 @@
           "id": "p62_w5197",
           "word": "tart",
           "phonetic": "[tɑrt]",
-          "pos": "n.",
-          "meaning": "水果蛋糕adj.酸的"
+          "pos": "n./adj.",
+          "meaning": "水果蛋糕；酸的"
         },
         {
           "id": "p62_w5198",
@@ -36683,8 +36683,8 @@
           "id": "p62_w5206",
           "word": "terminal",
           "phonetic": "[`tɝmən!]",
-          "pos": "adj.",
-          "meaning": "末端的n.總站"
+          "pos": "adj./n.",
+          "meaning": "末端的；總站"
         },
         {
           "id": "p62_w5207",
@@ -36774,8 +36774,8 @@
           "id": "p62_w5219",
           "word": "tiptoe",
           "phonetic": "[`tɪp͵to]",
-          "pos": "n.",
-          "meaning": "腳尖vi.踮腳走"
+          "pos": "n./vi.",
+          "meaning": "腳尖；踮腳走"
         },
         {
           "id": "p62_w5220",
@@ -36788,8 +36788,8 @@
           "id": "p62_w5221",
           "word": "toil",
           "phonetic": "[tɔɪl]",
-          "pos": "n.",
-          "meaning": "辛勞vi.苦幹"
+          "pos": "n./vi.",
+          "meaning": "辛勞；苦幹"
         },
         {
           "id": "p62_w5222",
@@ -36858,8 +36858,8 @@
           "id": "p62_w5231",
           "word": "tramp",
           "phonetic": "[træmp]",
-          "pos": "n.",
-          "meaning": "流浪漢vi.vt.n.沉重的走"
+          "pos": "n./vi./vt.",
+          "meaning": "流浪漢；沉重的走"
         },
         {
           "id": "p62_w5232",
@@ -37045,8 +37045,8 @@
           "id": "p63_w5257",
           "word": "utter",
           "phonetic": "[`ʌtɚ]",
-          "pos": "adj.",
-          "meaning": "全然的vt.說"
+          "pos": "adj./vt.",
+          "meaning": "全然的；說"
         },
         {
           "id": "p63_w5258",
@@ -37220,8 +37220,8 @@
           "id": "p63_w5282",
           "word": "vow",
           "phonetic": "[vaʊ]",
-          "pos": "n.",
-          "meaning": "誓言vt.vi發誓"
+          "pos": "n./vt.",
+          "meaning": "誓言；vi發誓"
         },
         {
           "id": "p63_w5283",
@@ -37241,8 +37241,8 @@
           "id": "p63_w5285",
           "word": "ward",
           "phonetic": "[wɔrd]",
-          "pos": "n.",
-          "meaning": "病房；vt.躲開"
+          "pos": "n./vt.",
+          "meaning": "病房；躲開"
         },
         {
           "id": "p63_w5286",
@@ -37409,8 +37409,8 @@
           "id": "p63_w5309",
           "word": "woe",
           "phonetic": "[wo]",
-          "pos": "n.",
-          "meaning": "悲痛int.哎喲"
+          "pos": "n./int.",
+          "meaning": "悲痛；哎喲"
         },
         {
           "id": "p63_w5310",
@@ -37458,8 +37458,8 @@
           "id": "p63_w5316",
           "word": "wring",
           "phonetic": "[rɪŋ]",
-          "pos": "vt.",
-          "meaning": "擰vi.蠕動"
+          "pos": "vt./vi.",
+          "meaning": "擰；蠕動"
         },
         {
           "id": "p63_w5317",
@@ -37507,8 +37507,8 @@
           "id": "p63_w5323",
           "word": "zip",
           "phonetic": "[zɪp]",
-          "pos": "n.",
-          "meaning": "拉鍊vt.拉開(或扣上)拉鍊"
+          "pos": "n./vt.",
+          "meaning": "拉鍊；拉開(或扣上)拉鍊"
         },
         {
           "id": "p63_w5324",
@@ -37813,8 +37813,8 @@
           "id": "p64_w5366",
           "word": "alternative",
           "phonetic": "[ɔl`tɝnətɪv]",
-          "pos": "adj.",
-          "meaning": "替代的n.選擇"
+          "pos": "adj./n.",
+          "meaning": "替代的；選擇"
         },
         {
           "id": "p64_w5367",
@@ -37897,8 +37897,8 @@
           "id": "p64_w5378",
           "word": "animate",
           "phonetic": "[`ænə͵met]",
-          "pos": "vt.",
-          "meaning": "賦予生命adj.活的"
+          "pos": "vt./adj.",
+          "meaning": "賦予生命；活的"
         },
         {
           "id": "p64_w5379",
@@ -38329,15 +38329,15 @@
           "id": "p65_w5439",
           "word": "brute",
           "phonetic": "[brut]",
-          "pos": "n.",
-          "meaning": "獸；畜生adj.畜生的；蠻橫的"
+          "pos": "n./adj.",
+          "meaning": "獸；畜生；畜生的；蠻橫的"
         },
         {
           "id": "p65_w5440",
           "word": "buckle",
           "phonetic": "[`bʌk!]",
-          "pos": "n.",
-          "meaning": "扣環vt.vi.扣住"
+          "pos": "n./vt./vi.",
+          "meaning": "扣環；扣住"
         },
         {
           "id": "p65_w5441",
@@ -39146,8 +39146,8 @@
           "id": "p66_w5555",
           "word": "cramp",
           "phonetic": "[kræmp]",
-          "pos": "n.",
-          "meaning": "夾鉗；束縛；抽筋vt.限制"
+          "pos": "n./vt.",
+          "meaning": "夾鉗；束縛；抽筋；限制"
         },
         {
           "id": "p66_w5556",
@@ -39293,8 +39293,8 @@
           "id": "p66_w5576",
           "word": "decline",
           "phonetic": "[dɪ`klaɪn]",
-          "pos": "vi.",
-          "meaning": "下降；婉拒vt.婉拒"
+          "pos": "vi./vt.",
+          "meaning": "下降；婉拒；婉拒"
         },
         {
           "id": "p66_w5577",
@@ -39398,8 +39398,8 @@
           "id": "p66_w5591",
           "word": "derive",
           "phonetic": "[dɪ`raɪv]",
-          "pos": "vt.",
-          "meaning": "取得vi.衍生"
+          "pos": "vt./vi.",
+          "meaning": "取得；衍生"
         },
         {
           "id": "p66_w5592",
@@ -40666,8 +40666,8 @@
           "id": "p69_w5770",
           "word": "grill",
           "phonetic": "[grɪl]",
-          "pos": "n.",
-          "meaning": "烤架vt.vi.烤"
+          "pos": "n./vt./vi.",
+          "meaning": "烤架；烤"
         },
         {
           "id": "p69_w5771",
@@ -40813,8 +40813,8 @@
           "id": "p69_w5791",
           "word": "hunch",
           "phonetic": "[hʌntʃ]",
-          "pos": "n.",
-          "meaning": "預感；肉峰；隆起vt.vi.隆起"
+          "pos": "n./vt./vi.",
+          "meaning": "預感；肉峰；隆起；隆起"
         },
         {
           "id": "p69_w5792",
@@ -40883,8 +40883,8 @@
           "id": "p69_w5801",
           "word": "implement",
           "phonetic": "[`ɪmpləmənt]",
-          "pos": "n.",
-          "meaning": "器具vt.實施"
+          "pos": "n./vt.",
+          "meaning": "器具；實施"
         },
         {
           "id": "p69_w5802",
@@ -41002,8 +41002,8 @@
           "id": "p69_w5818",
           "word": "initiative",
           "phonetic": "[ɪ`nɪʃətɪv]",
-          "pos": "adj.",
-          "meaning": "創始的n.倡議；進取心"
+          "pos": "adj./n.",
+          "meaning": "創始的；倡議；進取心"
         },
         {
           "id": "p69_w5819",
@@ -41365,7 +41365,7 @@
           "word": "lyric",
           "phonetic": "[`lɪrɪk]",
           "pos": "n.",
-          "meaning": "抒情的n.抒情詩；歌詞"
+          "meaning": "抒情的；抒情詩；歌詞"
         },
         {
           "id": "p70_w5870",
@@ -41518,8 +41518,8 @@
           "id": "p70_w5891",
           "word": "militant",
           "phonetic": "[`mɪlətənt]",
-          "pos": "adj.",
-          "meaning": "好戰的n.好戰者"
+          "pos": "adj./n.",
+          "meaning": "好戰的；好戰者"
         },
         {
           "id": "p70_w5892",
@@ -41532,8 +41532,8 @@
           "id": "p70_w5893",
           "word": "mimic",
           "phonetic": "[`mɪmɪk]",
-          "pos": "vt.",
-          "meaning": "模仿n.善模仿的人；小丑"
+          "pos": "vt./n.",
+          "meaning": "模仿；善模仿的人；小丑"
         },
         {
           "id": "p70_w5894",
@@ -41567,8 +41567,8 @@
           "id": "p70_w5898",
           "word": "missionary",
           "phonetic": "[`mɪʃən͵ɛrɪ]",
-          "pos": "adj.",
-          "meaning": "傳教的n.傳教士"
+          "pos": "adj./n.",
+          "meaning": "傳教的；傳教士"
         },
         {
           "id": "p70_w5899",
@@ -41679,8 +41679,8 @@
           "id": "p70_w5914",
           "word": "narrative",
           "phonetic": "[`nærətɪv]",
-          "pos": "n.",
-          "meaning": "記敘文adj.敘述的"
+          "pos": "n./adj.",
+          "meaning": "記敘文；敘述的"
         },
         {
           "id": "p70_w5915",
@@ -41812,8 +41812,8 @@
           "id": "p70_w5933",
           "word": "nutrient",
           "phonetic": "[`njutrɪənt]",
-          "pos": "adj.",
-          "meaning": "營養的n.營養物"
+          "pos": "adj./n.",
+          "meaning": "營養的；營養物"
         },
         {
           "id": "p70_w5934",
@@ -41943,8 +41943,8 @@
           "id": "p71_w5951",
           "word": "originate",
           "phonetic": "[ə`rɪdʒə͵net]",
-          "pos": "vi.",
-          "meaning": "發源vt.引起"
+          "pos": "vi./vt.",
+          "meaning": "發源；引起"
         },
         {
           "id": "p71_w5952",
@@ -41971,8 +41971,8 @@
           "id": "p71_w5955",
           "word": "outlaw",
           "phonetic": "[`aʊt͵lɔ]",
-          "pos": "n.",
-          "meaning": "罪犯vt.宣布…為不合法"
+          "pos": "n./vt.",
+          "meaning": "罪犯；宣布…為不合法"
         },
         {
           "id": "p71_w5956",
@@ -41999,8 +41999,8 @@
           "id": "p71_w5959",
           "word": "outrage",
           "phonetic": "[`aʊt͵redʒ]",
-          "pos": "vt.",
-          "meaning": "激怒n.惡行"
+          "pos": "vt./n.",
+          "meaning": "激怒；惡行"
         },
         {
           "id": "p71_w5960",
@@ -42013,8 +42013,8 @@
           "id": "p71_w5961",
           "word": "outright",
           "phonetic": "[`aʊt`raɪt]",
-          "pos": "adj.",
-          "meaning": "直率的adv.徹底地"
+          "pos": "adj./adv.",
+          "meaning": "直率的；徹底地"
         },
         {
           "id": "p71_w5962",
@@ -42097,8 +42097,8 @@
           "id": "p71_w5973",
           "word": "pedestrian",
           "phonetic": "[pə`dɛstrɪən]",
-          "pos": "n.",
-          "meaning": "行人adj.徒步的"
+          "pos": "n./adj.",
+          "meaning": "行人；徒步的"
         },
         {
           "id": "p71_w5974",
@@ -42195,8 +42195,8 @@
           "id": "p71_w5987",
           "word": "phase",
           "phonetic": "[fez]",
-          "pos": "n.",
-          "meaning": "階段vt.vi.分階段進行"
+          "pos": "n./vt./vi.",
+          "meaning": "階段；分階段進行"
         },
         {
           "id": "p71_w5988",
@@ -42279,8 +42279,8 @@
           "id": "p71_w5999",
           "word": "pollutant",
           "phonetic": "[pə`lutənt]",
-          "pos": "n.",
-          "meaning": "污染物adj.受汙染的"
+          "pos": "n./adj.",
+          "meaning": "污染物；受汙染的"
         },
         {
           "id": "p71_w6000",
@@ -42314,8 +42314,8 @@
           "id": "p71_w6004",
           "word": "precedent",
           "phonetic": "[`prɛsədənt]",
-          "pos": "n.",
-          "meaning": "先例adj.在前的"
+          "pos": "n./adj.",
+          "meaning": "先例；在前的"
         },
         {
           "id": "p71_w6005",
@@ -42356,8 +42356,8 @@
           "id": "p71_w6010",
           "word": "preliminary",
           "phonetic": "[prɪ`lɪmə͵nɛrɪ]",
-          "pos": "adj.",
-          "meaning": "預備的n.初步"
+          "pos": "adj./n.",
+          "meaning": "預備的；初步"
         },
         {
           "id": "p71_w6011",
@@ -42370,8 +42370,8 @@
           "id": "p71_w6012",
           "word": "premier",
           "phonetic": "[`primɪɚ]",
-          "pos": "n.",
-          "meaning": "首相adj.最早的；首要的"
+          "pos": "n./adj.",
+          "meaning": "首相；最早的；首要的"
         },
         {
           "id": "p71_w6013",
@@ -42600,7 +42600,7 @@
           "word": "quench",
           "phonetic": "[kwɛntʃ]",
           "pos": "vt.",
-          "meaning": "熄滅vt.解(渴)；壓制"
+          "meaning": "熄滅；解(渴)；壓制"
         },
         {
           "id": "p72_w6045",
@@ -42634,8 +42634,8 @@
           "id": "p72_w6049",
           "word": "radiate",
           "phonetic": "[`redɪ͵et]",
-          "pos": "vi.",
-          "meaning": "輻射vi.vt.散發；流露"
+          "pos": "vi./vt.",
+          "meaning": "輻射；散發；流露"
         },
         {
           "id": "p72_w6050",
@@ -42662,8 +42662,8 @@
           "id": "p72_w6053",
           "word": "raft",
           "phonetic": "[ræft]",
-          "pos": "n.",
-          "meaning": "橡皮艇；木筏vt.vi.乘筏(渡河)"
+          "pos": "n./vt./vi.",
+          "meaning": "橡皮艇；木筏；乘筏(渡河)"
         },
         {
           "id": "p72_w6054",
@@ -42676,8 +42676,8 @@
           "id": "p72_w6055",
           "word": "random",
           "phonetic": "[`rændəm]",
-          "pos": "n.",
-          "meaning": "任意行動adj.隨機的"
+          "pos": "n./adj.",
+          "meaning": "任意行動；隨機的"
         },
         {
           "id": "p72_w6056",
@@ -42690,22 +42690,22 @@
           "id": "p72_w6057",
           "word": "rash",
           "phonetic": "[ræʃ]",
-          "pos": "n.",
-          "meaning": "疹子adj.輕率的"
+          "pos": "n./adj.",
+          "meaning": "疹子；輕率的"
         },
         {
           "id": "p72_w6058",
           "word": "rational",
           "phonetic": "[`ræʃən!]",
-          "pos": "adj.",
-          "meaning": "理性的n.有理數"
+          "pos": "adj./n.",
+          "meaning": "理性的；有理數"
         },
         {
           "id": "p72_w6059",
           "word": "ravage",
           "phonetic": "[`rævɪdʒ]",
-          "pos": "vt.",
-          "meaning": "使荒蕪vi.n.毀滅；蹂躪"
+          "pos": "vt./vi./n.",
+          "meaning": "使荒蕪；毀滅；蹂躪"
         },
         {
           "id": "p72_w6060",
@@ -42739,8 +42739,8 @@
           "id": "p72_w6064",
           "word": "recipient",
           "phonetic": "[rɪ`sɪpɪənt]",
-          "pos": "n.",
-          "meaning": "接受者adj.接受的"
+          "pos": "n./adj.",
+          "meaning": "接受者；接受的"
         },
         {
           "id": "p72_w6065",
@@ -42767,8 +42767,8 @@
           "id": "p72_w6068",
           "word": "recruit",
           "phonetic": "[rɪ`krut]",
-          "pos": "vt.",
-          "meaning": "徵募n.新兵；新手"
+          "pos": "vt./n.",
+          "meaning": "徵募；新兵；新手"
         },
         {
           "id": "p72_w6069",
@@ -42851,8 +42851,8 @@
           "id": "p72_w6080",
           "word": "rein",
           "phonetic": "[ren]",
-          "pos": "n.",
-          "meaning": "韁繩vt.駕馭vi.勒馬"
+          "pos": "n./vt./vi.",
+          "meaning": "韁繩；駕馭；勒馬"
         },
         {
           "id": "p72_w6081",
@@ -42865,8 +42865,8 @@
           "id": "p72_w6082",
           "word": "relay",
           "phonetic": "[rɪ`le]",
-          "pos": "n.",
-          "meaning": "接力賽跑vt.vi.轉播"
+          "pos": "n./vt./vi.",
+          "meaning": "接力賽跑；轉播"
         },
         {
           "id": "p72_w6083",
@@ -42886,8 +42886,8 @@
           "id": "p72_w6085",
           "word": "relish",
           "phonetic": "[`rɛlɪʃ]",
-          "pos": "n.",
-          "meaning": "滋味vt.品嚐vi.可口"
+          "pos": "n./vt./vi.",
+          "meaning": "滋味；品嚐；可口"
         },
         {
           "id": "p72_w6086",
@@ -42928,8 +42928,8 @@
           "id": "p72_w6091",
           "word": "rental",
           "phonetic": "[`rɛnt!]",
-          "pos": "n.",
-          "meaning": "租金；租賃adj.供出租的"
+          "pos": "n./adj.",
+          "meaning": "租金；租賃；供出租的"
         },
         {
           "id": "p72_w6092",
@@ -42963,15 +42963,15 @@
           "id": "p72_w6096",
           "word": "resistant",
           "phonetic": "[rɪ`zɪstənt]",
-          "pos": "adj.",
-          "meaning": "抵抗的n.抵抗者"
+          "pos": "adj./n.",
+          "meaning": "抵抗的；抵抗者"
         },
         {
           "id": "p72_w6097",
           "word": "resolute",
           "phonetic": "[`rɛzə͵lut]",
-          "pos": "adj.",
-          "meaning": "堅決的n.堅定的人"
+          "pos": "adj./n.",
+          "meaning": "堅決的；堅定的人"
         },
         {
           "id": "p72_w6098",
@@ -42998,8 +42998,8 @@
           "id": "p72_w6101",
           "word": "retail",
           "phonetic": "[`ritel]",
-          "pos": "n.",
-          "meaning": "零售adj.零售的"
+          "pos": "n./adj.",
+          "meaning": "零售；零售的"
         },
         {
           "id": "p72_w6102",
@@ -43012,8 +43012,8 @@
           "id": "p72_w6103",
           "word": "retrieve",
           "phonetic": "[rɪ`triv]",
-          "pos": "vt.",
-          "meaning": "重獲；挽回vi.銜回獵物"
+          "pos": "vt./vi.",
+          "meaning": "重獲；挽回；銜回獵物"
         },
         {
           "id": "p72_w6104",
@@ -43187,8 +43187,8 @@
           "id": "p72_w6128",
           "word": "script",
           "phonetic": "[skrɪpt]",
-          "pos": "n.",
-          "meaning": "筆跡；腳本vt.編為劇本"
+          "pos": "n./vt.",
+          "meaning": "筆跡；腳本；編為劇本"
         },
         {
           "id": "p72_w6129",
@@ -43290,15 +43290,15 @@
           "id": "p73_w6142",
           "word": "shed",
           "phonetic": "[ʃɛd]",
-          "pos": "n.",
-          "meaning": "棚vt.vi.流出；散發"
+          "pos": "n./vt./vi.",
+          "meaning": "棚；流出；散發"
         },
         {
           "id": "p73_w6143",
           "word": "sheer",
           "phonetic": "[ʃɪr]",
-          "pos": "adj.",
-          "meaning": "全然的adv.十足地"
+          "pos": "adj./adv.",
+          "meaning": "全然的；十足地"
         },
         {
           "id": "p73_w6144",
@@ -43395,8 +43395,8 @@
           "id": "p73_w6157",
           "word": "slash",
           "phonetic": "[slæʃ]",
-          "pos": "vt.",
-          "meaning": "砍；鞭打n.砍痕；斜線"
+          "pos": "vt./n.",
+          "meaning": "砍；鞭打；砍痕；斜線"
         },
         {
           "id": "p73_w6158",
@@ -43451,8 +43451,8 @@
           "id": "p73_w6165",
           "word": "snare",
           "phonetic": "[snɛr]",
-          "pos": "n.",
-          "meaning": "圈套vt.(用陷阱等)捕捉"
+          "pos": "n./vt.",
+          "meaning": "圈套；(用陷阱等)捕捉"
         },
         {
           "id": "p73_w6166",
@@ -43570,8 +43570,8 @@
           "id": "p73_w6182",
           "word": "specialize",
           "phonetic": "[`spɛʃəl͵aɪz]",
-          "pos": "vi.",
-          "meaning": "專攻vt.使專門化"
+          "pos": "vi./vt.",
+          "meaning": "專攻；使專門化"
         },
         {
           "id": "p73_w6183",
@@ -43605,8 +43605,8 @@
           "id": "p73_w6187",
           "word": "speculate",
           "phonetic": "[`spɛkjə͵let]",
-          "pos": "vi.",
-          "meaning": "思索vt.推測"
+          "pos": "vi./vt.",
+          "meaning": "思索；推測"
         },
         {
           "id": "p73_w6188",
@@ -43626,22 +43626,22 @@
           "id": "p73_w6190",
           "word": "spiral",
           "phonetic": "[`spaɪrəl]",
-          "pos": "n.",
-          "meaning": "螺旋adj.螺旋(形)的"
+          "pos": "n./adj.",
+          "meaning": "螺旋；螺旋(形)的"
         },
         {
           "id": "p73_w6191",
           "word": "spire",
           "phonetic": "[spaɪr]",
-          "pos": "n.",
-          "meaning": "尖塔vt.給…裝尖頂vi.聳立"
+          "pos": "n./vt./vi.",
+          "meaning": "尖塔；給…裝尖頂；聳立"
         },
         {
           "id": "p73_w6192",
           "word": "sponsor",
           "phonetic": "[`spɑnsɚ]",
-          "pos": "n.",
-          "meaning": "發起者；贊助者vt.資助"
+          "pos": "n./vt.",
+          "meaning": "發起者；贊助者；資助"
         },
         {
           "id": "p73_w6193",
@@ -43710,8 +43710,8 @@
           "id": "p73_w6202",
           "word": "staple",
           "phonetic": "[`step!]",
-          "pos": "n.",
-          "meaning": "主食；訂書釘adj.主要的"
+          "pos": "n./adj.",
+          "meaning": "主食；訂書釘；主要的"
         },
         {
           "id": "p73_w6203",
@@ -43787,8 +43787,8 @@
           "id": "p73_w6213",
           "word": "stock",
           "phonetic": "[stɑk]",
-          "pos": "n.",
-          "meaning": "存貨；股票vt.vi.辦貨"
+          "pos": "n./vt./vi.",
+          "meaning": "存貨；股票；辦貨"
         },
         {
           "id": "p73_w6214",
@@ -43808,8 +43808,8 @@
           "id": "p73_w6216",
           "word": "stunt",
           "phonetic": "[stʌnt]",
-          "pos": "n.",
-          "meaning": "絕技vt.阻礙vi.表演絕技"
+          "pos": "n./vt./vi.",
+          "meaning": "絕技；阻礙；表演絕技"
         },
         {
           "id": "p73_w6217",
@@ -44079,8 +44079,8 @@
           "id": "p74_w6254",
           "word": "textile",
           "phonetic": "[`tɛkstaɪl]",
-          "pos": "n.",
-          "meaning": "紡織品adj.紡織的"
+          "pos": "n./adj.",
+          "meaning": "紡織品；紡織的"
         },
         {
           "id": "p74_w6255",
@@ -44310,8 +44310,8 @@
           "id": "p74_w6287",
           "word": "trek",
           "phonetic": "[trɛk]",
-          "pos": "n.",
-          "meaning": "移居；旅行vi.艱苦跋涉；移居"
+          "pos": "n./vi.",
+          "meaning": "移居；旅行；艱苦跋涉；移居"
         },
         {
           "id": "p74_w6288",
@@ -44331,8 +44331,8 @@
           "id": "p74_w6290",
           "word": "trigger",
           "phonetic": "[`trɪgɚ]",
-          "pos": "n.",
-          "meaning": "扳機vt.扣扳機；引起"
+          "pos": "n./vt.",
+          "meaning": "扳機；扣扳機；引起"
         },
         {
           "id": "p74_w6291",
@@ -44366,8 +44366,8 @@
           "id": "p74_w6295",
           "word": "truant",
           "phonetic": "[`truənt]",
-          "pos": "n.",
-          "meaning": "逃學者adj.逃學的vi.逃學"
+          "pos": "n./adj./vi.",
+          "meaning": "逃學者；逃學的；逃學"
         },
         {
           "id": "p74_w6296",
@@ -44520,8 +44520,8 @@
           "id": "p74_w6317",
           "word": "upgrade",
           "phonetic": "[`ʌp`gred]",
-          "pos": "n.",
-          "meaning": "升級adv.上坡"
+          "pos": "n./adv.",
+          "meaning": "升級；上坡"
         },
         {
           "id": "p74_w6318",
@@ -44555,8 +44555,8 @@
           "id": "p74_w6322",
           "word": "usher",
           "phonetic": "[`ʌʃɚ]",
-          "pos": "n.",
-          "meaning": "引座員vt.vi.招待；迎接"
+          "pos": "n./vt./vi.",
+          "meaning": "引座員；招待；迎接"
         },
         {
           "id": "p74_w6323",
@@ -44588,22 +44588,22 @@
           "id": "p75_w6326",
           "word": "utmost",
           "phonetic": "[`ʌt͵most]",
-          "pos": "adj.",
-          "meaning": "極度的n.極度"
+          "pos": "adj./n.",
+          "meaning": "極度的；極度"
         },
         {
           "id": "p75_w6327",
           "word": "vaccine",
           "phonetic": "[`væksin]",
-          "pos": "adj.",
-          "meaning": "疫苗的n.疫苗"
+          "pos": "adj./n.",
+          "meaning": "疫苗的；疫苗"
         },
         {
           "id": "p75_w6328",
           "word": "valiant",
           "phonetic": "[`væljənt]",
-          "pos": "adj.",
-          "meaning": "英勇的n.勇士"
+          "pos": "adj./n.",
+          "meaning": "英勇的；勇士"
         },
         {
           "id": "p75_w6329",
@@ -44623,15 +44623,15 @@
           "id": "p75_w6331",
           "word": "vanilla",
           "phonetic": "[və`nɪlə]",
-          "pos": "n.",
-          "meaning": "香草adj.香草的；普通的"
+          "pos": "n./adj.",
+          "meaning": "香草；香草的；普通的"
         },
         {
           "id": "p75_w6332",
           "word": "variable",
           "phonetic": "[`vɛrɪəb!]",
-          "pos": "adj.",
-          "meaning": "多變的n.可變因素"
+          "pos": "adj./n.",
+          "meaning": "多變的；可變因素"
         },
         {
           "id": "p75_w6333",
@@ -44658,8 +44658,8 @@
           "id": "p75_w6336",
           "word": "verge",
           "phonetic": "[vɝdʒ]",
-          "pos": "n.",
-          "meaning": "邊緣vi.vt.處在(…)邊緣"
+          "pos": "n./vi./vt.",
+          "meaning": "邊緣；處在(…)邊緣"
         },
         {
           "id": "p75_w6337",
@@ -44700,8 +44700,8 @@
           "id": "p75_w6342",
           "word": "vice",
           "phonetic": "[vaɪs]",
-          "pos": "n.",
-          "meaning": "惡adj.副的"
+          "pos": "n./adj.",
+          "meaning": "惡；副的"
         },
         {
           "id": "p75_w6343",
