@@ -6,7 +6,7 @@ import { buildPracticeQueue, shuffle } from '@/utils/srs'
 import { useSpeech } from '@/composables/useSpeech'
 import { logError } from '@/utils/logError'
 
-const props = defineProps({ page: Number })
+const props = defineProps({ page: Number, count: { type: Number, default: 10 } })
 defineEmits(['back'])
 
 const vocabStore = useVocabularyStore()
@@ -31,7 +31,7 @@ onMounted(async () => {
       .map(r => vocabStore.getWordById(r.id))
       .filter(Boolean)
 
-    queue.value = buildPracticeQueue(pageWords, dueWords, 10)
+    queue.value = buildPracticeQueue(pageWords, dueWords, props.count)
   } catch (e) {
     mountError.value = e.message
     await logError('QuizCard.onMounted failed: ' + e.message, e.stack)

@@ -7,6 +7,9 @@ defineEmits(['start'])
 const vocabStore = useVocabularyStore()
 const selectedPage = ref(vocabStore.pageNumbers[0])
 const selectedMode = ref('flashcard')
+const selectedCount = ref(10)
+
+const countOptions = [10, 20, 30, 50, 100]
 </script>
 
 <template>
@@ -19,6 +22,13 @@ const selectedMode = ref('flashcard')
         <option v-for="p in vocabStore.pageNumbers" :key="p" :value="p">
           P{{ p }} (Level {{ vocabStore.getPageLevel(p) }})
         </option>
+      </select>
+    </div>
+
+    <div class="selector-row">
+      <label>題目數量</label>
+      <select v-model="selectedCount" class="page-select">
+        <option v-for="n in countOptions" :key="n" :value="n">{{ n }} 題</option>
       </select>
     </div>
 
@@ -40,7 +50,7 @@ const selectedMode = ref('flashcard')
       </div>
     </div>
 
-    <button class="start-btn" @click="$emit('start', { page: selectedPage, mode: selectedMode })">
+    <button class="start-btn" @click="$emit('start', { page: selectedPage, mode: selectedMode, count: selectedCount })">
       開始練習
     </button>
   </div>

@@ -11,10 +11,10 @@ const childError = ref(null)
 // 獨立計算，避免 session 為 null 時模板直接存取 .mode 出錯
 const sessionMode = computed(() => session.value?.mode ?? null)
 
-function onStart({ page, mode }) {
+function onStart({ page, mode, count }) {
   try {
     childError.value = null
-    session.value = { page, mode }
+    session.value = { page, mode, count }
   } catch (e) {
     logError('PracticeTab.onStart failed: ' + e.message, e.stack)
   }
@@ -44,11 +44,13 @@ onErrorCaptured((err, instance, info) => {
       <FlashCard
         v-else-if="sessionMode === 'flashcard'"
         :page="session.page"
+        :count="session.count"
         @back="onBack"
       />
       <QuizCard
         v-else-if="sessionMode === 'quiz'"
         :page="session.page"
+        :count="session.count"
         @back="onBack"
       />
     </template>
