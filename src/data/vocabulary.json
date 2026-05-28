@@ -1,7 +1,7 @@
 {
   "metadata": {
     "totalPages": 75,
-    "totalWords": 6371,
+    "totalWords": 6367,
     "levels": {
       "1": {
         "pages": [
@@ -8513,10 +8513,10 @@
         },
         {
           "id": "p13_w1201",
-          "word": "conflict vi.",
+          "word": "conflict",
           "phonetic": "[kənˋflɪkt]",
-          "pos": "n.",
-          "meaning": "[ˋkɑnflɪkt]衝突"
+          "pos": "vi./n.",
+          "meaning": "衝突"
         },
         {
           "id": "p13_w1202",
@@ -8541,10 +8541,10 @@
         },
         {
           "id": "p13_w1205",
-          "word": "contact vt.",
+          "word": "contact",
           "phonetic": "[kənˋtækt]",
-          "pos": "n.",
-          "meaning": "[ˋkɑntæ kt]接觸"
+          "pos": "vt./n.",
+          "meaning": "接觸"
         },
         {
           "id": "p13_w1206",
@@ -15027,14 +15027,14 @@
           "word": "bacteria",
           "phonetic": "[bæk`tɪrɪə]",
           "pos": "n.",
-          "meaning": "[複]細菌"
+          "meaning": "細菌"
         },
         {
           "id": "p23_w2125",
           "word": "bacterium",
           "phonetic": "[bækˋtɪrɪəm]",
-          "pos": "",
-          "meaning": "[單]"
+          "pos": "n.",
+          "meaning": "細菌"
         },
         {
           "id": "p23_w2126",
@@ -18041,14 +18041,14 @@
           "word": "jewel",
           "phonetic": "[ˋdʒuəl]",
           "pos": "n.",
-          "meaning": "[C]寶石"
+          "meaning": "寶石"
         },
         {
           "id": "p28_w2552",
           "word": "jewelry",
           "phonetic": "[ˋdʒuəlrɪ]",
           "pos": "n.",
-          "meaning": "[U]【美】(總稱)珠寶；首飾"
+          "meaning": "【美】(總稱)珠寶；首飾"
         },
         {
           "id": "p28_w2553",
@@ -18083,14 +18083,14 @@
           "word": "junk",
           "phonetic": "[dʒʌŋk]",
           "pos": "n.",
-          "meaning": "[U]假貨；垃圾；廢話"
+          "meaning": "假貨；垃圾；廢話"
         },
         {
           "id": "p28_w2558",
           "word": "justice",
           "phonetic": "[ˋdʒʌstɪs]",
           "pos": "n.",
-          "meaning": "[U]正義；公平；司法"
+          "meaning": "正義；公平；司法"
         },
         {
           "id": "p28_w2559",
@@ -18209,7 +18209,7 @@
           "word": "laughter",
           "phonetic": "[ˋlæftɚ]",
           "pos": "n.",
-          "meaning": "[U]笑；笑聲"
+          "meaning": "笑；笑聲"
         },
         {
           "id": "p28_w2576",
@@ -18335,7 +18335,7 @@
           "word": "linen",
           "phonetic": "[ˋlɪnən]",
           "pos": "n.",
-          "meaning": "[U]亞麻布"
+          "meaning": "亞麻布"
         },
         {
           "id": "p28_w2594",
@@ -18426,7 +18426,7 @@
           "word": "luggage",
           "phonetic": "[ˋlʌgɪdʒ]",
           "pos": "n.",
-          "meaning": "[U]【主英】行李"
+          "meaning": "【主英】行李"
         },
         {
           "id": "p28_w2607",
@@ -18510,7 +18510,7 @@
           "word": "mankind",
           "phonetic": "[ˋmæn͵kaɪnd]",
           "pos": "n.",
-          "meaning": "[U]男人；人類"
+          "meaning": "男人；人類"
         },
         {
           "id": "p28_w2619",
@@ -24737,21 +24737,7 @@
           "word": "drill",
           "phonetic": "[drɪl]",
           "pos": "vt.",
-          "meaning": "鑽(孔)；在…上鑽孔；操練；"
-        },
-        {
-          "id": "p40_w3500",
-          "word": "n.鑽，鑽頭；鑽床",
-          "phonetic": "[C]",
-          "pos": "",
-          "meaning": "；操練；訓"
-        },
-        {
-          "id": "p40_w3501",
-          "word": "練",
-          "phonetic": "[C]",
-          "pos": "",
-          "meaning": "[U]"
+          "meaning": "鑽(孔)；在…上鑽孔；n.鑽，鑽頭；操練；訓練"
         },
         {
           "id": "p40_w3502",
@@ -27896,14 +27882,7 @@
           "word": "philosophy",
           "phonetic": "[fəˋlɑsəfɪ]",
           "pos": "n.",
-          "meaning": "哲學[U]；人生觀；"
-        },
-        {
-          "id": "p46_w3947",
-          "word": "主義",
-          "phonetic": "[U]",
-          "pos": "",
-          "meaning": "[C]"
+          "meaning": "哲學；人生觀；主義"
         },
         {
           "id": "p46_w3948",
@@ -28795,14 +28774,7 @@
           "word": "revenge",
           "phonetic": "[rɪˋvɛndʒ]",
           "pos": "vt.",
-          "meaning": "替…報仇[(+on/upon)]"
-        },
-        {
-          "id": "p48_w4074",
-          "word": "n.報仇；報復",
-          "phonetic": "[U]",
-          "pos": "",
-          "meaning": "[(+for/on)]"
+          "meaning": "替…報仇；n.報仇；報復"
         },
         {
           "id": "p48_w4075",
