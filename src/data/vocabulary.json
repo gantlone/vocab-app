@@ -1,7 +1,7 @@
 {
   "metadata": {
     "totalPages": 75,
-    "totalWords": 6357,
+    "totalWords": 6355,
     "levels": {
       "1": {
         "pages": [
@@ -83,7 +83,7 @@
           "id": "p1_w5",
           "word": "according to",
           "phonetic": "[əˋkɔrdɪŋtu]",
-          "pos": "",
+          "pos": "phr.",
           "meaning": "根據"
         },
         {
@@ -872,7 +872,7 @@
           "id": "p2_w117",
           "word": "born",
           "phonetic": "[bɔrn]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "出生的"
         },
         {
@@ -1285,7 +1285,7 @@
           "id": "p2_w176",
           "word": "clean",
           "phonetic": "[klin]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "乾淨的"
         },
         {
@@ -2618,7 +2618,7 @@
           "id": "p4_w365",
           "word": "granddaughter",
           "phonetic": "[ˋgræn͵dɔtɚ]",
-          "pos": "",
+          "pos": "n.",
           "meaning": "孫女"
         },
         {
@@ -6813,7 +6813,7 @@
           "id": "p10_w960",
           "word": "Wednesday/Wed.",
           "phonetic": "[ˋwɛnzde]",
-          "pos": "",
+          "pos": "n.",
           "meaning": "星期三"
         },
         {
@@ -7621,7 +7621,7 @@
           "id": "p12_w1074",
           "word": "basics",
           "phonetic": "[ˋbesɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "基礎的"
         },
         {
@@ -10287,7 +10287,7 @@
           "id": "p16_w1452",
           "word": "hero",
           "phonetic": "[ˋhɪro]",
-          "pos": "",
+          "pos": "n.",
           "meaning": "英雄"
         },
         {
@@ -12584,7 +12584,7 @@
           "id": "p19_w1778",
           "word": "record",
           "phonetic": "[ˋrɛkɚd]",
-          "pos": "",
+          "pos": "n./vt.",
           "meaning": "記錄；唱片"
         },
         {
@@ -12633,7 +12633,7 @@
           "id": "p19_w1785",
           "word": "relation",
           "phonetic": "[rɪˋleʃən]",
-          "pos": "",
+          "pos": "n.",
           "meaning": "關係"
         },
         {
@@ -14550,14 +14550,14 @@
           "id": "p23_w2056",
           "word": "aboard",
           "phonetic": "[əˋbord]",
-          "pos": "",
+          "pos": "adv.",
           "meaning": "在船(或飛機，車)上"
         },
         {
           "id": "p23_w2057",
           "word": "acceptable",
           "phonetic": "[əkˋsɛptəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可接受的"
         },
         {
@@ -14585,7 +14585,7 @@
           "id": "p23_w2061",
           "word": "accurate",
           "phonetic": "[ˋækjərɪt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "準確的；精確的"
         },
         {
@@ -14620,14 +14620,14 @@
           "id": "p23_w2066",
           "word": "actual",
           "phonetic": "[ˋæktʃʊəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "實際的；現實的"
         },
         {
           "id": "p23_w2067",
           "word": "additional",
           "phonetic": "[əˋdɪʃən]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "額外的，附加的"
         },
         {
@@ -14655,7 +14655,7 @@
           "id": "p23_w2071",
           "word": "advanced",
           "phonetic": "[ədˋvænst]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "先進的；高級的"
         },
         {
@@ -14725,7 +14725,7 @@
           "id": "p23_w2081",
           "word": "afterward(s)",
           "phonetic": "[ˋæftɚwɚd]",
-          "pos": "",
+          "pos": "adv.",
           "meaning": "之後，後來"
         },
         {
@@ -14802,14 +14802,14 @@
           "id": "p23_w2092",
           "word": "apart",
           "phonetic": "[əˋpɑrt]",
-          "pos": "",
+          "pos": "adv.",
           "meaning": "分開地，有距離地"
         },
         {
           "id": "p23_w2093",
           "word": "apparent",
           "phonetic": "[əˋpærənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "明顯的"
         },
         {
@@ -14872,7 +14872,7 @@
           "id": "p23_w2102",
           "word": "aside",
           "phonetic": "[əˋsaɪd]",
-          "pos": "",
+          "pos": "adv.",
           "meaning": "在旁邊；到(或向)旁邊"
         },
         {
@@ -14914,7 +14914,7 @@
           "id": "p23_w2108",
           "word": "attractive",
           "phonetic": "[əˋtræktɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "迷人的；有魅力的"
         },
         {
@@ -14935,7 +14935,7 @@
           "id": "p23_w2111",
           "word": "automatic",
           "phonetic": "[ɔtəˋmætɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "自動的"
         },
         {
@@ -14949,7 +14949,7 @@
           "id": "p23_w2113",
           "word": "available",
           "phonetic": "[əˋveləb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "在手邊的；可得到的"
         },
         {
@@ -14991,14 +14991,14 @@
           "id": "p23_w2119",
           "word": "aware",
           "phonetic": "[əˋwɛr]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "知道的，察覺的"
         },
         {
           "id": "p23_w2120",
           "word": "awful",
           "phonetic": "[ˋɔfʊl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可怕的，嚇人的；極糟的"
         },
         {
@@ -15040,7 +15040,7 @@
           "id": "p23_w2126",
           "word": "badly",
           "phonetic": "[ˋbædlɪ]",
-          "pos": "",
+          "pos": "adv.",
           "meaning": "壞；拙劣地；嚴重地"
         },
         {
@@ -15089,14 +15089,14 @@
           "id": "p23_w2133",
           "word": "bare",
           "phonetic": "[bɛr]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "赤裸的；光禿禿的"
         },
         {
           "id": "p23_w2134",
           "word": "barely",
           "phonetic": "[ˋbɛrlɪ]",
-          "pos": "",
+          "pos": "adv.",
           "meaning": "幾乎沒有；僅僅"
         },
         {
@@ -15262,7 +15262,7 @@
           "id": "p24_w2158",
           "word": "bold",
           "phonetic": "[bold]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "大膽的；粗體的"
         },
         {
@@ -15346,7 +15346,7 @@
           "id": "p24_w2170",
           "word": "brilliant",
           "phonetic": "[ˋbrɪljənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "明亮的；才華橫溢的"
         },
         {
@@ -15521,7 +15521,7 @@
           "id": "p24_w2195",
           "word": "capable",
           "phonetic": "[ˋkepəb]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有能力的；能幹的"
         },
         {
@@ -15570,7 +15570,7 @@
           "id": "p24_w2202",
           "word": "casual",
           "phonetic": "[ˋkæʒʊəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "偶然的；非正式的"
         },
         {
@@ -15633,7 +15633,7 @@
           "id": "p24_w2211",
           "word": "changeable",
           "phonetic": "[ˋtʃendʒəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "易變的"
         },
         {
@@ -15682,7 +15682,7 @@
           "id": "p24_w2218",
           "word": "cheerful",
           "phonetic": "[ˋtʃɪrfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "興高采烈的"
         },
         {
@@ -15731,7 +15731,7 @@
           "id": "p24_w2225",
           "word": "chilly",
           "phonetic": "[ˋtʃɪlɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "寒冷的"
         },
         {
@@ -15780,14 +15780,14 @@
           "id": "p24_w2232",
           "word": "civil",
           "phonetic": "[ˋsɪv!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "公民的"
         },
         {
           "id": "p24_w2233",
           "word": "classical",
           "phonetic": "[ˋklæsɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "古典的"
         },
         {
@@ -15953,7 +15953,7 @@
           "id": "p25_w2256",
           "word": "complex",
           "phonetic": "[ˋkɑmplɛks]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "複雜的"
         },
         {
@@ -16002,7 +16002,7 @@
           "id": "p25_w2263",
           "word": "confident",
           "phonetic": "[ˋkɑnfədənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有信心的"
         },
         {
@@ -16030,14 +16030,14 @@
           "id": "p25_w2267",
           "word": "conscious",
           "phonetic": "[ˋkɑnʃəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "神志清醒的，有知覺的"
         },
         {
           "id": "p25_w2268",
           "word": "considerable",
           "phonetic": "[kənˋsɪdərəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "相當大(多)的"
         },
         {
@@ -16051,7 +16051,7 @@
           "id": "p25_w2270",
           "word": "constant",
           "phonetic": "[ˋkɑnstənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "固定的，不變的"
         },
         {
@@ -16079,7 +16079,7 @@
           "id": "p25_w2274",
           "word": "countable",
           "phonetic": "[ˋkaʊntəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可計算的；可數的"
         },
         {
@@ -16107,7 +16107,7 @@
           "id": "p25_w2278",
           "word": "creative",
           "phonetic": "[krɪˋetɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有創意的"
         },
         {
@@ -16163,7 +16163,7 @@
           "id": "p25_w2286",
           "word": "crisp",
           "phonetic": "[krɪsp]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "脆的同：crispy"
         },
         {
@@ -16177,7 +16177,7 @@
           "id": "p25_w2288",
           "word": "crunchy",
           "phonetic": "[ˋkrʌntʃɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "發嘎吱嘎吱聲的"
         },
         {
@@ -16191,7 +16191,7 @@
           "id": "p25_w2290",
           "word": "cultural",
           "phonetic": "[ˋkʌltʃərəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "文化的"
         },
         {
@@ -16324,7 +16324,7 @@
           "id": "p25_w2309",
           "word": "democratic",
           "phonetic": "[͵dɛməˋkrætɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "民主的"
         },
         {
@@ -16352,7 +16352,7 @@
           "id": "p25_w2313",
           "word": "desirable",
           "phonetic": "[dɪˋzaɪrəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "值得嚮往(擁有)的"
         },
         {
@@ -16401,7 +16401,7 @@
           "id": "p25_w2320",
           "word": "diligent",
           "phonetic": "[ˋdɪlədʒənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "勤勉的，勤奮的"
         },
         {
@@ -16527,7 +16527,7 @@
           "id": "p25_w2338",
           "word": "domestic",
           "phonetic": "[dəˋmɛstɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "家庭的；國內的"
         },
         {
@@ -16541,7 +16541,7 @@
           "id": "p25_w2340",
           "word": "doubtful",
           "phonetic": "[ˋdaʊtfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "懷疑的，疑惑的"
         },
         {
@@ -16555,7 +16555,7 @@
           "id": "p25_w2342",
           "word": "dramatic",
           "phonetic": "[drəˋmætɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "戲劇的；戲劇性的"
         },
         {
@@ -16576,7 +16576,7 @@
           "id": "p25_w2345",
           "word": "drowsy",
           "phonetic": "[ˋdraʊzɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "昏昏欲睡的；困倦的"
         }
       ]
@@ -16588,14 +16588,14 @@
           "id": "p26_w2346",
           "word": "drunk",
           "phonetic": "[drʌŋk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "喝醉(酒)的"
         },
         {
           "id": "p26_w2347",
           "word": "due",
           "phonetic": "[dju]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "到期的；應支付的"
         },
         {
@@ -16616,7 +16616,7 @@
           "id": "p26_w2350",
           "word": "eager",
           "phonetic": "[ˋigɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "熱心的；急切的"
         },
         {
@@ -16665,14 +16665,14 @@
           "id": "p26_w2357",
           "word": "educational",
           "phonetic": "[͵ɛdʒʊˋkeʃən!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "教育的"
         },
         {
           "id": "p26_w2358",
           "word": "efficient",
           "phonetic": "[ɪˋfɪʃənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "效率高的"
         },
         {
@@ -16686,7 +16686,7 @@
           "id": "p26_w2360",
           "word": "elderly",
           "phonetic": "[ˋɛldɚlɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "年長的"
         },
         {
@@ -16700,7 +16700,7 @@
           "id": "p26_w2362",
           "word": "electric",
           "phonetic": "[ɪˋlɛktrɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "電的；電動的(electrical)"
         },
         {
@@ -16714,7 +16714,7 @@
           "id": "p26_w2364",
           "word": "electronic",
           "phonetic": "[͵ɪlɛkˋtrɑnɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "電子的"
         },
         {
@@ -16770,7 +16770,7 @@
           "id": "p26_w2372",
           "word": "empty",
           "phonetic": "[ˋɛmptɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "空的；未佔用的"
         },
         {
@@ -16784,7 +16784,7 @@
           "id": "p26_w2374",
           "word": "energetic",
           "phonetic": "[͵ɛnɚˋdʒɛtɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "精力旺盛的"
         },
         {
@@ -16812,7 +16812,7 @@
           "id": "p26_w2378",
           "word": "enjoyable",
           "phonetic": "[ɪnˋdʒɔɪəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "快樂的；有樂趣的"
         },
         {
@@ -16826,7 +16826,7 @@
           "id": "p26_w2380",
           "word": "environmental",
           "phonetic": "[ɪn͵vaɪrənˋmɛnt!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "環境的"
         },
         {
@@ -16938,7 +16938,7 @@
           "id": "p26_w2396",
           "word": "expressive",
           "phonetic": "[ɪkˋsprɛsɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "表現的；表情豐富的"
         },
         {
@@ -16980,7 +16980,7 @@
           "id": "p26_w2402",
           "word": "fairly",
           "phonetic": "[ˋfɛrlɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "公平地；相當地"
         },
         {
@@ -17008,7 +17008,7 @@
           "id": "p26_w2406",
           "word": "familiar",
           "phonetic": "[fəˋmɪljɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "熟悉的；常見的"
         },
         {
@@ -17036,7 +17036,7 @@
           "id": "p26_w2410",
           "word": "farther",
           "phonetic": "[ˋfɑrðɚ]",
-          "pos": "",
+          "pos": "adv.",
           "meaning": "(距離，時間)更遠地"
         },
         {
@@ -17050,7 +17050,7 @@
           "id": "p26_w2412",
           "word": "fashionable",
           "phonetic": "[ˋfæʃənəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "流行的；時髦的"
         },
         {
@@ -17183,7 +17183,7 @@
           "id": "p26_w2431",
           "word": "fond",
           "phonetic": "[fɑnd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "喜歡的；愛好的"
         },
         {
@@ -17244,7 +17244,7 @@
           "id": "p27_w2439",
           "word": "frequent",
           "phonetic": "[ˋfrikwənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "時常發生的，頻繁的"
         },
         {
@@ -17349,7 +17349,7 @@
           "id": "p27_w2454",
           "word": "global",
           "phonetic": "[ˋglob!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "球狀的"
         },
         {
@@ -17398,7 +17398,7 @@
           "id": "p27_w2461",
           "word": "gradual",
           "phonetic": "[ˋgrædʒʊəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "逐漸的，逐步的"
         },
         {
@@ -17503,7 +17503,7 @@
           "id": "p27_w2476",
           "word": "handy",
           "phonetic": "[ˋhændɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "【口】手邊的；近便的"
         },
         {
@@ -17524,7 +17524,7 @@
           "id": "p27_w2479",
           "word": "harmful",
           "phonetic": "[ˋhɑrmfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有害的[(+to)]"
         },
         {
@@ -17538,7 +17538,7 @@
           "id": "p27_w2481",
           "word": "hasty",
           "phonetic": "[ˋhestɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "匆忙的，急忙的"
         },
         {
@@ -17643,14 +17643,14 @@
           "id": "p27_w2496",
           "word": "historic",
           "phonetic": "[hɪsˋtɔrɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "歷史上著名的"
         },
         {
           "id": "p27_w2497",
           "word": "historical",
           "phonetic": "[hɪsˋtɔrɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "歷史的，史學的"
         },
         {
@@ -17664,14 +17664,14 @@
           "id": "p27_w2499",
           "word": "hollow",
           "phonetic": "[ˋhɑlo]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "空的，中空的"
         },
         {
           "id": "p27_w2500",
           "word": "holy",
           "phonetic": "[ˋholɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "神聖的"
         },
         {
@@ -17706,7 +17706,7 @@
           "id": "p27_w2505",
           "word": "horrible",
           "phonetic": "[ˋhɔrəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可怕的；糟透的"
         },
         {
@@ -17720,7 +17720,7 @@
           "id": "p27_w2507",
           "word": "hourly",
           "phonetic": "[ˋaʊrlɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "每小時的；以鐘點計算的"
         },
         {
@@ -17741,7 +17741,7 @@
           "id": "p27_w2510",
           "word": "humorous",
           "phonetic": "[ˋhjumərəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "幽默的，詼諧的"
         },
         {
@@ -17762,7 +17762,7 @@
           "id": "p27_w2513",
           "word": "icy",
           "phonetic": "[ˋaɪsɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "多冰的；冰冷的"
         },
         {
@@ -17804,7 +17804,7 @@
           "id": "p27_w2519",
           "word": "immediate",
           "phonetic": "[ɪˋmidɪɪt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "立即的，即刻的"
         },
         {
@@ -17825,7 +17825,7 @@
           "id": "p27_w2522",
           "word": "impressive",
           "phonetic": "[ɪmˋprɛsɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "予人深刻印象的"
         },
         {
@@ -17846,7 +17846,7 @@
           "id": "p27_w2525",
           "word": "indoor",
           "phonetic": "[ˋɪn͵dor]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "室內的，戶內的"
         },
         {
@@ -17860,14 +17860,14 @@
           "id": "p27_w2527",
           "word": "industrial",
           "phonetic": "[ɪnˋdʌstrɪəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "工業的"
         },
         {
           "id": "p27_w2528",
           "word": "inferior",
           "phonetic": "[ɪnˋfɪrɪɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "較差的；下級的"
         },
         {
@@ -17907,14 +17907,14 @@
           "id": "p28_w2533",
           "word": "inner",
           "phonetic": "[ˋɪnɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "內部的，裡面的"
         },
         {
           "id": "p28_w2534",
           "word": "innocent",
           "phonetic": "[ˋɪnəsnt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "無罪的，清白的；天真的"
         },
         {
@@ -17949,7 +17949,7 @@
           "id": "p28_w2539",
           "word": "internal",
           "phonetic": "[ɪnˋtɝn!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "內部的；內在的；國內的"
         },
         {
@@ -18012,7 +18012,7 @@
           "id": "p28_w2548",
           "word": "jealous",
           "phonetic": "[ˋdʒɛləs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "妒忌的"
         },
         {
@@ -18061,7 +18061,7 @@
           "id": "p28_w2555",
           "word": "joyful",
           "phonetic": "[ˋdʒɔɪfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "高興的，充滿喜悅的"
         },
         {
@@ -18194,7 +18194,7 @@
           "id": "p28_w2574",
           "word": "latter",
           "phonetic": "[ˋlætɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "後面的；後者的"
         },
         {
@@ -18271,7 +18271,7 @@
           "id": "p28_w2585",
           "word": "liberal",
           "phonetic": "[ˋlɪbərəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "開明的，公允的；自由的"
         },
         {
@@ -18348,7 +18348,7 @@
           "id": "p28_w2596",
           "word": "lively",
           "phonetic": "[ˋlaɪvlɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "活潑的，輕快的"
         },
         {
@@ -18390,7 +18390,7 @@
           "id": "p28_w2602",
           "word": "loose",
           "phonetic": "[lus]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "鬆的，寬的；鬆散的"
         },
         {
@@ -18439,7 +18439,7 @@
           "id": "p28_w2609",
           "word": "magical",
           "phonetic": "[ˋmædʒɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "魔術的，魔法的"
         },
         {
@@ -18488,7 +18488,7 @@
           "id": "p28_w2616",
           "word": "manageable",
           "phonetic": "[ˋmænɪdʒəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "易辦的；可管理的"
         },
         {
@@ -18535,14 +18535,14 @@
           "id": "p29_w2622",
           "word": "marvelous",
           "phonetic": "[ˋmɑrvələs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "令人驚歎的；非凡的"
         },
         {
           "id": "p29_w2623",
           "word": "mathematical",
           "phonetic": "[͵mæθəˋmætɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "數學的"
         },
         {
@@ -18577,7 +18577,7 @@
           "id": "p29_w2628",
           "word": "meaningful",
           "phonetic": "[ˋminɪŋfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有意義的；意味深長的"
         },
         {
@@ -18598,7 +18598,7 @@
           "id": "p29_w2631",
           "word": "medical",
           "phonetic": "[ˋmɛdɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "醫學的；醫療的"
         },
         {
@@ -18647,7 +18647,7 @@
           "id": "p29_w2638",
           "word": "mental",
           "phonetic": "[ˋmɛnt!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "精神的，心理的"
         },
         {
@@ -18668,7 +18668,7 @@
           "id": "p29_w2641",
           "word": "merry",
           "phonetic": "[ˋmɛrɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "歡樂的，愉快的"
         },
         {
@@ -18703,7 +18703,7 @@
           "id": "p29_w2646",
           "word": "mighty",
           "phonetic": "[ˋmaɪtɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "強大的；強有力的"
         },
         {
@@ -18759,7 +18759,7 @@
           "id": "p29_w2654",
           "word": "missing",
           "phonetic": "[ˋmɪsɪŋ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "失蹤的，行蹤不明的"
         },
         {
@@ -18794,14 +18794,14 @@
           "id": "p29_w2659",
           "word": "mobile",
           "phonetic": "[ˋmobɪl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可動的，移動式的"
         },
         {
           "id": "p29_w2660",
           "word": "moist",
           "phonetic": "[mɔɪst]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "潮濕的；含淚的"
         },
         {
@@ -18836,7 +18836,7 @@
           "id": "p29_w2665",
           "word": "moral",
           "phonetic": "[ˋmɔrəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "道德(上)的"
         },
         {
@@ -18878,7 +18878,7 @@
           "id": "p29_w2671",
           "word": "musical",
           "phonetic": "[ˋmjuzɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "音樂的"
         },
         {
@@ -18906,7 +18906,7 @@
           "id": "p29_w2675",
           "word": "native",
           "phonetic": "[ˋnetɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "天生的；祖國的；土著的"
         },
         {
@@ -18948,7 +18948,7 @@
           "id": "p29_w2681",
           "word": "nervous",
           "phonetic": "[ˋnɝvəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "神經質的；緊張不安的"
         },
         {
@@ -18969,14 +18969,14 @@
           "id": "p29_w2684",
           "word": "noble",
           "phonetic": "[ˋnob!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "高貴的，高尚的"
         },
         {
           "id": "p29_w2685",
           "word": "normal",
           "phonetic": "[ˋnɔrm!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "正常的，正規的"
         },
         {
@@ -19011,7 +19011,7 @@
           "id": "p29_w2690",
           "word": "obvious",
           "phonetic": "[ˋɑbvɪəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "明顯的；顯著的"
         },
         {
@@ -19025,7 +19025,7 @@
           "id": "p29_w2692",
           "word": "odd",
           "phonetic": "[ɑd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "奇特的，古怪的；奇數的"
         },
         {
@@ -19060,7 +19060,7 @@
           "id": "p29_w2697",
           "word": "optimistic",
           "phonetic": "[͵ɑptəˋmɪstɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "樂觀的"
         },
         {
@@ -19074,7 +19074,7 @@
           "id": "p29_w2699",
           "word": "original",
           "phonetic": "[əˋrɪdʒən!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "最初的，原始的"
         },
         {
@@ -19095,7 +19095,7 @@
           "id": "p29_w2702",
           "word": "outdoor",
           "phonetic": "[ˋaʊt͵dor]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "戶外的，露天的"
         },
         {
@@ -19109,7 +19109,7 @@
           "id": "p29_w2704",
           "word": "outer",
           "phonetic": "[ˋaʊtɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "外面的，外表的"
         }
       ]
@@ -19177,7 +19177,7 @@
           "id": "p30_w2713",
           "word": "pale",
           "phonetic": "[pel]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "蒼白的，灰白的"
         },
         {
@@ -19436,7 +19436,7 @@
           "id": "p30_w2750",
           "word": "plastic",
           "phonetic": "[ˋplæstɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "塑膠的；塑性的"
         },
         {
@@ -19478,7 +19478,7 @@
           "id": "p30_w2756",
           "word": "political",
           "phonetic": "[pəˋlɪtɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "政治的"
         },
         {
@@ -19527,7 +19527,7 @@
           "id": "p30_w2763",
           "word": "pop",
           "phonetic": "[pɑp]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "通俗的，流行的(popular)"
         },
         {
@@ -19611,7 +19611,7 @@
           "id": "p30_w2775",
           "word": "practical",
           "phonetic": "[ˋpræktɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "實際的；實用的"
         },
         {
@@ -19625,7 +19625,7 @@
           "id": "p30_w2777",
           "word": "precious",
           "phonetic": "[ˋprɛʃəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "貴重的，珍貴的"
         },
         {
@@ -19660,7 +19660,7 @@
           "id": "p30_w2782",
           "word": "previous",
           "phonetic": "[ˋpriviəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "以前的"
         },
         {
@@ -19674,14 +19674,14 @@
           "id": "p30_w2784",
           "word": "primary",
           "phonetic": "[ˋpraɪ͵mɛrɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "首要的，主要的"
         },
         {
           "id": "p30_w2785",
           "word": "probable",
           "phonetic": "[ˋprɑbəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "很可能發生的"
         },
         {
@@ -19730,7 +19730,7 @@
           "id": "p30_w2792",
           "word": "proper",
           "phonetic": "[ˋprɑpɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "適合的，適當的"
         },
         {
@@ -19758,7 +19758,7 @@
           "id": "p30_w2797",
           "word": "protective",
           "phonetic": "[prəˋtɛktɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "保護的，防護的"
         },
         {
@@ -19779,7 +19779,7 @@
           "id": "p30_w2800",
           "word": "pure",
           "phonetic": "[pjʊr]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "純粹的，不攙雜的；純潔的"
         },
         {
@@ -19805,7 +19805,7 @@
           "id": "p31_w2803",
           "word": "queer",
           "phonetic": "[kwɪr]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "奇怪的，古怪的"
         },
         {
@@ -19819,7 +19819,7 @@
           "id": "p31_w2805",
           "word": "racial",
           "phonetic": "[ˋreʃəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "人種的，種族的"
         },
         {
@@ -19861,7 +19861,7 @@
           "id": "p31_w2811",
           "word": "raw",
           "phonetic": "[rɔ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "生的，未煮過的"
         },
         {
@@ -19896,7 +19896,7 @@
           "id": "p31_w2816",
           "word": "reasonable",
           "phonetic": "[ˋriznəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "合理的；有理智的"
         },
         {
@@ -19945,7 +19945,7 @@
           "id": "p31_w2823",
           "word": "regional",
           "phonetic": "[ˋridʒən!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "地區的"
         },
         {
@@ -19980,7 +19980,7 @@
           "id": "p31_w2828",
           "word": "reliable",
           "phonetic": "[rɪˋlaɪəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可信賴的；可靠的"
         },
         {
@@ -20001,7 +20001,7 @@
           "id": "p31_w2831",
           "word": "religious",
           "phonetic": "[rɪˋlɪdʒəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "宗教的；虔誠的"
         },
         {
@@ -20029,7 +20029,7 @@
           "id": "p31_w2835",
           "word": "remote",
           "phonetic": "[rɪˋmot]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "遙遠的；偏僻的"
         },
         {
@@ -20183,7 +20183,7 @@
           "id": "p31_w2857",
           "word": "ripe",
           "phonetic": "[raɪp]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "成熟的"
         },
         {
@@ -20246,7 +20246,7 @@
           "id": "p31_w2866",
           "word": "romantic",
           "phonetic": "[rəˋmæntɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "羅曼蒂克的；浪漫的"
         },
         {
@@ -20260,14 +20260,14 @@
           "id": "p31_w2868",
           "word": "rotten",
           "phonetic": "[ˋrɑtn]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "腐爛的"
         },
         {
           "id": "p31_w2869",
           "word": "rough",
           "phonetic": "[rʌf]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "粗糙的；粗略的；粗野的"
         },
         {
@@ -20302,7 +20302,7 @@
           "id": "p31_w2874",
           "word": "rusty",
           "phonetic": "[ˋrʌstɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "生鏽的；變遲鈍的"
         },
         {
@@ -20323,7 +20323,7 @@
           "id": "p31_w2877",
           "word": "satisfactory",
           "phonetic": "[͵sætɪsˋfæktərɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "令人滿意的"
         },
         {
@@ -20358,7 +20358,7 @@
           "id": "p31_w2882",
           "word": "scarce",
           "phonetic": "[skɛrs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "缺乏的；不足的"
         },
         {
@@ -20379,7 +20379,7 @@
           "id": "p31_w2885",
           "word": "scary",
           "phonetic": "[ˋskɛrɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可怕的﹐駭人的"
         },
         {
@@ -20414,7 +20414,7 @@
           "id": "p31_w2890",
           "word": "scientific",
           "phonetic": "[͵saɪənˋtɪfɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "科學的"
         },
         {
@@ -20470,7 +20470,7 @@
           "id": "p31_w2898",
           "word": "secondary",
           "phonetic": "[ˋsɛkən͵dɛrɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "第二的；次要的"
         }
       ]
@@ -20510,14 +20510,14 @@
           "id": "p32_w2903",
           "word": "sensible",
           "phonetic": "[ˋsɛnsəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "明智的；可注意到的"
         },
         {
           "id": "p32_w2904",
           "word": "sensitive",
           "phonetic": "[ˋsɛnsətɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "敏感的；靈敏的"
         },
         {
@@ -20545,14 +20545,14 @@
           "id": "p32_w2908",
           "word": "sexual",
           "phonetic": "[ˋsɛkʃʊəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "性的；性慾的"
         },
         {
           "id": "p32_w2909",
           "word": "sexy",
           "phonetic": "[ˋsɛksɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "性感的"
         },
         {
@@ -20573,14 +20573,14 @@
           "id": "p32_w2912",
           "word": "shady",
           "phonetic": "[ˋʃedɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "多蔭的"
         },
         {
           "id": "p32_w2913",
           "word": "shallow",
           "phonetic": "[ˋʃælo]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "淺的膚淺的"
         },
         {
@@ -20615,7 +20615,7 @@
           "id": "p32_w2918",
           "word": "shiny",
           "phonetic": "[ˋʃaɪnɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "發光的；晴朗的；擦亮的"
         },
         {
@@ -20664,7 +20664,7 @@
           "id": "p32_w2925",
           "word": "significant",
           "phonetic": "[sɪgˋnɪfəkənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有意義的；重要的"
         },
         {
@@ -20685,7 +20685,7 @@
           "id": "p32_w2928",
           "word": "sincere",
           "phonetic": "[sɪnˋsɪr]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "衷心的，真誠的"
         },
         {
@@ -20755,7 +20755,7 @@
           "id": "p32_w2938",
           "word": "slippery",
           "phonetic": "[ˋslɪpərɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "滑的；容易滑的"
         },
         {
@@ -20769,7 +20769,7 @@
           "id": "p32_w2940",
           "word": "smooth",
           "phonetic": "[smuð]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "平滑的，光滑的；流暢的"
         },
         {
@@ -20818,7 +20818,7 @@
           "id": "p32_w2947",
           "word": "sore",
           "phonetic": "[sor]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "痛的；疼痛發炎的"
         },
         {
@@ -20846,7 +20846,7 @@
           "id": "p32_w2951",
           "word": "specific",
           "phonetic": "[spɪˋsɪfɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "特殊的，特定的；明確的"
         },
         {
@@ -20965,7 +20965,7 @@
           "id": "p32_w2968",
           "word": "stale",
           "phonetic": "[stel]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "不新鮮的；陳舊的，無新意的"
         },
         {
@@ -20993,14 +20993,14 @@
           "id": "p32_w2972",
           "word": "steady",
           "phonetic": "[ˋstɛdɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "穩固的，平穩的"
         },
         {
           "id": "p32_w2973",
           "word": "steep",
           "phonetic": "[stip]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "陡峭的"
         },
         {
@@ -21035,14 +21035,14 @@
           "id": "p32_w2978",
           "word": "sticky",
           "phonetic": "[ˋstɪkɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "黏的"
         },
         {
           "id": "p32_w2979",
           "word": "stiff",
           "phonetic": "[stɪf]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "(手足等)僵直的，僵硬的"
         },
         {
@@ -21084,7 +21084,7 @@
           "id": "p32_w2985",
           "word": "stormy",
           "phonetic": "[ˋstɔrmɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "暴風雨的；暴躁的"
         },
         {
@@ -21126,7 +21126,7 @@
           "id": "p32_w2991",
           "word": "stubborn",
           "phonetic": "[ˋstʌbɚn]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "固執的，頑固的"
         },
         {
@@ -21194,7 +21194,7 @@
           "id": "p33_w3000",
           "word": "sufficient",
           "phonetic": "[səˋfɪʃənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "足夠的，充分的"
         },
         {
@@ -21215,7 +21215,7 @@
           "id": "p33_w3003",
           "word": "suitable",
           "phonetic": "[ˋsutəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "適當的；合適的"
         },
         {
@@ -21243,7 +21243,7 @@
           "id": "p33_w3007",
           "word": "superior",
           "phonetic": "[səˋpɪrɪɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "較高的，上級的"
         },
         {
@@ -21320,7 +21320,7 @@
           "id": "p33_w3018",
           "word": "swift",
           "phonetic": "[swɪft]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "快速的，快捷的"
         },
         {
@@ -21376,7 +21376,7 @@
           "id": "p33_w3026",
           "word": "tame",
           "phonetic": "[tem]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "馴服的；溫順的"
         },
         {
@@ -21411,7 +21411,7 @@
           "id": "p33_w3031",
           "word": "technical",
           "phonetic": "[ˋtɛknɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "技術的；科技的"
         },
         {
@@ -21446,7 +21446,7 @@
           "id": "p33_w3036",
           "word": "temporary",
           "phonetic": "[ˋtɛmpə͵rɛrɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "臨時的；暫時的"
         },
         {
@@ -21467,7 +21467,7 @@
           "id": "p33_w3039",
           "word": "tender",
           "phonetic": "[ˋtɛndɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "嫩的；柔軟的；溫柔的"
         },
         {
@@ -21488,7 +21488,7 @@
           "id": "p33_w3042",
           "word": "thankful",
           "phonetic": "[ˋθæŋkfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "感謝的，感激的"
         },
         {
@@ -21544,14 +21544,14 @@
           "id": "p33_w3050",
           "word": "tidy",
           "phonetic": "[ˋtaɪdɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "整潔的，整齊的"
         },
         {
           "id": "p33_w3051",
           "word": "tight",
           "phonetic": "[taɪt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "緊的，緊身的；緊湊的；密封的"
         },
         {
@@ -21698,7 +21698,7 @@
           "id": "p33_w3072",
           "word": "tricky",
           "phonetic": "[ˋtrɪkɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "狡猾的；微妙的；難處理的"
         },
         {
@@ -21712,7 +21712,7 @@
           "id": "p33_w3074",
           "word": "tropical",
           "phonetic": "[ˋtrɑpɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "熱帶的"
         },
         {
@@ -21726,7 +21726,7 @@
           "id": "p33_w3076",
           "word": "truthful",
           "phonetic": "[ˋtruθfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "誠實的；講真話的"
         },
         {
@@ -21796,7 +21796,7 @@
           "id": "p33_w3086",
           "word": "typical",
           "phonetic": "[ˋtɪpɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "典型的，有代表性的"
         }
       ]
@@ -21850,14 +21850,14 @@
           "id": "p34_w3093",
           "word": "vacant",
           "phonetic": "[ˋvekənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "空的；空白的；(職位)空缺的"
         },
         {
           "id": "p34_w3094",
           "word": "valuable",
           "phonetic": "[ˋvæljʊəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "值錢的，貴重的"
         },
         {
@@ -21885,7 +21885,7 @@
           "id": "p34_w3098",
           "word": "various",
           "phonetic": "[ˋvɛrɪəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "不同的；各種各樣的"
         },
         {
@@ -21948,21 +21948,21 @@
           "id": "p34_w3107",
           "word": "violent",
           "phonetic": "[ˋvaɪələnt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "激烈的；暴力的；狂暴的"
         },
         {
           "id": "p34_w3108",
           "word": "violet",
           "phonetic": "[ˋvaɪəlɪt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "紫蘿蘭"
         },
         {
           "id": "p34_w3109",
           "word": "visible",
           "phonetic": "[ˋvɪzəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可看見的"
         },
         {
@@ -21983,7 +21983,7 @@
           "id": "p34_w3112",
           "word": "vivid",
           "phonetic": "[ˋvɪvɪd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "鮮豔的；生動的；逼真的"
         },
         {
@@ -22067,7 +22067,7 @@
           "id": "p34_w3124",
           "word": "wealthy",
           "phonetic": "[ˋwɛlθɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "富有的，有錢的"
         },
         {
@@ -22123,7 +22123,7 @@
           "id": "p34_w3132",
           "word": "wicked",
           "phonetic": "[ˋwɪkɪd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "壞的；邪惡的"
         },
         {
@@ -22240,7 +22240,7 @@
           "id": "p35_w3148",
           "word": "absolute",
           "phonetic": "[ˋæbsə͵lut]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "絕對的；完全的"
         },
         {
@@ -22261,7 +22261,7 @@
           "id": "p35_w3151",
           "word": "academic",
           "phonetic": "[͵ækəˋdɛmɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "學術的"
         },
         {
@@ -22289,7 +22289,7 @@
           "id": "p35_w3155",
           "word": "accidental",
           "phonetic": "[͵æksəˋdɛnt!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "偶然的；意外的"
         },
         {
@@ -22380,7 +22380,7 @@
           "id": "p35_w3168",
           "word": "adequate",
           "phonetic": "[ˋædəkwɪt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "適當的；足夠的"
         },
         {
@@ -22408,7 +22408,7 @@
           "id": "p35_w3172",
           "word": "admirable",
           "phonetic": "[ˋædmərəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "值得讚揚的；令人"
         },
         {
@@ -22450,14 +22450,14 @@
           "id": "p35_w3179",
           "word": "aggressive",
           "phonetic": "[əˋgrɛsɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "侵略的，有進取精神"
         },
         {
           "id": "p35_w3180",
           "word": "agreeable",
           "phonetic": "[əˋgriəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "令人愉快的，宜人的"
         },
         {
@@ -22506,7 +22506,7 @@
           "id": "p35_w3187",
           "word": "ambitious",
           "phonetic": "[æmˋbɪʃəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有雄心的；野心勃勃"
         },
         {
@@ -22569,7 +22569,7 @@
           "id": "p35_w3196",
           "word": "annual",
           "phonetic": "[ˋænjʊəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "一年的；一年一次的"
         },
         {
@@ -22583,7 +22583,7 @@
           "id": "p35_w3198",
           "word": "anxious",
           "phonetic": "[ˋæŋkʃəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "焦慮的，掛念的"
         },
         {
@@ -22646,7 +22646,7 @@
           "id": "p35_w3208",
           "word": "appropriate",
           "phonetic": "[əˋproprɪ͵et]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "適當的，恰當的"
         },
         {
@@ -22695,14 +22695,14 @@
           "id": "p35_w3215",
           "word": "artificial",
           "phonetic": "[͵ɑrtəˋfɪʃəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "人工的，人造的；假"
         },
         {
           "id": "p35_w3216",
           "word": "artistic",
           "phonetic": "[ɑrˋtɪstɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "藝術的；美術的"
         }
       ]
@@ -22714,7 +22714,7 @@
           "id": "p36_w3217",
           "word": "ashamed",
           "phonetic": "[əˋʃemd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "羞愧的，感到難為情的"
         },
         {
@@ -22805,7 +22805,7 @@
           "id": "p36_w3231",
           "word": "athletic",
           "phonetic": "[æθˋlɛtɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "運動的，體育的"
         },
         {
@@ -22826,7 +22826,7 @@
           "id": "p36_w3234",
           "word": "atomic",
           "phonetic": "[əˋtɑmɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "原子的"
         },
         {
@@ -22854,7 +22854,7 @@
           "id": "p36_w3238",
           "word": "audio",
           "phonetic": "[ˋɔdɪ͵o]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "聽覺的，聲音的"
         },
         {
@@ -22882,7 +22882,7 @@
           "id": "p36_w3242",
           "word": "awkward",
           "phonetic": "[ˋɔkwɚd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "笨拙的[(+with)]；尷尬"
         },
         {
@@ -22896,7 +22896,7 @@
           "id": "p36_w3244",
           "word": "bald",
           "phonetic": "[bɔld]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "禿頭的；無草木的"
         },
         {
@@ -23085,14 +23085,14 @@
           "id": "p36_w3271",
           "word": "broke",
           "phonetic": "[brok]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "【口】破了產的；一文不名的"
         },
         {
           "id": "p36_w3272",
           "word": "brutal",
           "phonetic": "[ˋbrut!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "殘忍的，冷酷的；野蠻的"
         },
         {
@@ -23322,20 +23322,13 @@
           "word": "cinema",
           "phonetic": "[ˋsɪnəmə]",
           "pos": "n.",
-          "meaning": "【英】電影院[C]"
-        },
-        {
-          "id": "p37_w3305",
-          "word": "(一部)電影",
-          "phonetic": "[C]",
-          "pos": "",
-          "meaning": "；(總稱)電影；電"
+          "meaning": "電影院；電影"
         },
         {
           "id": "p37_w3306",
           "word": "circular",
           "phonetic": "[ˋsɝkjəlɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "圓形的；環形的"
         },
         {
@@ -23419,14 +23412,14 @@
           "id": "p37_w3318",
           "word": "clumsy",
           "phonetic": "[ˋklʌmzɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "笨拙的，手腳不靈活的"
         },
         {
           "id": "p37_w3319",
           "word": "coarse",
           "phonetic": "[kors]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "粗糙的；粗劣的"
         },
         {
@@ -23531,7 +23524,7 @@
           "id": "p37_w3334",
           "word": "competitive",
           "phonetic": "[kəmˋpɛtətɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "競爭的；競爭激"
         },
         {
@@ -23697,14 +23690,14 @@
           "id": "p38_w3357",
           "word": "consequent",
           "phonetic": "[ˋkɑnsə͵kwɛnt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "隨之發生的"
         },
         {
           "id": "p38_w3358",
           "word": "conservative",
           "phonetic": "[kənˋsɝvətɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "保守的，守舊的"
         },
         {
@@ -23718,7 +23711,7 @@
           "id": "p38_w3360",
           "word": "consistent",
           "phonetic": "[kənˋsɪstənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "始終如一的，前後"
         },
         {
@@ -23760,7 +23753,7 @@
           "id": "p38_w3366",
           "word": "constructive",
           "phonetic": "[kənˋstrʌktɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "建設性的；結構"
         },
         {
@@ -23816,7 +23809,7 @@
           "id": "p38_w3374",
           "word": "contentment",
           "phonetic": "[kənˋtɛntmənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "滿足，知足"
         },
         {
@@ -23837,14 +23830,14 @@
           "id": "p38_w3377",
           "word": "continual",
           "phonetic": "[kənˋtɪnjʊəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "不間斷的，連續的"
         },
         {
           "id": "p38_w3378",
           "word": "continuous",
           "phonetic": "[kənˋtɪnjʊəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "連續的，不斷的"
         },
         {
@@ -23893,7 +23886,7 @@
           "id": "p38_w3385",
           "word": "conventional",
           "phonetic": "[kənˋvɛnʃən!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "會議的；慣例的"
         },
         {
@@ -23935,7 +23928,7 @@
           "id": "p38_w3391",
           "word": "cooperative",
           "phonetic": "[koˋɑpə͵retɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "合作的；合作社"
         },
         {
@@ -24012,14 +24005,14 @@
           "id": "p38_w3402",
           "word": "courageous",
           "phonetic": "[kəˋredʒəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "英勇的，勇敢的"
         },
         {
           "id": "p38_w3403",
           "word": "courteous",
           "phonetic": "[ˋkɝtjəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "殷勤的，謙恭的"
         },
         {
@@ -24087,7 +24080,7 @@
           "id": "p39_w3412",
           "word": "critical",
           "phonetic": "[ˋkrɪtɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "緊要的，關鍵危急的"
         },
         {
@@ -24143,7 +24136,7 @@
           "id": "p39_w3420",
           "word": "cunning",
           "phonetic": "[ˋkʌnɪŋ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "狡猾的，奸詐的"
         },
         {
@@ -24192,7 +24185,7 @@
           "id": "p39_w3427",
           "word": "damp",
           "phonetic": "[dæmp]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有濕氣的；潮濕的"
         },
         {
@@ -24248,28 +24241,28 @@
           "id": "p39_w3435",
           "word": "defensible",
           "phonetic": "[dɪˋfɛnsəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可防禦的；可辯護"
         },
         {
           "id": "p39_w3436",
           "word": "defensive",
           "phonetic": "[dɪˋfɛnsɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "防禦的；保護的；保"
         },
         {
           "id": "p39_w3437",
           "word": "definite",
           "phonetic": "[ˋdɛfənɪt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "明確的，確切的"
         },
         {
           "id": "p39_w3438",
           "word": "delicate",
           "phonetic": "[ˋdɛləkət]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "易碎的；嬌貴的；精美"
         },
         {
@@ -24283,7 +24276,7 @@
           "id": "p39_w3440",
           "word": "delightful",
           "phonetic": "[dɪˋlaɪtfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "令人愉快的，令人高"
         },
         {
@@ -24311,7 +24304,7 @@
           "id": "p39_w3444",
           "word": "dense",
           "phonetic": "[dɛns]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "密集的，稠密的"
         },
         {
@@ -24332,14 +24325,14 @@
           "id": "p39_w3447",
           "word": "dependable",
           "phonetic": "[dɪˋpɛndəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可靠的；可信任的"
         },
         {
           "id": "p39_w3448",
           "word": "dependent",
           "phonetic": "[dɪˋpɛndənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "依靠(賴)的；取決"
         },
         {
@@ -24367,7 +24360,7 @@
           "id": "p39_w3452",
           "word": "desperate",
           "phonetic": "[ˋdɛspərɪt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "情急拼命的；極度渴"
         },
         {
@@ -24458,7 +24451,7 @@
           "id": "p39_w3465",
           "word": "digital",
           "phonetic": "[ˋdɪdʒɪt!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "數位的；數字的"
         },
         {
@@ -24575,7 +24568,7 @@
           "id": "p40_w3482",
           "word": "distinct",
           "phonetic": "[dɪˋstɪŋkt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "與其他不同的，有區別"
         },
         {
@@ -24589,7 +24582,7 @@
           "id": "p40_w3484",
           "word": "distinguished",
           "phonetic": "[dɪˋstɪŋgwɪʃt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "卓越的；著名的"
         },
         {
@@ -24624,7 +24617,7 @@
           "id": "p40_w3489",
           "word": "divine",
           "phonetic": "[dəˋvaɪn]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "神的，神性的"
         },
         {
@@ -24638,7 +24631,7 @@
           "id": "p40_w3491",
           "word": "dominant",
           "phonetic": "[ˋdɑmənənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "佔優勢的，支配的"
         },
         {
@@ -24701,14 +24694,14 @@
           "id": "p40_w3502",
           "word": "durable",
           "phonetic": "[ˋdjʊrəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "經久的，耐用的"
         },
         {
           "id": "p40_w3503",
           "word": "dusty",
           "phonetic": "[ˋdʌstɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "滿是灰塵的，灰塵覆蓋的"
         },
         {
@@ -24722,7 +24715,7 @@
           "id": "p40_w3505",
           "word": "dynamic",
           "phonetic": "[daɪˋnæmɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "力學的；有活力的"
         },
         {
@@ -24750,14 +24743,14 @@
           "id": "p40_w3509",
           "word": "economic",
           "phonetic": "[͵ikəˋnɑmɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "經濟上的；合算的"
         },
         {
           "id": "p40_w3510",
           "word": "economical",
           "phonetic": "[͵ikəˋnɑmɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "經濟的，節約的"
         },
         {
@@ -24792,7 +24785,7 @@
           "id": "p40_w3515",
           "word": "elastic",
           "phonetic": "[ɪˋlæstɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有彈性的，有彈力的"
         },
         {
@@ -24813,14 +24806,14 @@
           "id": "p40_w3518",
           "word": "elegant",
           "phonetic": "[ˋɛləgənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "雅緻的，優美的"
         },
         {
           "id": "p40_w3519",
           "word": "elementary",
           "phonetic": "[͵ɛləˋmɛntərɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "基本的；初級的"
         },
         {
@@ -24876,7 +24869,7 @@
           "id": "p40_w3527",
           "word": "emotional",
           "phonetic": "[ɪˋmoʃən!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "感情(上)的；易動情"
         },
         {
@@ -24960,7 +24953,7 @@
           "id": "p40_w3539",
           "word": "enormous",
           "phonetic": "[ɪˋnɔrməs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "巨大的，龐大的"
         },
         {
@@ -24988,7 +24981,7 @@
           "id": "p40_w3543",
           "word": "envious",
           "phonetic": "[ˋɛnvɪəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "嫉妒的；羨慕的[(+of)]"
         },
         {
@@ -25044,7 +25037,7 @@
           "id": "p40_w3551",
           "word": "essential",
           "phonetic": "[ɪˋsɛnʃəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "必要的，不可缺的"
         }
       ]
@@ -25098,7 +25091,7 @@
           "id": "p41_w3558",
           "word": "eventual",
           "phonetic": "[ɪˋvɛntʃʊəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "最終發生的；最後的"
         },
         {
@@ -25112,7 +25105,7 @@
           "id": "p41_w3560",
           "word": "evident",
           "phonetic": "[ˋɛvədənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "明顯的；明白的"
         },
         {
@@ -25245,7 +25238,7 @@
           "id": "p41_w3579",
           "word": "faithful",
           "phonetic": "[ˋfeθfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "忠實的；忠誠的"
         },
         {
@@ -25259,7 +25252,7 @@
           "id": "p41_w3581",
           "word": "fantastic",
           "phonetic": "[fænˋtæstɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "【口】極好的，了不"
         },
         {
@@ -25280,14 +25273,14 @@
           "id": "p41_w3584",
           "word": "fatal",
           "phonetic": "[ˋfet!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "命運的；致命的，生死攸關的"
         },
         {
           "id": "p41_w3585",
           "word": "favorable",
           "phonetic": "[ˋfevərəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "贊同的；有利的，適"
         },
         {
@@ -25308,7 +25301,7 @@
           "id": "p41_w3588",
           "word": "fertile",
           "phonetic": "[ˋfɝt!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "(動植物)多產的；(土地)肥沃"
         },
         {
@@ -25329,7 +25322,7 @@
           "id": "p41_w3591",
           "word": "fierce",
           "phonetic": "[fɪrs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "兇猛的；殘酷的；猛烈的，激"
         },
         {
@@ -25343,7 +25336,7 @@
           "id": "p41_w3593",
           "word": "financial",
           "phonetic": "[faɪˋnænʃəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "財政的；金融的；金"
         },
         {
@@ -25378,14 +25371,14 @@
           "id": "p41_w3598",
           "word": "flexible",
           "phonetic": "[ˋflɛksəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可彎曲的；有彈性的"
         },
         {
           "id": "p41_w3599",
           "word": "fluent",
           "phonetic": "[ˋfluənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "流利的，流暢的"
         },
         {
@@ -25448,7 +25441,7 @@
           "id": "p41_w3608",
           "word": "fortunate",
           "phonetic": "[ˋfɔrtʃənɪt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "幸運的，僥倖的"
         },
         {
@@ -25483,7 +25476,7 @@
           "id": "p41_w3613",
           "word": "fragrant",
           "phonetic": "[ˋfregrənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "香的，芳香的"
         },
         {
@@ -25565,14 +25558,14 @@
           "id": "p42_w3624",
           "word": "functional",
           "phonetic": "[ˋfʌŋkʃən!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "機能的"
         },
         {
           "id": "p42_w3625",
           "word": "fundamental",
           "phonetic": "[͵fʌndəˋmɛnt!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "基礎的；根本"
         },
         {
@@ -25586,7 +25579,7 @@
           "id": "p42_w3627",
           "word": "furious",
           "phonetic": "[ˋfjʊərɪəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "狂怒的；狂暴的，猛烈"
         },
         {
@@ -25663,7 +25656,7 @@
           "id": "p42_w3638",
           "word": "genuine",
           "phonetic": "[ˋdʒɛnjʊɪn]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "真的，非偽造的；真誠"
         },
         {
@@ -25677,14 +25670,14 @@
           "id": "p42_w3640",
           "word": "gifted",
           "phonetic": "[ˋgɪftɪd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有天資的，有天賦的"
         },
         {
           "id": "p42_w3641",
           "word": "gigantic",
           "phonetic": "[dʒaɪˋgæntɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "巨大的；巨人的"
         },
         {
@@ -25726,7 +25719,7 @@
           "id": "p42_w3647",
           "word": "glorious",
           "phonetic": "[ˋglorɪəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "光榮的，榮耀的"
         },
         {
@@ -25741,27 +25734,20 @@
           "word": "grace",
           "phonetic": "[gres]",
           "pos": "n.",
-          "meaning": "優美；優雅；(票據到期後的)"
-        },
-        {
-          "id": "p42_w3651",
-          "word": "【宗】(飯前或飯後的)感恩祈禱",
-          "phonetic": "[U]",
-          "pos": "",
-          "meaning": "；(神的)"
+          "meaning": "優美；優雅；感恩祈禱"
         },
         {
           "id": "p42_w3652",
           "word": "graceful",
           "phonetic": "[ˋgresfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "優美的，雅緻的"
         },
         {
           "id": "p42_w3653",
           "word": "gracious",
           "phonetic": "[ˋgreʃəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "親切的；和藹的；慈祥"
         },
         {
@@ -25782,7 +25768,7 @@
           "id": "p42_w3656",
           "word": "grammatical",
           "phonetic": "[grəˋmætɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "文法的；文法正"
         },
         {
@@ -25796,7 +25782,7 @@
           "id": "p42_w3658",
           "word": "grateful",
           "phonetic": "[ˋgretfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "感謝的，感激的"
         },
         {
@@ -25817,14 +25803,14 @@
           "id": "p42_w3661",
           "word": "grave",
           "phonetic": "[grev]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "重大的；嚴重的；嚴肅的"
         },
         {
           "id": "p42_w3662",
           "word": "greasy",
           "phonetic": "[ˋgrizɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "油汙的，油膩的；油滑的"
         },
         {
@@ -25873,7 +25859,7 @@
           "id": "p42_w3669",
           "word": "guilty",
           "phonetic": "[ˋgɪltɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有罪的，犯…罪的[(+of)]"
         },
         {
@@ -25887,7 +25873,7 @@
           "id": "p42_w3671",
           "word": "habitual",
           "phonetic": "[həˋbɪtʃʊəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "習慣的，習以為常的"
         },
         {
@@ -25943,7 +25929,7 @@
           "id": "p42_w3679",
           "word": "harsh",
           "phonetic": "[hɑrʃ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "粗糙的；刺耳的；澀口的；刺"
         },
         {
@@ -25978,7 +25964,7 @@
           "id": "p42_w3684",
           "word": "healthful",
           "phonetic": "[ˋhɛlθfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有益於健康的"
         },
         {
@@ -26027,7 +26013,7 @@
           "id": "p42_w3691",
           "word": "honorable",
           "phonetic": "[ˋɑnərəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可尊敬的；高尚的"
         }
       ]
@@ -26046,7 +26032,7 @@
           "id": "p43_w3693",
           "word": "hopeful",
           "phonetic": "[ˋhopfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有希望的；有前途的"
         },
         {
@@ -26158,7 +26144,7 @@
           "id": "p43_w3709",
           "word": "idle",
           "phonetic": "[ˋaɪd!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "閒置的；空閒的；懶惰的；無"
         },
         {
@@ -26172,7 +26158,7 @@
           "id": "p43_w3711",
           "word": "ignorant",
           "phonetic": "[ˋɪgnərənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "無知的，不學無術的"
         },
         {
@@ -26184,30 +26170,30 @@
         },
         {
           "id": "p43_w3713",
-          "word": "n.說明，圖示",
+          "word": "illustration",
           "phonetic": "[U]",
-          "pos": "",
-          "meaning": "；實例；插圖[C]"
+          "pos": "n.",
+          "meaning": "說明；圖示；實例；插圖"
         },
         {
           "id": "p43_w3714",
           "word": "imaginable",
           "phonetic": "[ɪˋmædʒɪnəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可想像得到的"
         },
         {
           "id": "p43_w3715",
           "word": "imaginary",
           "phonetic": "[ɪˋmædʒə͵nɛrɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "想像中的；虛構"
         },
         {
           "id": "p43_w3716",
           "word": "imaginative",
           "phonetic": "[ɪˋmædʒə͵netɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有想像力的"
         },
         {
@@ -26326,21 +26312,21 @@
           "id": "p43_w3733",
           "word": "influential",
           "phonetic": "[͵ɪnflʊˋɛnʃəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有影響力的；有權"
         },
         {
           "id": "p43_w3734",
-          "word": "n.消息；情報；資訊",
+          "word": "information",
           "phonetic": "[U]",
-          "pos": "",
-          "meaning": "；詢問處"
+          "pos": "n.",
+          "meaning": "消息；情報；資訊；詢問處"
         },
         {
           "id": "p43_w3735",
           "word": "informative",
           "phonetic": "[ɪnˋfɔrmətɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "教育性的；見聞"
         },
         {
@@ -26354,7 +26340,7 @@
           "id": "p43_w3737",
           "word": "initial",
           "phonetic": "[ɪˋnɪʃəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "開始的，最初的"
         },
         {
@@ -26387,10 +26373,10 @@
         },
         {
           "id": "p43_w3742",
-          "word": "n.靈感",
+          "word": "inspiration",
           "phonetic": "[U]",
-          "pos": "",
-          "meaning": "；鼓舞人心的人(或事物)[C]"
+          "pos": "n.",
+          "meaning": "靈感；鼓舞人心的人(或事物)"
         },
         {
           "id": "p43_w3743",
@@ -26445,7 +26431,7 @@
           "id": "p43_w3750",
           "word": "intellectual",
           "phonetic": "[͵ɪnt!ˋɛktʃʊəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "智力的；理智的"
         },
         {
@@ -26459,7 +26445,7 @@
           "id": "p43_w3752",
           "word": "intelligent",
           "phonetic": "[ɪnˋtɛlədʒənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "聰明的；明智的"
         },
         {
@@ -26473,7 +26459,7 @@
           "id": "p43_w3754",
           "word": "intense",
           "phonetic": "[ɪnˋtɛns]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "強烈的，劇烈的；熱情的"
         },
         {
@@ -26499,7 +26485,7 @@
           "id": "p44_w3757",
           "word": "intensive",
           "phonetic": "[ɪnˋtɛnsɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "加強的；密集的"
         },
         {
@@ -26534,7 +26520,7 @@
           "id": "p44_w3762",
           "word": "intermediate",
           "phonetic": "[͵ɪntɚˋmidɪət]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "中間的，中等程"
         },
         {
@@ -26562,7 +26548,7 @@
           "id": "p44_w3766",
           "word": "intimate",
           "phonetic": "[ˋɪntəmɪt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "親密的，熟悉的[(+with)]"
         },
         {
@@ -26660,14 +26646,14 @@
           "id": "p44_w3780",
           "word": "junior",
           "phonetic": "[ˋdʒunjɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "年紀較輕的；資淺的"
         },
         {
           "id": "p44_w3781",
           "word": "keen",
           "phonetic": "[kin]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "熱心的，熱衷的；渴望的；敏"
         },
         {
@@ -26744,7 +26730,7 @@
           "id": "p44_w3792",
           "word": "lawful",
           "phonetic": "[ˋlɔfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "合法的；法定的"
         },
         {
@@ -26765,14 +26751,14 @@
           "id": "p44_w3795",
           "word": "lean",
           "phonetic": "[lin]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "瘦的；無收成的"
         },
         {
           "id": "p44_w3796",
           "word": "learned",
           "phonetic": "[ˋlɝnɪd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有學問的，博學的"
         },
         {
@@ -26807,7 +26793,7 @@
           "id": "p44_w3801",
           "word": "leisurely",
           "phonetic": "[ˋliʒɚlɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "從容不迫的，悠閒的"
         },
         {
@@ -26842,7 +26828,7 @@
           "id": "p44_w3806",
           "word": "literary",
           "phonetic": "[ˋlɪtə͵rɛrɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "文學的，文藝的；文言"
         },
         {
@@ -26884,7 +26870,7 @@
           "id": "p44_w3812",
           "word": "logical",
           "phonetic": "[ˋlɑdʒɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "合邏輯的；合理的"
         },
         {
@@ -26898,14 +26884,14 @@
           "id": "p44_w3814",
           "word": "lousy",
           "phonetic": "[ˋlaʊzɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "【俚】不潔的；卑鄙的；討"
         },
         {
           "id": "p44_w3815",
           "word": "loyal",
           "phonetic": "[ˋlɔɪəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "忠誠的，忠心的"
         },
         {
@@ -26919,14 +26905,14 @@
           "id": "p44_w3817",
           "word": "lunar",
           "phonetic": "[ˋlunɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "月的；月球上的；陰曆的"
         },
         {
           "id": "p44_w3818",
           "word": "luxurious",
           "phonetic": "[lʌgˋʒʊrɪəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "奢侈的；驕奢淫逸的"
         },
         {
@@ -26954,14 +26940,14 @@
           "id": "p44_w3823",
           "word": "magnetic",
           "phonetic": "[mægˋnɛtɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "磁鐵的；磁性的"
         },
         {
           "id": "p44_w3824",
           "word": "magnificent",
           "phonetic": "[mægˋnɪfəsənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "壯麗的，宏偉"
         },
         {
@@ -27050,14 +27036,14 @@
           "id": "p45_w3836",
           "word": "mechanical",
           "phonetic": "[məˋkænɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "機械的，用機械的"
         },
         {
           "id": "p45_w3837",
           "word": "memorable",
           "phonetic": "[ˋmɛmərəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "值得懷念的；難忘"
         },
         {
@@ -27078,7 +27064,7 @@
           "id": "p45_w3840",
           "word": "mere",
           "phonetic": "[mɪr]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "僅僅的，只不過的"
         },
         {
@@ -27099,7 +27085,7 @@
           "id": "p45_w3843",
           "word": "messy",
           "phonetic": "[ˋmɛsɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "凌亂的;雜亂的;邋遢的"
         },
         {
@@ -27113,7 +27099,7 @@
           "id": "p45_w3845",
           "word": "mild",
           "phonetic": "[maɪld]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "溫和的，溫柔的"
         },
         {
@@ -27155,7 +27141,7 @@
           "id": "p45_w3851",
           "word": "miserable",
           "phonetic": "[ˋmɪzərəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "不幸的；悲哀的"
         },
         {
@@ -27183,14 +27169,14 @@
           "id": "p45_w3855",
           "word": "moderate",
           "phonetic": "[ˋmɑdərɪt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "適度的；有節制的"
         },
         {
           "id": "p45_w3856",
           "word": "modest",
           "phonetic": "[ˋmɑdɪst]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "謙虛的，審慎的"
         },
         {
@@ -27211,7 +27197,7 @@
           "id": "p45_w3859",
           "word": "monthly",
           "phonetic": "[ˋmʌnθlɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "每月的；每月一次的"
         },
         {
@@ -27253,7 +27239,7 @@
           "id": "p45_w3865",
           "word": "mountainous",
           "phonetic": "[ˋmaʊntənəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "多山的；有山的"
         },
         {
@@ -27267,14 +27253,14 @@
           "id": "p45_w3867",
           "word": "muddy",
           "phonetic": "[ˋmʌdɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "多爛泥的；泥濘的"
         },
         {
           "id": "p45_w3868",
           "word": "multiple",
           "phonetic": "[ˋmʌltəp!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "複合的；多樣的"
         },
         {
@@ -27302,14 +27288,14 @@
           "id": "p45_w3872",
           "word": "mutual",
           "phonetic": "[ˋmjutʃʊəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "相互的，彼此的；共有"
         },
         {
           "id": "p45_w3873",
           "word": "mysterious",
           "phonetic": "[mɪsˋtɪrɪəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "神祕的；不可思議"
         },
         {
@@ -27330,14 +27316,14 @@
           "id": "p45_w3876",
           "word": "nearsighted",
           "phonetic": "[ˋnɪrˋsaɪtɪd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "近視的；目光短淺"
         },
         {
           "id": "p45_w3877",
           "word": "needy",
           "phonetic": "[ˋnidɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "貧窮的"
         },
         {
@@ -27393,14 +27379,14 @@
           "id": "p45_w3885",
           "word": "nuclear",
           "phonetic": "[ˋnjuklɪɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "核心的，中心的；原子"
         },
         {
           "id": "p45_w3886",
           "word": "numerous",
           "phonetic": "[ˋnjumərəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "許多的，很多的"
         },
         {
@@ -27428,7 +27414,7 @@
           "id": "p45_w3890",
           "word": "obedient",
           "phonetic": "[əˋbidjənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "服從的，順從的"
         },
         {
@@ -27442,7 +27428,7 @@
           "id": "p45_w3892",
           "word": "objective",
           "phonetic": "[əbˋdʒɛktɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "客觀的，無偏見的"
         },
         {
@@ -27482,7 +27468,7 @@
           "id": "p46_w3897",
           "word": "occasional",
           "phonetic": "[əˋkeʒən!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "偶爾的，非經常的"
         },
         {
@@ -27517,7 +27503,7 @@
           "id": "p46_w3902",
           "word": "offensive",
           "phonetic": "[əˋfɛnsɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "冒犯的；進攻的"
         },
         {
@@ -27545,7 +27531,7 @@
           "id": "p46_w3906",
           "word": "oral",
           "phonetic": "[ˋorəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "口頭的，口述的"
         },
         {
@@ -27566,7 +27552,7 @@
           "id": "p46_w3909",
           "word": "organic",
           "phonetic": "[ɔrˋgænɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有機體的，生物的；器"
         },
         {
@@ -27587,7 +27573,7 @@
           "id": "p46_w3912",
           "word": "outstanding",
           "phonetic": "[ˋaʊtˋstændɪŋ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "顯著的；傑出的"
         },
         {
@@ -27671,7 +27657,7 @@
           "id": "p46_w3924",
           "word": "partial",
           "phonetic": "[ˋpɑrʃəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "部分的，局部的；不公平"
         },
         {
@@ -27699,7 +27685,7 @@
           "id": "p46_w3928",
           "word": "passive",
           "phonetic": "[ˋpæsɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "被動的；消極的"
         },
         {
@@ -27720,7 +27706,7 @@
           "id": "p46_w3931",
           "word": "peculiar",
           "phonetic": "[pɪˋkjuljɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "奇怪的；乖癖的"
         },
         {
@@ -27783,14 +27769,14 @@
           "id": "p46_w3940",
           "word": "persuasive",
           "phonetic": "[pɚˋswesɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "勸說的；有說服力"
         },
         {
           "id": "p46_w3941",
           "word": "pessimistic",
           "phonetic": "[͵pɛsəˋmɪstɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "悲觀的；悲觀主"
         },
         {
@@ -27818,7 +27804,7 @@
           "id": "p46_w3945",
           "word": "•philosophical",
           "phonetic": "[͵fɪləˋsɑfɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "哲學的,冷"
         },
         {
@@ -27839,7 +27825,7 @@
           "id": "p46_w3949",
           "word": "physical",
           "phonetic": "[ˋfɪzɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "身體的，肉體的；物理(學)"
         },
         {
@@ -27895,7 +27881,7 @@
           "id": "p46_w3957",
           "word": "plentiful",
           "phonetic": "[ˋplɛntɪfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "豐富的，充足的"
         },
         {
@@ -27916,7 +27902,7 @@
           "id": "p46_w3960",
           "word": "poisonous",
           "phonetic": "[ˋpɔɪznəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有毒的；有害的"
         },
         {
@@ -27944,7 +27930,7 @@
           "id": "p46_w3964",
           "word": "portable",
           "phonetic": "[ˋportəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "手提式的；輕便的"
         },
         {
@@ -27984,7 +27970,7 @@
           "id": "p47_w3969",
           "word": "precise",
           "phonetic": "[prɪˋsaɪs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "精準的；確切的；恰好的"
         },
         {
@@ -27998,7 +27984,7 @@
           "id": "p47_w3971",
           "word": "preferable",
           "phonetic": "[ˋprɛfərəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "更好的，更合意的"
         },
         {
@@ -28012,7 +27998,7 @@
           "id": "p47_w3973",
           "word": "pregnant",
           "phonetic": "[ˋprɛgnənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "懷孕的，懷胎的"
         },
         {
@@ -28054,14 +28040,14 @@
           "id": "p47_w3979",
           "word": "prime",
           "phonetic": "[praɪm]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "最初的；原始的；主要的"
         },
         {
           "id": "p47_w3980",
           "word": "primitive",
           "phonetic": "[ˋprɪmətɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "原始的；遠古的"
         },
         {
@@ -28103,7 +28089,7 @@
           "id": "p47_w3986",
           "word": "productive",
           "phonetic": "[prəˋdʌktɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "生產的；多產的"
         },
         {
@@ -28131,21 +28117,21 @@
           "id": "p47_w3990",
           "word": "profitable",
           "phonetic": "[ˋprɑfɪtəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有利的，贏利的；有"
         },
         {
           "id": "p47_w3991",
           "word": "prominent",
           "phonetic": "[ˋprɑmənənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "突出的；顯著的"
         },
         {
           "id": "p47_w3992",
           "word": "promising",
           "phonetic": "[ˋprɑmɪsɪŋ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有希望的，有前途的"
         },
         {
@@ -28159,7 +28145,7 @@
           "id": "p47_w3994",
           "word": "prompt",
           "phonetic": "[prɑmpt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "敏捷的，及時的，迅速"
         },
         {
@@ -28201,7 +28187,7 @@
           "id": "p47_w4000",
           "word": "prosperous",
           "phonetic": "[ˋprɑspərəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "興旺的，繁榮的"
         },
         {
@@ -28229,7 +28215,7 @@
           "id": "p47_w4004",
           "word": "psychological",
           "phonetic": "[͵saɪkəˋlɑdʒɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "心理學的"
         },
         {
@@ -28320,14 +28306,14 @@
           "id": "p47_w4017",
           "word": "realistic",
           "phonetic": "[rɪəˋlɪstɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "現實的，注重實際的"
         },
         {
           "id": "p47_w4018",
           "word": "rebel",
           "phonetic": "[rɪˋbɛl]",
-          "pos": "",
+          "pos": "vi.",
           "meaning": "造反；反叛"
         },
         {
@@ -28507,7 +28493,7 @@
           "id": "p48_w4043",
           "word": "relative",
           "phonetic": "[ˋrɛlətɪv]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "相對的，比較的"
         },
         {
@@ -28528,7 +28514,7 @@
           "id": "p48_w4046",
           "word": "reluctant",
           "phonetic": "[rɪˋlʌktənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "不情願的；勉強的"
         },
         {
@@ -28542,7 +28528,7 @@
           "id": "p48_w4048",
           "word": "remarkable",
           "phonetic": "[rɪˋmɑrkəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "值得注意的；非凡"
         },
         {
@@ -28647,14 +28633,14 @@
           "id": "p48_w4064",
           "word": "respectable",
           "phonetic": "[rɪˋspɛktəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "值得尊敬的"
         },
         {
           "id": "p48_w4065",
           "word": "respectful",
           "phonetic": "[rɪˋspɛktfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "恭敬的；尊敬人的"
         },
         {
@@ -28738,7 +28724,7 @@
           "id": "p48_w4078",
           "word": "revolutionary",
           "phonetic": "[͵rɛvəˋluʃən͵ɛrɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "革命的"
         },
         {
@@ -28794,7 +28780,7 @@
           "id": "p48_w4086",
           "word": "rural",
           "phonetic": "[ˋrʊrəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "農村的；田園的"
         },
         {
@@ -28892,7 +28878,7 @@
           "id": "p48_w4100",
           "word": "senior",
           "phonetic": "[ˋsinjɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "年長的，前輩的；四年級生"
         }
       ]
@@ -28911,14 +28897,14 @@
           "id": "p49_w4102",
           "word": "severe",
           "phonetic": "[səˋvɪr]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "嚴重的；劇烈的；嚴厲的"
         },
         {
           "id": "p49_w4103",
           "word": "shameful",
           "phonetic": "[ˋʃemfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可恥的，丟臉的"
         },
         {
@@ -28946,7 +28932,7 @@
           "id": "p49_w4107",
           "word": "shortsighted",
           "phonetic": "[ˋʃɔrtˋsaɪtɪd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "近視的；目光短淺"
         },
         {
@@ -29030,7 +29016,7 @@
           "id": "p49_w4119",
           "word": "slight",
           "phonetic": "[slaɪt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "輕微的；微小的；少量的"
         },
         {
@@ -29079,7 +29065,7 @@
           "id": "p49_w4126",
           "word": "solar",
           "phonetic": "[ˋsolɚ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "太陽的；日光的"
         },
         {
@@ -29093,7 +29079,7 @@
           "id": "p49_w4128",
           "word": "sorrowful",
           "phonetic": "[ˋsɑrəfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "悲傷的，傷心的"
         },
         {
@@ -29149,21 +29135,21 @@
           "id": "p49_w4136",
           "word": "spicy",
           "phonetic": "[ˋspaɪsɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "加有香料的；香的；辛辣的"
         },
         {
           "id": "p49_w4137",
           "word": "spiritual",
           "phonetic": "[ˋspɪrɪtʃʊəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "精神(上)的，心靈的"
         },
         {
           "id": "p49_w4138",
           "word": "splendid",
           "phonetic": "[ˋsplɛndɪd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有光彩的；燦爛的；極"
         },
         {
@@ -29205,7 +29191,7 @@
           "id": "p49_w4144",
           "word": "stingy",
           "phonetic": "[ˋstɪndʒɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "吝嗇的，小氣的"
         },
         {
@@ -29296,7 +29282,7 @@
           "id": "p49_w4157",
           "word": "suspicious",
           "phonetic": "[səˋspɪʃəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "猜疑的，可疑的"
         },
         {
@@ -29317,7 +29303,7 @@
           "id": "p49_w4160",
           "word": "sympathetic",
           "phonetic": "[͵sɪmpəˋθɛtɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "同情的；有同情"
         },
         {
@@ -29345,7 +29331,7 @@
           "id": "p49_w4164",
           "word": "systematic",
           "phonetic": "[͵sɪstəˋmætɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "有系統的；有條"
         },
         {
@@ -29373,7 +29359,7 @@
           "id": "p49_w4168",
           "word": "technological",
           "phonetic": "[tɛknəˋlɑdʒɪk!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "技術(學)的"
         },
         {
@@ -29413,7 +29399,7 @@
           "id": "p50_w4173",
           "word": "tense",
           "phonetic": "[tɛns]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "拉緊的，繃緊的"
         },
         {
@@ -29448,35 +29434,35 @@
           "id": "p50_w4178",
           "word": "thorough",
           "phonetic": "[ˋθɝo]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "徹底的；完全的"
         },
         {
           "id": "p50_w4179",
           "word": "thoughtful",
           "phonetic": "[ˋθɔtfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "深思的；細心的；體貼"
         },
         {
           "id": "p50_w4180",
           "word": "timid",
           "phonetic": "[ˋtɪmɪd]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "膽小的，易受驚的"
         },
         {
           "id": "p50_w4181",
           "word": "tiresome",
           "phonetic": "[ˋtaɪrsəm]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "使人疲勞的；令人厭倦"
         },
         {
           "id": "p50_w4182",
           "word": "tolerable",
           "phonetic": "[ˋtɑlərəb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "可忍受的；可容忍的"
         },
         {
@@ -29497,7 +29483,7 @@
           "id": "p50_w4185",
           "word": "tolerant",
           "phonetic": "[ˋtɑlərənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "忍受的，容忍的"
         },
         {
@@ -29511,7 +29497,7 @@
           "id": "p50_w4187",
           "word": "tough",
           "phonetic": "[tʌf]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "堅韌的；強壯的；棘手的，費"
         },
         {
@@ -29525,7 +29511,7 @@
           "id": "p50_w4189",
           "word": "tragic",
           "phonetic": "[ˋtrædʒɪk]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "悲劇的；悲慘的，不幸的"
         },
         {
@@ -29574,14 +29560,14 @@
           "id": "p50_w4196",
           "word": "tremendous",
           "phonetic": "[trɪˋmɛndəs]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "巨大的，極大的"
         },
         {
           "id": "p50_w4197",
           "word": "tribal",
           "phonetic": "[traɪb!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "部落的，種族的[C]"
         },
         {
@@ -29595,7 +29581,7 @@
           "id": "p50_w4199",
           "word": "troublesome",
           "phonetic": "[ˋtrʌb!səm]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "麻煩的，棘手的"
         },
         {
@@ -29630,14 +29616,14 @@
           "id": "p50_w4204",
           "word": "unique",
           "phonetic": "[juˋnik]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "唯一的，獨一無二的"
         },
         {
           "id": "p50_w4205",
           "word": "universal",
           "phonetic": "[͵junəˋvɝs!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "全體的；普遍的；一"
         },
         {
@@ -29658,7 +29644,7 @@
           "id": "p50_w4208",
           "word": "urban",
           "phonetic": "[ˋɝbən]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "城市的"
         },
         {
@@ -29672,7 +29658,7 @@
           "id": "p50_w4210",
           "word": "urgent",
           "phonetic": "[ˋɝdʒənt]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "緊急的，急迫的"
         },
         {
@@ -29686,14 +29672,14 @@
           "id": "p50_w4212",
           "word": "vain",
           "phonetic": "[ven]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "愛虛榮的，自負的；徒然的"
         },
         {
           "id": "p50_w4213",
           "word": "vast",
           "phonetic": "[væst]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "廣闊的，廣大的，巨大的；巨"
         },
         {
@@ -29770,14 +29756,14 @@
           "id": "p50_w4224",
           "word": "visual",
           "phonetic": "[ˋvɪʒuəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "視力的；視覺的；光學的"
         },
         {
           "id": "p50_w4225",
           "word": "vital",
           "phonetic": "[ˋvaɪt!]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "生命的；維持生命所必需的"
         },
         {
@@ -29791,7 +29777,7 @@
           "id": "p50_w4227",
           "word": "voluntary",
           "phonetic": "[ˋvɑlən͵tɛrɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "自願的，志願的"
         },
         {
@@ -29833,7 +29819,7 @@
           "id": "p50_w4233",
           "word": "weekly",
           "phonetic": "[ˋwiklɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "每週的；一週一次的"
         },
         {
@@ -29896,7 +29882,7 @@
           "id": "p50_w4243",
           "word": "yearly",
           "phonetic": "[ˋjɪrlɪ]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "每年的，一年一次的"
         }
       ]
@@ -29915,7 +29901,7 @@
           "id": "p51_w4245",
           "word": "youthful",
           "phonetic": "[ˋjuθfəl]",
-          "pos": "",
+          "pos": "adj.",
           "meaning": "年輕的；青年的；富青春"
         }
       ]
@@ -41992,7 +41978,7 @@
           "id": "p71_w5956",
           "word": "outlet",
           "phonetic": "[`aʊt͵lɛt]",
-          "pos": "",
+          "pos": "n.",
           "meaning": "出口；銷路"
         },
         {

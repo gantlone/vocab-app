@@ -37,6 +37,8 @@ const DELETE_IDS = new Set([
   'p44_w3822',  // garbled — "小姐(ma'am)" leaked from PDF
   'p48_w4052',  // garbled — fragment of "representation" meaning ("權；表示，表現")
   'p50_w4241',  // garbled — fragment of "wreck" meaning ("事故")
+  'p37_w3305',  // garbled — fragment of "cinema" meaning
+  'p42_w3651',  // garbled — fragment of "grace" meaning
 ])
 
 // Manual fixes: override word / pos / meaning for specific entries
@@ -55,6 +57,16 @@ const MANUAL_FIXES = {
   'p48_w4051':{ meaning: '代表；代表權；表示，表現' },                   // representation — merge split line
   'p50_w4240':{ meaning: '失事，遇難；船難；事故' },                     // wreck — merge split line
   'p75_w6362':{ pos: 'adv./adj.',meaning: '任何的；無論如何' },          // whatsoever
+  // record: (1)(2) stripped but pos never recovered
+  'p19_w1778':{ pos: 'n./vt.' },
+  // cinema fragment
+  'p37_w3304':{ meaning: '電影院；電影' },
+  // grace fragment
+  'p42_w3649':{ meaning: '優美；優雅；感恩祈禱' },
+  // garbled entries: word field had "n.中文" instead of English word
+  'p43_w3713':{ word: 'illustration', phonetic: '', pos: 'n.', meaning: '說明；圖示；實例；插圖' },
+  'p43_w3734':{ word: 'information',  phonetic: '', pos: 'n.', meaning: '消息；情報；資訊；詢問處' },
+  'p43_w3742':{ word: 'inspiration',  phonetic: '', pos: 'n.', meaning: '靈感；鼓舞人心的人(或事物)' },
   // slash-phonetic patterns (second phonetic leaked into meaning, Chinese lost)
   'p12_w1038':{ pos: 'pron.',    meaning: '任何人；無論誰' },             // anybody/anyone
   'p16_w1466':{ pos: 'n.',       meaning: '主人；主持人' },               // host / hostess
